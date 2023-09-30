@@ -117,8 +117,13 @@ Geht in VS Code in den Verzeichnisbaum des Codes, öffnet den Ordner `/src` und 
 
 ![](../../img/software-part-I/softwareinstall/swinstall12.png)
 
-Ihr könnt nun in dieser Datei einige Dinge zu eurer Espresso Maschine einstellen. Diese sind auch ausführlicher später im Handbuch erläutert. Wichtig sind hier vor allem `ONLYPID` und die Konfiguration für den späteren Hostnamen oder die OTA Einstellungen. Die WLAN-Einrichtung für euer Netzwerk findet später direkt auf dem ESP32 per Access Point statt.
+In Zukunft sind für den ESP32 sind nur die Versionen ab 4.X.X relevant, in dieser Version wird nicht mehr der ESP8266 unterstützt. 
+Die "origin/master" ist die aktuelle Version der Entwicklung für den ESP32. 
+Da es aktuell noch kein Release der Version 4.X gibt, nutzt für neue ESP32-Projekte bis dahin den Branch `origin/ESP8266-master`. Trotz des Namens wird hier auch der ESP32 unterstützt und ihr bekommt den aktuellsten, stabilen Stand mit korrektem PIN-Layout für die aktuellen PCBs. 
 
+Die Master "origin/ESP8266-master" ist die (alte) Entwicklungsversion für den ESP8266. Hier gibt es nur noch Bugfixes. Die aktuelle Version vom ESP8266 ist jeweils die Version mit dem Zusatz "-esp8266" z.B: "v3.1.2-esp8266"
+
+Wählt die aktuellste Version (`origin/ESP8266-master` oder in Zukunft Releases 4.x) für den ESP32 aus. Es dauert paar Sekunden und dann sollte der Code heruntergeladen sein.
 
 ##  Kompilieren
 Nun kann der Code kompiliert werden. Hierzu sind folgende Schritte notwendig:
