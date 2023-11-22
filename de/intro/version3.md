@@ -34,8 +34,9 @@ Für die Ersteinrichtung wird ein WiFiManager benutzt. Beim ersten Start des ESP
 
 
 ### Webseite & Blynk 
-Blynk wird noch unterstützt, ist aber nicht mehr das zentrale Bedienelement von der PID. Wir haben nun eine eigene auf dem ESP gehostet Webseite.
-Die IP vom EPS könnt ihr in eurem Router herausfinden oder per Monitor-Befehl in PlatformIO. Es bietet sich an, dem ESP eine feste IP über den Router zu vergeben und einen festen Namen über den ihr dann die Konfigurationsseite im Browser erreichen könnt.
+Blynk wird noch unterstützt, ist aber nicht mehr das zentrale Bedienelement von der PID. Wir haben nun eine eigene auf dem ESP gehostet Webseite. Im Normalfall kann die Webseite über [http://`<<YOUR_OTA_HOSTNAME>>`.local](#webseite--blynk) aufgerufen werden. Den OTA hostname findet man in `platform.ino` als Wert `uploat_port`, bitte lest euch dazu auch den Punkt [Remote Monitoring](../software-part-I/ErsteinrichtungWLAN.md#remote-monitoring) durch. *Zu beachten*: Nur Geräte im gleichen Netzwerk können die ESP gehostete Webseite erreichen! Beispiel für die Standardkonfiguration [http://silvia.local](http://silvia.local)
+
+Ansonsten könnt ihr die IP vom ESP in eurem Router herausfinden oder per Monitor-Befehl in PlatformIO. Es bietet sich an, dem ESP eine feste IP über den Router zu vergeben und einen festen Namen über den ihr dann die Konfigurationsseite im Browser erreichen könnt.
 
 
 ## Wie upgrade ich von einer älteren Version (2.x oder älter)?
