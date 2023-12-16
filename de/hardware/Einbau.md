@@ -68,9 +68,8 @@ Kabel eins geht zum SSR der Heizung, Kabel zwei zum Netzteil. Welches Kabel dabe
 
 Kabel sinnvoll verlegen und einen Platz für das Netzteil festlegen. Kabel vor dem anschließen entsprechend kürzen.
 
-Am Netzteil ein blaues Kabel und ein schwarzen Kabel anschließen / anlöten. Wird das Schaltnetzteil aus der Bestellliste verwendet, das schwarze Kabel an N anschließen und das blaue Kabel an L anschließen. Es empfiehlt sich hierfür die Ringösen zu verwenden. Zusätzlich muss hier noch ein Schutzleiter verlegt werden. Dieser lässt sich an der Erdung des Kessels oder des 3-Wege Ventils "klauen". Vor dem Einbau die Ausgangsspannung am Poti prüfen und ggf. auf ca. 5.2V verstellen.
-
-Am Ausgang ein Rotes und ein schwarzes Kabel anbringen. Ich habe dafür 0,5 mm2 Kabel verwendet, die 0,14 mm2 sollten aber auch reichen. Die beiden Kabel richtung 3-Wege Ventil legen und beschriften.
+Wenn man das Netzteil aus der Bestellliste nimmt, verbindet man Eingang N blau mit blau und Eingang L schwarz mit braun.
+Der Ausgang von Netzteil schwarz-rot kommt dann auf den V_IN 5V Eingang am PCB.
 
 ### SSR Relais Heizung
 
@@ -88,9 +87,41 @@ Der Microcontroller (ESP) sollte auf das von uns bereitsgestellte Adapterboard (
 
 ## Vollausbau
 
-**Wichtig!: Beim anschließen des Brühschalters bitte unbedingt den Hinweis im Schaltplan zur Trennung von 230V und 3.3/5V am Schalter beachten.**
+**Wichtig!: Beim anschließen des Brühschalters bitte unbedingt den Hinweis im Schaltplan zur Trennung von 230V und 3.3/5V am Schalter beachten.** (Wer der Anleitung unten folgt, muss nichts "zusätzlich" beachten.)
 
-folgt (so lange können aber die Bauberichte studiert werden)
+### Silvia (v2)
+
+Beim Vollausbau werden sowohl Kaffebezug (inklusive 3-Wege-Ventil) und Dampfbezug über den ESP gesteuert. 
+Dazu gibt es grob drei Arbeitsschritte, die unten genauer ausgeführt werden.
+1. Schalter auf LED umrüsten
+2. Pumpe anschließen
+3. Magnetventil anschließen
+
+#### Schalter Umrüsten
+
+Es müssen sowohl der Schalter für Kaffebezug als auch für den Dampf auf LED umgerüstet werden. 
+Dazu dieser Anleitung folgen: [LED-Umbau der Schalter](LED_Umbau.md)
+
+Da direkt beide Schalter umgebaut werden, bietet es sich an, je ein gemeinsames Kabel für 3.3V und GND zu ziehen und dieses vom ersten zum zweiten Schalter durchzuschleifen. Inklusive der beiden Signalleitungen braucht es dann nur vier statt sechs Kabel quer durch die Maschine. 
+
+#### Magnetventil anschließen 
+
+1. Vom Hauptschalter L (schwarz) ein Kabel zum Relais für Pumpe und Ventil ziehen. Dieses Kabel werden sich Pumpe und Ventil teilen. Am Ende beim Relais also z.B. eine Wago-Klemme für drei Kabel oder einen Steckverbinder mit Abzweig anbringen. 
+2. Weiteres (kurzes) Kabel von Wago/Steckverbinder zu "SW1" auf der 220V-Seite des Relais legen. 
+3. Am zweiten Anschluss von SW1 am Relais ein Kabel anschließen. Kabel so ablängen, dass es zum Ventil führt. Steckverbinder anbringen, orangenes Kabel am Ventil abziehen, stattdessen neues Kabel aufstecken. 
+4. Weiteres Kabel N (rot) zum Ventil legen und auf den Stecker mit vormals weißem Kabel aufstecken. Ich habe den Strom beim neuen Netzteil für den ESP abgegriffen, im Prinzip eignet sich aber jedes in der Nähe liegende Kabel mit N (rot) vom Hauptschalter. 
+5. Kabel für 5V, GND und VALVE vom ESP zum Relais legen. (Wenn Dupont-Stecker am ESP verwendet werden, bietet es sich an, direkt auch die Leitung für das Pumpen-Signal mit anzubringen). Am Relais darauf achten, dass das die Steuersignal korrekt anliegen (wenn Ventil wie oben an SW1 angeschlossen, dann Signal für Ventil an CH1). 
+6. Software konfigurieren, flashen, Maschine mit dem Strom verbinden, Bezug testen -- das Ventil sollte deutlich hörbar klacken, wenn der Bezugschalter umgelegt wird. 
+7. Vor dem Weitermachen Maschine vom Strom trennen.
+
+#### Pumpe anschließen
+
+1. Ein zweites (kurzes) Kabel von Wago/Steckverbinder aus Schritt 1 des Ventil-Anschlusses zu "SW2" auf der 220V-Seite des Relais legen. 
+3. Am zweiten Anschluss von SW2 am Relais ein Kabel anschließen. Kabel so ablängen, dass es zur Pumpe führt und einen Steckverbinder mit Abzweig anbringen. Das weiße Kabel an der Pumpe abziehen, auf den Abzweig des neuen Kabels stecken, und gemeinsam wieder an der Pumpe anbringen. 
+4. Wenn nicht beim Anschluss des Ventils schon erledigt, Kabel für das Steuersignal der Pumpe vom ESP zum Relais legen (wenn Pumpe wie hier beschrieben an SW2 angeschlossen, dann Signal für Pumpe an CH2). 
+5. Maschine an Strom anschließen, Bezug testen. 
+5.1. Wenn alles funktioniert: Glückwunsch, Vollausbau abgeschlossen! 
+5.2. Wenn die Pumpe nichts tut: Vermutlich schaltet dein Relais nur beim Nulldurchgang (mehr Info hier: [Bestellliste](../bestellliste.md)). Um das zu testen, einen 100k Ohm Widerstand (Leistung 1 Watt, bitte weitere Hinweise in der Bestellliste beachten) parallel zur Pumpe anschließen. Ich habe dazu beide Kabel an der Pumpe abgezogen und die Stecker abgeknippst. Dann neue Stecker anbringen und dabei zusätzlich zum Kabel jeweils ein Beinchen des Widerstands mit verpressen. Danach müssen die Kabel vorsichtig (und gemeinsam) angebracht bzw. abgenommen werden, da sie jetzt durch den Widerstand verbunden sind. Zum Abschluss noch einmal Bezug testen und den Vollausbau genießen! 
 
 ## Display
 

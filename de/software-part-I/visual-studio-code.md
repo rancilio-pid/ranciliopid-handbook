@@ -43,13 +43,16 @@ Empfohlen wird die Installation mit einem der folgenden Paketmanager.
 
 ### macOS über [homebrew](https://brew.sh)
 
-```brew install vscode```
+```brew install visual-studio-code```
 
 ### Linux über [Snap](https://snapcraft.io/)
 
 ```snap install vscode```
 
-PlatformIO kann über das Extensions-Menü installiert werden. Eine allgemeine Anleitung, wie Extensions installiert werden, ist [hier](https://code.visualstudio.com/docs/editor/extension-gallery) zu finden. 
+PlatformIO kann über das Extensions-Menü installiert werden. Eine allgemeine Anleitung, wie Extensions installiert werden, ist [hier](https://code.visualstudio.com/docs/editor/extension-gallery) zu finden.
+
+In homebrew auf macOS geht das auch direkt mit:
+```brew install platformio```
 
 ## Der Programmcode
 

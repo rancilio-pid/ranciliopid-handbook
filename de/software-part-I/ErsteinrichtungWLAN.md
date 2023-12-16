@@ -17,12 +17,17 @@ Inhaltsverzeichnis
 {:toc}
 
 ## WICHTIGER HINWEIS
-Am ESP8266 gibt es ein Problem bei der Ersteinrichtung. Der NodeMCU stürzt immer wieder ab, wenn der Access Point geöffnet wird. Als Lösung muss für die Ersteinrichtung das OLED_DISPLAY auf 0 gesetzt werden in der Konfig. Danach könnt ihr die Einrichtung vom WLAN machen und danach wieder auf 1 oder 2 setzen und erneut den Code auf den Controller laden. 
-Das Problem tritt nicht beim ESP32 auf.
+Beim ESP8266 haben wir mir Release 3.3.0 den Wifimanager wieder entfernt, da dieser für einen Absturz bei der Ersteinrichtung geführt hat. Tragt eure Wlan Zugangsdaten bitte in der userconfig.h:
+
+```
+#define WIFI_SSID "yourSSID"       // SSID of your WiFi network
+#define WIFI_PASS "yourWiFiPass"   // WPA key to your WiFi network
+```
+Beim ESP32 tritt dieses Problem nicht auf, benutzt vorerst das Release 3.2.0 inklusive Wifimanager und folgt dann weiter dieser Anleitung.
 
 ## Kurzfassung
 
-Für die Ersteinrichtung wird der Wifi-Manager benutzt. Beim ersten Start vom Mikrocontroller wird ein Access Point von diesem geöffnet mit dem in der userConfig.h eingestellten ```HOSTNAME``` (default: "silvia") und Passwort ```PASS``` (default: "CleverCoffee"). Verbindet euch mit dem Access Point, wählt euer WLAN aus und gebt das Passwort des Netzwerks ein, dann wird dieses gespeichert und beim nächsten Start automatisch verwendet.
+Für die Ersteinrichtung b wird der Wifi-Manager benutzt. Beim ersten Start vom Mikrocontroller wird ein Access Point von diesem geöffnet mit dem in der userConfig.h eingestellten ```HOSTNAME``` (default: "silvia") und Passwort ```PASS``` (default: "CleverCoffee"). Verbindet euch mit dem Access Point, wählt euer WLAN aus und gebt das Passwort des Netzwerks ein, dann wird dieses gespeichert und beim nächsten Start automatisch verwendet.
 Der ESP wird immer für 10 Sekunden versuchen, dass eingerichtete WLAN zu erreichen, falls dies nicht möglich ist, wird für 60 Sekunden das Konfigurationsportal wieder gestartet. Falls kein Zugriff auf das Portal passiert, startet die Maschine im Offline-Modus.
 ## Schritt für Schritt
 Wenn ihr den Code hochladet, ist im Log (Monitor-Befehl) etwa folgendes zu sehen:
@@ -57,6 +62,8 @@ Wählt das Netzwerk oben aus der Liste ein oder gebt eure SSID manuell ein, zus�
 Nach dem "Save" sollte der ESP neu starten und ist für euer Wlan eingerichtet.
 
 # Remote Monitoring
+**Achtung: Der ESP8266 hat mit Version 3.3.0 keine remote monitoring Funktion.**
+**Dieser Abschnitt gilt nur für ESP32 mit Version 3.2.0**
 
 Zusätzlich zur Website, auf der ihr Einstellungen vornehmen oder die aktuelle Temperatur beobachten könnt, könnt ihr auch über PlatformIO/VSCode über WLAN auf den Serial Monitor zugreifen. 
 Das ist vor allem nützlich, um mögliche Probleme im laufenden Betrieb zu debuggen. Wir raten dringend davon ab, einen in der Maschine verkabelten Mikrokontroller über USB an einen Rechner anzuschließen! 

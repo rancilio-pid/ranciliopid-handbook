@@ -81,7 +81,7 @@ Der Sensor erhält 3,3 Volt und die andere Seite wird mit PIN 16 verbunden
     |Board|Opto|
     |-|-|
     |GND|GND|
-    |5V|VCC|
+    |3,3V|VCC|
     |PIN 16|OUT|
 
 ![QM Opto](../../img/qm-opto.png)

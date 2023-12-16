@@ -94,7 +94,8 @@ Lötkolben|ERSATZKOLBEN EP5|||[Reichelt-Link](https://www.reichelt.de/loetkolben
 
 ### ESP32 Platine
 Es steht ab sofort die neue ESP32 Platine zur Verfügung. 
-[Bitte direkt über unseren Chat anfragen!](https://chat.rancilio-pid.de/) **Bitte direkt per PN an @loque wenden**
+[Bitte direkt über unseren Chat anfragen!](https://discord.com/invite/Kq5RFznuU4) **Bitte direkt per PN an @loque wenden**
+**Stand 7.12.23: Momentan sind keine ESP32 Platinen verfügbar. Vorraussichtlich ab Januar wieder bestellbar**
 
 Inklusive sind:
  * Das PCB
@@ -119,7 +120,7 @@ R6 | Nach Bedarf | Widerstand entsprechend der gewählten LED nehmen, bei Nutzun
 
 Beim Löten des Elkos auf die Polarität achten!
 
-Bugs Rev 1.2 ESP32_mininmal PCB:
+**Bugs ESP32_mininmal PCB Rev 1.2:**
 
 Fehler in der Beschriftung:
 
@@ -133,7 +134,7 @@ Fehler Optokoppler für Brüherkennung:
 * Nur mit High Level Trigger Optokoppler kompatibel
 * Workaround für Low Level Trigger: Pulldown Widerstand R3 nicht einlöten und "PINMODEVOLTAGESENSOR" auf "INPUT_PULLUP" setzen 
 
-In der aktuellen Rev 1.3 :
+**Bugs EPS32_minimal PCB Rev 1.3:**
 
 Fehler Optokoppler für Brüherkennung:
 
@@ -142,7 +143,7 @@ Fehler Optokoppler für Brüherkennung:
 
 ### ESP8266 Platine
 
-[Bitte direkt über unseren Chat anfragen!](https://chat.rancilio-pid.de/) **Bitte direkt per PN an @loque wenden**
+[Bitte direkt über unseren Chat anfragen!](https://discord.com/invite/Kq5RFznuU4) **Bitte direkt per PN an @loque wenden**
 
 ![PCB Lieferumfang](../img/PCB_Lieferumfang.jpeg)
 

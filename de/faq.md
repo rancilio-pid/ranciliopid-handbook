@@ -27,4 +27,4 @@ Frage: Das Display zeigt an: "PID is disabled manually"
 > Wenn du das erste mal deinen PID in Betrieb nimmst, musst du die vom ESP gehostete Webseite öffnen und die PID auf der Parameter Seite aktivieren.
 
 Frage: Mein ESP8266 startet nicht korrekt den Access Point, um mein Wlan einzurichten. Was soll ich tun? 
-> Leider kollidiert der Wifi Manager und das Display bei der Ersteinrichtung. Beim ESP32 ist dieses Problem nicht vorhanden. Wir empfehlen per userconfig das Display erst zu deaktivieren (Display 0), dann das Wlan einzurichten und am Ende den Code erneut zu bespielen und das Display zu aktivieren.
+> Leider kollidiert der Wifi Manager und das Display bei der Ersteinrichtung. Beim ESP32 ist dieses Problem nicht vorhanden. In Release 3.3.0 haben wir den Wifimanger für den ESP8266 entfernt. Wir empfehlen ein Update auf diese Version, dort werden die Wifi Zugangsdaten wieder in der userconfig.h fest eingetragen.
