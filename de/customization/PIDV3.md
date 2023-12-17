@@ -51,16 +51,14 @@ PID BD Sensitivity | Empfindlichkeit der PID Brew Detection im Bezug auf Abfall 
 
 ## Standardwerte für diverse Maschinentypen
 
-### Rancilio Siliva
-
-Parameter | Rancilio Siliva V1-2 | Rancilio Siliva V3-V6 | Rancilio Silvia seitlicher Sensor | Gaggia 9480 | Quickmill
-:--|:--|:--|:-- |:-- |:--
-PID Kp | 62 | 50 | 55 | 130 | 250
-PID Tn (=Kp/Ki) | 52 | 200 | 65 | 130 |25
-PID Tv (=Kd/Kp) | 11.5 | 20 | 13 | 0.54 |68
-PID Integrator Max | 75 | 75 | 75 | 50 | 75
-Steam Kp | 150 | 150 | 150 | 150 | 150
-PID BD Sensitivity | 120 | 60 | 120 | 120 | 80
+Parameter | Rancilio Siliva V1-2 | Rancilio Siliva V3-V6 | Rancilio Silvia seitlicher Sensor | Gaggia 9480 | Quickmill | Isomac Zaffiro
+:--|:--|:--|:-- |:-- |:--|:--
+PID Kp | 62 | 50 | 55 | 130 | 250 | 100
+PID Tn (=Kp/Ki) | 52 | 200 | 65 | 130 | 25 | 75 
+PID Tv (=Kd/Kp) | 11.5 | 20 | 13 | 0.54 |68 | 12,5
+PID Integrator Max | 75 | 75 | 75 | 50 | 75 | 115
+Steam Kp | 150 | 150 | 150 | 150 | 150 | 150
+PID BD Sensitivity | 120 | 60 | 120 | 120 | 80 | 
 
 ## Zusammenhang zwischen Parametern und Reglerverhalten
 
