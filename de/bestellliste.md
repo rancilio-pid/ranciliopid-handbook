@@ -30,10 +30,10 @@ Der zu verwendende Controller (ESP8266 oder ESP32) richtet sich nach der von euc
 
 Beschreibung | ID | Anzahl PID Only | Anzahl Vollausbau | Link
 -|-|-|-|-
-Temperatur Sensor|TSIC 306 TO92|2 (1)|2 (1)|[Reichelt-Link](https://www.reichelt.de/tsic-digitale-halbleiter-temperatursensoren-tsic-306-to92-p82327.html?r=1), [Alternativer Shop](https://shop.bb-sensors.com/Messtechnik-je-Branche/Gebaeudetechnik/Digitaler-TSic-306-Temperatursensor-TO92.html), [Alternativer Sensor](https://www.reichelt.de/de/de/tsic-digitale-halbleiter-temperatursensoren-tsic-206-to92-p82326.html?trstct=pos_1&nbc=1&&r=1)
+Temperatur Sensor|TSIC 306 TO92|2 (1)|2 (1)|[Reichelt-Link](https://www.reichelt.de/tsic-digitale-halbleiter-temperatursensoren-tsic-306-to92-p82327.html?r=1), [Alternativer Shop](https://b2c.bb-sensors.com/Temperatur/Temperatursensoren/Digitaler-Temperatursensor-TSic-306-TO92.html), [Alternativer Sensor](https://www.reichelt.de/de/de/tsic-digitale-halbleiter-temperatursensoren-tsic-206-to92-p82326.html?trstct=pos_1&nbc=1&&r=1)
 Schaltnetzteil|APV-8-5|1|1|[Reichelt-Link](https://www.reichelt.de/led-trafo-7-w-5-v-dc-1400-ma-mw-apv-8-5-p170873.html?&trstct=pos_0&nbc=1) oder [Amazon-Link](https://www.amazon.de/gp/product/B06Y29GSHH/)
 SSR Relais – Heizung|RA 2425-D06|1|1|[Reichelt-Link](https://www.reichelt.de/solid-state-relais-ust-2-32vdc-ulast-24-280v-ra-2425-d06-p22691.html?&trstct=pos_0)
-Mikrocontroller|NodeMCU V2 ESP8266 ODER ESP32 (je nach Platine)|1|1|ESP8266: [Amazon-Link](https://www.amazon.de/AZDelivery-NodeMCU-ESP8266-ESP-12E-Development/dp/B06Y1LZLLY/ref=sr_1_1_sspa?ie=UTF8&qid=1538918768&sr=8-1-spons&keywords=nodemcu+esp8266&psc=1) oder [Ebay-Link](https://www.ebay.de/itm/NodeMCU-v3-2-ESP8266-Dev-Kit-WIFI-Lolin-Amica-CP2102-v2-Arduino-IOT/252712258856?hash=item3ad6d30d28:g:TtsAAOSwlkpb3ZkV) oder [unverlötet (Amazon)](https://www.amazon.de/-/en/AZDelivery-NodeMCU-Amica-Unsoldered-Parent/dp/B07GYW4T5F/ref=sr_1_3?dchild=1&keywords=nodemcu+v2&qid=1617445906&sr=8-3) ODER ESP 32 V4:[ESP32 Dev Kit C V4](https://www.amazon.de/-/en/AZDelivery-Development-Compatible-Including-Successor/dp/B07Z83MF5W/ref=sr_1_3?keywords=azdelivery%2Besp32%2Bdevkitc%2Bv4&qid=1676019808&sprefix=esp32%2Bazdelivery%2Caps%2C82&sr=8-3&th=1)
+Mikrocontroller|NodeMCU V2 ESP8266 ODER ESP32 (je nach Platine)|1|1|ESP8266: [Amazon-Link](https://www.amazon.de/AZDelivery-NodeMCU-ESP8266-ESP-12E-Development/dp/B06Y1LZLLY/ref=sr_1_1_sspa?ie=UTF8&qid=1538918768&sr=8-1-spons&keywords=nodemcu+esp8266&psc=1) oder [Ebay-Link](https://www.ebay.de/itm/255283208549) oder [unverlötet (Amazon)](https://www.amazon.de/-/en/AZDelivery-NodeMCU-Amica-Unsoldered-Parent/dp/B07GYW4T5F/ref=sr_1_3?dchild=1&keywords=nodemcu+v2&qid=1617445906&sr=8-3) ODER ESP 32 V4:[ESP32 Dev Kit C V4](https://www.amazon.de/-/en/AZDelivery-Development-Compatible-Including-Successor/dp/B07Z83MF5W/ref=sr_1_3?keywords=azdelivery%2Besp32%2Bdevkitc%2Bv4&qid=1676019808&sprefix=esp32%2Bazdelivery%2Caps%2C82&sr=8-3&th=1)
 Display (optional aber empfehlenswert)|128 x 64 Pixel OLED SSD1306 |1|1|[Amazon-Link](https://www.amazon.de/AZDelivery-Display-Arduino-Raspberry-gratis/dp/B01L9GC470/ref=sr_1_3?ie=UTF8&qid=1544291613&sr=8-3&keywords=oled+128x64)
 unsere erstellte Platine|PCB|1|1|siehe unten
 
@@ -83,12 +83,12 @@ Mutter M4||2|2|
 Unterlegscheibe M4||2|2|
 Wärmeleitkleber (nichtleitend) für den Sensor|Silverbead Wärmeleitkleber|||[Link](https://www.amazon.de/Silverbead-W%C3%A4rmeleitkleber-10-Gramm-SG100X/dp/B019MNSABG/ref=sr_1_1?ie=UTF8&qid=1538938085&sr=8-1&keywords=w%C3%A4rmeleitkleber)
 alternativ||||
-Wärmeleitpaste für den Sensor|ARCTIC MX-4|||[Link](https://www.reichelt.de/de/de/arctic-mx-4-waermeleitpaste-4g-arctic-mx-4-p106752.html)
+Wärmeleitpaste für den Sensor|ARCTIC MX-6-2|||[Link](https://www.reichelt.de/arctic-mx-6-waermeleitpaste-2-g-arctic-mx-6-2-p343446.html)
 Jumperkabel (optional)| AZDelivery Jumper Wire Kabel 3 x 40 STK | 1 | 1 | [Amazon-Link](https://www.amazon.de/Jumper-Wire-Set-M2M-Parent/dp/B07ZP4JLMM)
 alternativ | siehe unten
 Dupont-Stecker (optional) | Dupont Stecker | 1 | 1 | [Reichelt-Link](https://www.reichelt.de/de/de/entwicklerboards-dupont-crimp-set-610-teilig-debo-set-dupont-p279901.html?trstct=pos_0&nbc=1&&r=1) oder [Amazon-Link](https://www.amazon.de/BESTOMZ-Stecker-m%C3%A4nnlich-weiblich-Anschluss/dp/B073SSV9TL/)
 Crimpzange|KN 97 22 240|||[Link](https://www.reichelt.de/crimpzange-240-mm-isolierte-kabelschuhe-kabelverbinder-kn-97-22-240-p122639.html?&trstct=pos_0&nbc=1)
-Lötkolben|FIXPOINT FP 30|||[Reichelt-Link](https://www.reichelt.de/de/en/soldering-set-230-v-30w-iron-bracket-pump-tin-fixpoint-fp-30-p89612.html)
+Lötkolben/Lötstation ZD-931|L|||[Reichelt-Link](https://www.reichelt.de/loetstation-zd-931-1-kanal-48-w-station-zd-931-p90918.html?&trstct=pos_0&nbc=1)
 
 ## Anmerkungen zur Bestelliste
 
@@ -161,7 +161,10 @@ Wärmeleitkleber/-paste ist umstritten (siehe [Link](https://www.igorslab.de/myt
 <details markdown="block">
   <summary> Diskussion zum Wärmeleitkleber </summary>
 
-  Wie oben bereits erwähnt ist Wärmeleitkleber wegen seiner schwachen Wärmeleitfähigkeit umstritten. Einer der wenigen _empfehlenswerten_ Wärmeleitkleber ist von Arctic Silver mit einer Wärmeleitfähigkeit von 4 W/mK im vernetzten Zustand: [Link](https://www.webshop-innovatek.de/waermeleitmittel/waermeleitkleber/368/arctic-silver-waermeleitkleber-2x-4-g-neue-version) (leider nur schwer bzw. zu Apothekenpreisen erhältlich). Der oben verlinkte Kleber verfügt hingegen nur über eine Wärmeleitfähigkeit von etwa 1 W/mK (unter der Annahme, dass die Angaben korrekt sind).
+  Wie oben bereits erwähnt ist Wärmeleitkleber wegen seiner schwachen Wärmeleitfähigkeit umstritten. Einer der wenigen _empfehlenswerten_ Wärmeleitkleber ist von Arctic Silver mit einer Wärmeleitfähigkeit von 4 W/mK im vernetzten Zustand: [Link](https://www.webshop-innovatek.de/waermeleitmittel/waermeleitkleber/368/arctic-silver-waermeleitkleber-2x-4-g-neue-version) (leider nur schwer bzw. zu Apothekenpreisen erhältlich).
+  Inzwischen findet man leichter den Nachfolger, MX-6:
+  [Link] (https://www.reichelt.de/arctic-mx-6-waermeleitpaste-2-g-arctic-mx-6-2-p343446.html)
+  Der oben verlinkte Kleber verfügt hingegen nur über eine Wärmeleitfähigkeit von etwa 1 W/mK (unter der Annahme, dass die Angaben korrekt sind).
 
   Als Bsp. für die Paste würde eine Schichtdicke von 0,05 mm einen Wärmeleitwiderstand von 0,29 K/W ergeben. Bei 0,5 mm sind wir schon bei 2,9 K/W.
 
