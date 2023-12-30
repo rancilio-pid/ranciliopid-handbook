@@ -37,7 +37,7 @@ Was man sonst noch braucht:\
 • Spiegelklebeband\
 • Schaltplan der Maschine
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image3.png" alt="Isomac Zaffiro Schaltplan ohne PID" width="800"/>
+<img src="images/build_reports/isomac_zaffiro_frank/image3.png" alt="Isomac Zaffiro Schaltplan ohne PID" width="800"/>
 
 **Schaltplan ohne PID**
 
