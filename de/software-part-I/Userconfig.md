@@ -201,7 +201,6 @@ Hier wird mit `WEIGHTSETPOINT` das Sollgewicht für die Waage definiert.
 #define MQTT_SERVER_PORT 1883
 ```
 
-
 ## Backflush values
 
 ```
