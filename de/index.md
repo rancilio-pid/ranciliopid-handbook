@@ -16,4 +16,4 @@ Der erste konkrete Schritt beginnt mit der Bestellliste. Je nach Ausbaustufe und
 Mehr zum Projekt findet ihr auf der [CleverCoffee Website](https://clevercoffee.de/).
 
 ## Kontakt
-Schaut am besten beim [Chat-Server](https://chat.rancilio-pid.de/) vorbei.
+Schaut am besten auf dem [Discord Server](https://discord.com/invite/Kq5RFznuU4) vorbei.

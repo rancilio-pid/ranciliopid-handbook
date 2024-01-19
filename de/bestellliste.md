@@ -83,12 +83,12 @@ Mutter M4||2|2|
 Unterlegscheibe M4||2|2|
 Wärmeleitkleber (nichtleitend) für den Sensor|Silverbead Wärmeleitkleber|||[Link](https://www.amazon.de/Silverbead-W%C3%A4rmeleitkleber-10-Gramm-SG100X/dp/B019MNSABG/ref=sr_1_1?ie=UTF8&qid=1538938085&sr=8-1&keywords=w%C3%A4rmeleitkleber)
 alternativ||||
-Wärmeleitpaste für den Sensor|ARCTIC MX-4-2|||[Link](https://www.reichelt.de/arctic-mx-4-waermeleitpaste-2g-arctic-mx-4-2-p261247.html?&trstct=pos_14&nbc=1)
+Wärmeleitpaste für den Sensor|ARCTIC MX-4|||[Link](https://www.reichelt.de/de/de/arctic-mx-4-waermeleitpaste-4g-arctic-mx-4-p106752.html)
 Jumperkabel (optional)| AZDelivery Jumper Wire Kabel 3 x 40 STK | 1 | 1 | [Amazon-Link](https://www.amazon.de/Jumper-Wire-Set-M2M-Parent/dp/B07ZP4JLMM)
 alternativ | siehe unten
 Dupont-Stecker (optional) | Dupont Stecker | 1 | 1 | [Reichelt-Link](https://www.reichelt.de/de/de/entwicklerboards-dupont-crimp-set-610-teilig-debo-set-dupont-p279901.html?trstct=pos_0&nbc=1&&r=1) oder [Amazon-Link](https://www.amazon.de/BESTOMZ-Stecker-m%C3%A4nnlich-weiblich-Anschluss/dp/B073SSV9TL/)
 Crimpzange|KN 97 22 240|||[Link](https://www.reichelt.de/crimpzange-240-mm-isolierte-kabelschuhe-kabelverbinder-kn-97-22-240-p122639.html?&trstct=pos_0&nbc=1)
-Lötkolben|ERSATZKOLBEN EP5|||[Reichelt-Link](https://www.reichelt.de/loetkolben-ep-5-ersatzkolben-ep5-p58217.html?&trstct=pos_0&nbc=1)
+Lötkolben|FIXPOINT FP 30|||[Reichelt-Link](https://www.reichelt.de/de/en/soldering-set-230-v-30w-iron-bracket-pump-tin-fixpoint-fp-30-p89612.html)
 
 ## Anmerkungen zur Bestelliste
 
