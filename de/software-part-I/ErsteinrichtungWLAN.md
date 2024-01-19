@@ -55,7 +55,8 @@ Wenn ihr den Code hochladet, ist im Log (Monitor-Befehl) etwa folgendes zu sehen
 *wm:[2] Config Portal Running, blocking, waiting for clients...
 ```
 
-Wenn ihr nun per Mobile/Tablet/Desktop nach einem WLAN sucht werdet ihr das Netzwerk `silvia` sehen.
+Diese IP-Adresse solltet ihr euch notieren, um später die Webseite für die Ersteinrichtung aufzurufen (falls diese nicht automatisch geöffnet wird).
+Wenn ihr nun per Mobile/Tablet/Desktop nach einem WLAN sucht werdet ihr das Netzwerk "silvia" sehen.
 
 ![](../../img/wlan-setup1.PNG)
 
