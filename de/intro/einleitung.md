@@ -15,6 +15,7 @@ Inhaltsverzeichnis
 * TOC
 {:toc}
 
+
 ## Was bringt mir eine PID-Steuerung?
 
 Eine PID-Regelung ermöglicht es deiner Espressomaschine die Temperatur des Brühwassers sehr viel exakter und konstanter zu regeln als das mit den werksseitig verbauten Bimetall-Thermostaten möglich ist.
@@ -47,10 +48,11 @@ Folgende Eckdaten zeichnen unseren DIY PID aus:
 * Updates der Software sind drahtlos über WLAN möglich
 * Unsere Software ist OpenSource: für euch kostenfrei und auf persönliche Anforderungen anpassbar
 * Geringer Platzbedarf, passt problemlos in die meisten kleineren Espressomaschinen
-* Die serienmäßige Verkabelung der Maschine bleibt erhalten und wird nur erweitert. Die Maschine kann nach dem Umbau problemlos wieder zurückgerüstet werden.
+* Die serienmäßige Verkabelung der Maschine bleibt erhalten und wird nur erweitert. Die Maschine kann nach dem Umbau problemlos wieder zurückgerüstet werden
 * Aktive User-Community im Projektchat mit schnellem Support
 
 Anregungen zur Weiterentwicklung der Software werden von uns gerne aufgenommen. User-Input ist immer willkommen und bringt das Projekt weiter!
+
 
 ## Universell – Umgebaute Maschinentypen
 
@@ -64,6 +66,7 @@ Entwickelt wurde unser System ursprünglich an einer Rancilio Silvia, es ist abe
  * E61 Einkreiser (Bazzar A1 Livello, Fiorenzato Colombina)
  * E61 Zweikreiser (Profitec Pro500)
  * Quick Mill Retro (0835) & Orione (3000)
+
 
 ## Aufbau / Unterschiede PID Only vs. Vollausbau
 
@@ -82,7 +85,6 @@ ID | Erklärung
 Es gibt zwei verschiedene Ausbaustufen unseres Systems: PID Only und den erweiterten Vollausbau.
 
 
-
 ## Ausbaustufen
 Es gibt 2 Ausbaustufen: "PID Only" und den "Vollausbau".
 Mit der Zeit haben sich dazu Ergänzungen ergeben, die in der nachfolgenden Grafik dargestellt sind.
@@ -90,19 +92,22 @@ Die Grenzen sind fließend, da auch beim "PID Only" nun zur Anzeige des Bezugsge
 
 ![Trockenaufbau](../../img/Ausbaustufen-Clevercoffeepid.jpg)
 
+
 ## Grundversion (PID Only)
 
 Die Grundversion ist ein klassischer PID-Regler: der Temperatursensor nimmt die aktuelle Temperatur des Kessels auf (Input) und gibt den Wert an die PID-Software auf den Mikrocontroller weiter. Diese gibt dann das Regler-Signal (Output) an das SSR aus, welches die Heizung eurer Maschine aktiviert bzw. deaktiviert.
 
 Damit ist eine exakte Regelung der Brühtemperatur auf euren Wunschwert durch die PID-Software möglich, die restliche Bedienung eurer Maschine bleibt unangetastet. MQTT, Displayausgabe und Webinterface ist auch mit PID Only möglich.
 
+
 ## Erweiterung der Grundversion (PID Only+)
 
 Um bei einem Bezug die Temperatur besser zu regeln, kann ein zusätzlicher Sensor (Optokoppler) verbaut werden, um den Brühschalter abzufragen. Damit kann während des Bezugs auf dem Display die genaue Brühzeit angezeigt werden.
 
+
 ## Vollausbau
 
-Beim Vollausbau gehen wir einen Schritt weiter und überlassen die Ansteuerung der Pumpe und des Magnetventils ebenfalls der Software. Dadurch könnt ihr in der App 3 Zeitintervalle vorgeben:
+Beim Vollausbau gehen wir einen Schritt weiter und überlassen die Ansteuerung der Pumpe und des Magnetventils ebenfalls der Software. Dadurch könnt ihr in der App drei Zeitintervalle vorgeben:
 
 * Pre-Infusion: die Pumpe baut Druck auf (geringer als der Brühdruck) und das Magnetventil gibt das Brühwasser auf den Siebträger
 
@@ -113,6 +118,7 @@ Beim Vollausbau gehen wir einen Schritt weiter und überlassen die Ansteuerung d
 Beim Vollausbau ändert sich die Bedienung eurer Maschine auch etwas: der Brühschalter, mit dem ihr bislang den Bezug gestartet und auch wieder gestoppt habt, dient nun nur noch als Taster, der den automatisierten Bezug startet. Gestoppt wird der Bezug durch die Software, auch wenn der Schalter noch auf ON steht.
 
 Unsere Empfehlung, basierend auf unseren eigenen Erfahrungen und denen der bislang mehr als 250 User des PIDs, lautet ganz klar, zuerst die Grundversion PID Only umzusetzen. Damit ist die größte geschmackliche Verbesserung im Vergleich zum vorherigen Serienzustand eurer Maschine zu erwarten. Der Vollausbau ist darauf aufbauend eine Erweiterung der Möglichkeiten, aber gleichzeitig auch ein komplexerer Umbau.
+
 
 ## Vollausbau Plus
 

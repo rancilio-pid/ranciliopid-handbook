@@ -109,7 +109,7 @@ definiert ihr hier, ob diese per Software (1) , Brühschalter beim Vollausbau (2
 TRIGGERTYPE HIGH es gibt LOW UND HIGH Trigger für das Ventil/Pumpe. Dies wird hier definiert.
 
 VOLTAGESENSORTYPE und PINMODEVOLTAGESENSOR ist für die Konfiguration vom Voltagesensor hier dazu mehr: [Brüherkennung bei Only PID](
-https://manual.rancilio-pid.de/de/customization/brueherkennung.html#sensor-zur-brüherkennung-bei-only-pid
+https://manual.rancilio-pid.de/de/customization/brueherkennung.html#sensor-zur-brüherkennung-bei-only-pid)
 
 PRESSURESENSOR (...)
 
@@ -162,26 +162,26 @@ WIFICINNECTIONDELAY ist die Zeitspanne bis der nächste Reconnect probiert wird.
 ```
 #define OTA true                   // true = OTA activated, false = OTA deactivated
 #define OTAHOST "rancilio"         // Name to be shown in ARUDINO IDE Port
-#define OTAPASS "otapass"          // Password for OTA updtates
+#define OTAPASS "otapass"          // Password for OTA updates
 ```
 
 ## MQTT
 
 ```
-#define MQTT 0                     // 1 = MQTT enabled, 0 = MQTT disabled
+#define MQTT 0                             // 0 = MQTT disabled, 1 = MQTT enabled
 #define MQTT_USERNAME "mymqttuser"
 #define MQTT_PASSWORD "mymqttpass"
-#define MQTT_TOPIC_PREFIX "custom/Küche."  // topic will be "<MQTT_TOPIC_PREFIX><HOSTNAME>/<READING>"
-#define MQTT_SERVER_IP "XXX.XXX.XXX.XXX"  // IP-Address of locally installed mqtt server
+#define MQTT_TOPIC_PREFIX "custom/Küche."  // Topic will be "<MQTT_TOPIC_PREFIX><HOSTNAME>/<READING>"
+#define MQTT_SERVER_IP "XXX.XXX.XXX.XXX"   // IP address of locally installed MQTT server
 #define MQTT_SERVER_PORT 1883    
 ```
 
 ## Backflush values
 
 ```
-#define FILLTIME 3000              // time in ms the pump is running
-#define FLUSHTIME 6000             // time in ms the 3-way valve is open -> backflush
-#define MAXFLUSHCYCLES 5           // number of cycles the backflush should run, 0 = disabled
+#define MAXFLUSHCYCLES 5           // Number of cycles the backflush should run, 0 = disabled
+#define FILLTIME 3000              // Time in ms the pump is running
+#define FLUSHTIME 6000             // Time in ms the 3-way valve is open -> backflush
 ```
 
 ## Pin Layout

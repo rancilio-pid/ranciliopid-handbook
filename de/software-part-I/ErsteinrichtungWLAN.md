@@ -17,17 +17,17 @@ Inhaltsverzeichnis
 {:toc}
 
 ## WICHTIGER HINWEIS
-Beim ESP8266 haben wir mir Release 3.3.0 den Wifimanager wieder entfernt, da dieser für einen Absturz bei der Ersteinrichtung geführt hat. Tragt eure Wlan Zugangsdaten bitte in der userconfig.h:
+Beim ESP8266 haben wir mit Release 3.3.0 den WifiManager wieder entfernt, da dieser für einen Absturz bei der Ersteinrichtung geführt hat. Tragt eure WLAN-Zugangsdaten bitte in der userconfig.h:
 
 ```
 #define WIFI_SSID "yourSSID"       // SSID of your WiFi network
 #define WIFI_PASS "yourWiFiPass"   // WPA key to your WiFi network
 ```
-Beim ESP32 tritt dieses Problem nicht auf, benutzt vorerst das Release 3.2.0 inklusive Wifimanager und folgt dann weiter dieser Anleitung.
+Beim ESP32 tritt dieses Problem nicht auf, benutzt vorerst das Release 3.2.0 inklusive WifiManager und folgt dann weiter dieser Anleitung.
 
 ## Kurzfassung
 
-Für die Ersteinrichtung wird der Wifi-Manager benutzt. Beim ersten Start vom Mikrocontroller wird ein Access Point von diesem geöffnet mit dem in der userConfig.h eingestellten ```HOSTNAME``` (default: "silvia") und Passwort ```PASS``` (default: "CleverCoffee"). Verbindet euch mit dem Access Point, wählt euer WLAN aus und gebt das Passwort des Netzwerks ein, dann wird dieses gespeichert und beim nächsten Start automatisch verwendet.
+Für die Ersteinrichtung wird der WifiManager benutzt. Beim ersten Start vom Mikrocontroller wird ein Access Point von diesem geöffnet mit dem in der userConfig.h eingestellten ```HOSTNAME``` (default: "silvia") und Passwort ```PASS``` (default: "CleverCoffee"). Verbindet euch mit dem Access Point, wählt euer WLAN aus und gebt das Passwort des Netzwerks ein, dann wird dieses gespeichert und beim nächsten Start automatisch verwendet.
 Der ESP wird immer für 10 Sekunden versuchen, dass eingerichtete WLAN zu erreichen, falls dies nicht möglich ist, wird für 60 Sekunden das Konfigurationsportal wieder gestartet. Falls kein Zugriff auf das Portal passiert, startet die Maschine im Offline-Modus.
 ## Schritt für Schritt
 Wenn ihr den Code hochladet, ist im Log (Monitor-Befehl) etwa folgendes zu sehen:
@@ -46,7 +46,7 @@ Wenn ihr den Code hochladet, ist im Log (Monitor-Befehl) etwa folgendes zu sehen
 *wm:[2] Config Portal Running, blocking, waiting for clients... 
 ```
 Diese IP-Adresse solltet ihr euch notieren, um später die Webseite für die Ersteinrichtung aufzurufen (falls diese nicht automatisch geöffnet wird).
-Wenn ihr nun per Mobile/Tablet/Desktop nach einem Wlan sucht werdet ihr das Netzwerk "silvia" sehen.
+Wenn ihr nun per Mobile/Tablet/Desktop nach einem WLAN sucht werdet ihr das Netzwerk "silvia" sehen.
 
 ![](../../img/wlan-setup1.PNG)
 
@@ -54,12 +54,12 @@ Wenn ihr euch mit dem Netzwerk verbunden habt, geht eine Portalseite auf oder ih
 
 ![](../../img/wlan-setup2.PNG)
 
-Mit dem Klick auf "Configure Wifi" könnt ihr eurer Wlan auf dem Nodemcu einrichten.
+Mit dem Klick auf "Configure Wifi" könnt ihr eurer WLAN auf dem ESP einrichten.
 
 ![](../../img/wlan-setup3.PNG)
 
-Wählt das Netzwerk oben aus der Liste ein oder gebt eure SSID manuell ein, zusätzlich eurer Passwort vom Wlan.
-Nach dem "Save" sollte der ESP neu starten und ist für euer Wlan eingerichtet.
+Wählt das Netzwerk oben aus der Liste aus oder gebt eure SSID manuell ein, zusätzlich eurer Passwort vom WLAN.
+Nach dem "Save" sollte der ESP neu starten und ist für euer WLAN eingerichtet.
 
 # Remote Monitoring
 **Achtung: Der ESP8266 hat mit Version 3.3.0 keine remote monitoring Funktion.**
