@@ -93,6 +93,7 @@ Lötkolben|FIXPOINT FP 30|||[Reichelt-Link](https://www.reichelt.de/de/en/solder
 ## Anmerkungen zur Bestelliste
 
 ### ESP32 Platine
+Das Projekt verwendet eine [eigens entwickelte Platine](https://github.com/rancilio-pid/clevercoffee-hardware) um alle Komponenten des PIDs miteinander zu verbinden. Sie verbindet den aufgesteckten ESP32 Mikrocontroller und passive elektronische Bauteile mit Schraubklemmblöcken, an die alle wichtigen Kabel für das PID angeschlossen werden.
 Es steht ab sofort die neue ESP32 Platine zur Verfügung. 
 [Bitte direkt über unseren Chat anfragen!](https://discord.com/invite/Kq5RFznuU4) **Bitte direkt per PN an @loque wenden**
 **Stand 7.12.23: Momentan sind keine ESP32 Platinen verfügbar. Vorraussichtlich ab Januar wieder bestellbar**
@@ -180,14 +181,14 @@ Es sind jeweils mehr Stecker als benötigt angegeben. Es ist empfehlenswert hier
 
 ### Infos zum Netzteil
 Das Netzteil hat bei wenigen Personen zu Problemen geführt (Reboots).
-Insbesondere bei den neueren Rancilio Silvia E Varianten oder kleineren Maschinen ist auch der Platz ein Thema. Eine Alternative kann in beiden Fällen ein einfaches USB Netzteil sein, für welches aber eine ordentliche Kontaktierung schwierig ist.
+Insbesondere bei den neueren Rancilio Silvia E Varianten oder kleineren Maschinen ist auch der Platz ein Thema. Eine Alternative kann in beiden Fällen ein einfaches USB Netzteil sein, das dann aber zusätzlich zum Stromkabel aus der Maschine geführt werden muss um es anzuschließen.
 
 ### Infos zum Display und Jumper (bzw. Dupont)
 Das Display wird für keine Ausbaustufe zwangsläufig benötigt. Ohne Display lässt es sich jedoch kaum vermeiden, dass man bei jedem Bezug am Smartphone die Temperatur prüfen muss. Im regulären Lauf sieht die Anzeige nämlich wie folgt aus (es wird in kurzen Intervallen geheizt um die Temperatur zu halten):
 
-Regulärer Lauf | Auszug Monitoring (Grafana)
-:---:|:---:
-![Blinken](../img/blink.gif)|![Blink Monitoring](../img/blink_monitoring3.png)
+| Regulärer Lauf | Auszug Monitoring (Grafana) |
+| :---: | :---: |
+| ![Herzschlag-artiges Blinken der Lampe auf dem Bedienfeld der Kaffeemaschine](../img/blink.gif) | ![Graph im Monitoring: Temperaturverlauf beim Aufheizen und während des Haltens der Zieltemperatur](../img/blink_monitoring3.png) |
 
 Wer es einfach mag, kann das Display entweder neben die Maschine legen, oder an einem der Bleche fixieren. Wie ihr einzelnen Bauberichten entnehmen könnt ([Link](https://clevercoffee.de/rancilio-silvia-e-konstantin/)), kann das Display natürlich auch sauber hinter einem der Bleche integriert oder mit einem 3D-gedruckten Gehäuse an der Maschine befestigt werden.
 
@@ -206,7 +207,7 @@ Alternativ kann bei Reichelt auch folgender High Trigger mitbestellt werden: [Li
 Bei einigen SSR-Ralais, z.B. dem von Reichelt muss ggf. noch ein Widerstand parallel zu der Pumpe geschaltet werden. Hintergrund hierzu ist, dass die SSRs in der Regel nur bei einem Nulldurchgang der Spannungskennlinie schalten. Die Vibrationspumpe in den Espressomaschinen funktioniert jedoch durch eine interne Diode die nur eine Halbwelle durchlässt. Dementsprechend kommt es nie zu einem Nulldurchgang. Einige Relais funktionieren trotzdem. Um diesem Problem Abhilfe zu schaffen wird ein Widerstand parallel zu der Pumpe geschaltet. Aus Erfahrung funktionieren 200k und 100k Widerstände. Wobei ein 100k Widerstand an dieser Stelle sinnvoller ist. Zu beachten ist hier die Leistung die über dem Widerstand abfällt. Die normalen "Wald und Wiesen" Widerstände die in Sortimentskästen verkauft werden haben nur 1/4 Watt was bei 200k recht grenzwertig und bei 100k unzureichend ist. Auf der sicheren Seite ist man mit einem 100k Widerstand mit 1W. Wie z.B. [Link](https://www.reichelt.de/widerstand-metalloxyd-100-kohm-0207-1-0-w-5--1w-100k-p1778.html?&trstct=pos_1&nbc=1) 
 
 #### Schlechteste Lösung: Spulen Relais
-Ja, Spulen Relais kann man verwenden, dabei können durch die Bauweise der Relais Probleme entstehen, die sich nicht immer lösen oder reproduzieren lassen: [Link](https://www.amazon.de/AZDelivery-2-Relais-Optokoppler-Low-Level-Trigger-Arduino/dp/B078Q326KT/ref=sr_1_7_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=azdelivery%2Bspulen%2Brelais&qid=1603614378&sr=8-7-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNDdFUE9JRkxXSkNEJmVuY3J5cHRlZElkPUEwNDU5MDU1OVlVSENDWEZNQTQzJmVuY3J5cHRlZEFkSWQ9QTAwNDA1MTEzUlBCUzUwVFdZSTI3JndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1). Lösungen mit einer galvanischen Trennung können manchmal helfen [Link](https://www.kollino.de/arduino/4-8-kanal-relais-anleitung/). Daher ist es die schlechteste Lösung bei den Relais.
+Ja, Spulen Relais kann man verwenden, dabei können durch die Bauweise der Relais Probleme entstehen, die sich nicht immer lösen oder reproduzieren lassen: [Link](https://www.amazon.de/AZDelivery-2-Relais-Optokoppler-Low-Level-Trigger-Arduino/dp/B078Q326KT/). Lösungen mit einer galvanischen Trennung können manchmal helfen [Link](https://www.kollino.de/arduino/4-8-kanal-relais-anleitung/). Daher ist es die schlechteste Lösung bei den Relais.
 
 #### SSR-Board von Amazon
 Manche gehen ins Spielcasino, wir bestellen bei Amazon – Manchmal hat man Pech und wo „High Trigger“ drauf steht, ist doch „Low Trigger“ drin. Einen Low Trigger erkennt ihr an einem „2TY“ auf dem einen Baustein des SSR-Boards. „J3Y“ ist hierbei der besser geeignete HIGH Trigger. SSR Boards sind besser als die Spulen-Relais, aber Low Trigger können auch Probleme verursachen.
