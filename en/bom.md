@@ -100,11 +100,12 @@ Those accessories are definitely recommended. You might already have one or the 
 ## Notes For Bill Of Materials
 
 ### Base Board for ESP32
+
 This project uses a [custom designed Printed Circuit Board (PCB)](https://github.com/rancilio-pid/clevercoffee-hardware) for connecting all components of the PID. It mounts the ESP32 and some small passive electronics as well as screw terminals for connecting all required cables.
 
 There is a new version of the PCB available. [Please request via our chat directly!](https://discord.com/invite/Kq5RFznuU4). **Please send a direct message to @loque**.
 
-**Update 07.12.23: Currently there are no PCBs available. Expected date for new orders is january.**
+**Update 08.02.24: PCB Rev 1.5 available**
 
 Base board includes:
  * The PCB
