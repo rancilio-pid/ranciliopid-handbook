@@ -21,6 +21,15 @@ Bug reports and pull requests are welcome on GitHub at [https://github.com/ranci
 
 This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
+### Local build
+
+* On Linux, [install Jekyll](https://jekyllrb.com/docs/installation/)
+* Optionally, set a custom path for Ruby dependencies: `bundle config set --local path '~/.bundle/`
+* Install dependencies: `bundle install`
+* Start the Jekyll server: `bundle exec jekyll serve`
+* Open http://localhost:4000 in your browser
+Changes will be applied every time you save a file. Changes in `_config.yml` need a restart of the Jekyll server.
+
 ### Design and development principles of this manual:
 
 * As few dependencies as possible
