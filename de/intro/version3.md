@@ -29,8 +29,8 @@ Der Ardunio IDE wird nicht mehr aktiv von uns unterstüzt. Wir setzen ab der 3.0
 ## Funktionen
 
 
-### Wifi Manager
-Für die Ersteinrichtung wird ein WifiManager benutzt. Beim ersten Start des ESP wird ein Access Point von diesem geöffnet mit dem Namen "silvia" und Passwort "CleverCoffee". Dies kann in der `userConfig.h` auch angepasst werden. Verbindet ihr euch mit dem Access Point, sollte sich bei den meisten Systemen automatisch eine Seite öffnen in mittels derer ihr ein WLAN auswählen und ein Passwort eingeben könnt, welches dann gespeichert und  automatisch beim nächsten Start für die Verbindung verwendet wird.
+### WiFiManager
+Für die Ersteinrichtung wird ein WiFiManager benutzt. Beim ersten Start des ESP wird ein Access Point von diesem geöffnet mit dem Namen "silvia" und Passwort "CleverCoffee". Dies kann in der `userConfig.h` auch angepasst werden. Verbindet ihr euch mit dem Access Point, sollte sich bei den meisten Systemen automatisch eine Seite öffnen in mittels derer ihr ein WLAN auswählen und ein Passwort eingeben könnt, welches dann gespeichert und  automatisch beim nächsten Start für die Verbindung verwendet wird.
 
 
 ### Webseite & Blynk 
