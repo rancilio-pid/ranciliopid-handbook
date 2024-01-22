@@ -93,7 +93,8 @@ Lötkolben|FIXPOINT FP 30|||[Reichelt-Link](https://www.reichelt.de/de/en/solder
 ## Anmerkungen zur Bestelliste
 
 ### ESP32 Platine
-Das Projekt verwendet eine [eigens entwickelte Platine](https://github.com/rancilio-pid/clevercoffee-hardware) um alle Komponenten des PIDs miteinander zu verbinden. Sie verbindet den aufgesteckten ESP32 Mikrocontroller und passive elektronische Bauteile mit Schraubklemmblöcken, an die alle wichtigen Kabel für das PID angeschlossen werden.
+Das Projekt verwendet eine [eigens entwickelte Platine](https://github.com/rancilio-pid/clevercoffee-hardware) um alle Komponenten des PIDs zusammenzuführen. Sie verbindet den aufgesteckten ESP32 Mikrocontroller und passive elektronische Bauteile mit Schraubklemmblöcken, an die alle wichtigen Kabel für das PID angeschlossen werden.
+
 Es steht ab sofort die neue ESP32 Platine zur Verfügung. 
 [Bitte direkt über unseren Chat anfragen!](https://discord.com/invite/Kq5RFznuU4) **Bitte direkt per PN an @loque wenden**
 **Stand 7.12.23: Momentan sind keine ESP32 Platinen verfügbar. Vorraussichtlich ab Januar wieder bestellbar**
