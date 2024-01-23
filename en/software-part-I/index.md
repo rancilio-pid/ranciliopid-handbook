@@ -1,11 +1,22 @@
 ---
 layout: default
-title: Software Part I
+title: Software
 parent: EN - Manual
 has_children: true
 nav_order: 3
 ---
 
-# Software Part I
 
-In this section, all steps which can be done without the actual hardware are described. You can start with this part while waiting for your ordered parts ;)
+# Software
+
+{: .no_toc }
+
+Contents
+
+* TOC
+{:toc}
+
+
+## Introduction
+
+In this section, all steps are described on how to load the code onto the microcontroller (ESP32 or ESP8266). With that, you can already get started without having the other hardware parts at hand. You can start with this part while waiting for your ordered parts ;)
