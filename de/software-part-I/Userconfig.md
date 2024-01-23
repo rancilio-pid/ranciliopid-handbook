@@ -97,7 +97,7 @@ Hier werden alle für das Display relevanten Einstellungen vorgenommen.
 
 ## PID & Hardware
 
-Hier sind die wichtigsten Parameter für die PID/Hardware definiert,
+Hier sind die wichtigsten Parameter für die PID/Hardware definiert.
 
 ```
 #define ONLYPID 1                  // 1 = Only PID, 0 = PID and preinfusion
@@ -118,7 +118,7 @@ Hier sind die wichtigsten Parameter für die PID/Hardware definiert,
 
 `BREWMODE` definiert, ob ihr nur das Ventil und die Pumpe steuert (1) oder auch eine Waage verbaut habt (2). Dazu wird in der Zukunft im Handbuch noch mehr stehen.
 
-`BREWDETECTION` Diese ist hier [Brüherkennung](../customization/brueherkennung.html) genauer erläutert. Knapp zusammengefasst definiert ihr hier, ob diese per Software (1), Brühschalter beim Vollausbau (2) oder per Sensor bei OnlyPid (3) erkannt werden soll.
+`BREWDETECTION` definiert, ob die Brüherkennung per Software (1), Brühschalter beim Vollausbau (2) oder per Sensor bei OnlyPID (3) realisiert ist. Diese ist hier [Brüherkennung](../customization/brueherkennung.html) genauer erläutert.
 
 `TRIGGERTYPE HIGH` es gibt `LOW` und `HIGH` Trigger für das Ventil/Pumpe. Dies wird hier definiert.
 
@@ -151,11 +151,11 @@ Habt ihr keinen TOF Sensor, könnt ihr diesen Teil ignorieren und `TOF` (0) eins
 ```
 
 Die Silvia E hat ein Energiesparmodul, dieses kann überbrückt werden mit einem Relais. Dieses kann hier definiert werden, wenn `ETRIGGER` (1) gewählt wird.
-Der zugehörige PIN wird später im Abschnitt [PIN Layout](#pin-layout) definiert.
+Der zugehörige Pin wird später im Abschnitt [Pin Layout](#pin-layout) definiert.
 
 `ETRIGGERTIME` ist die Zeitdauer zwischen den Signalen.
 
-`TRIGGERRELAYTYPE` ist der Relaistyp (High oder LOW).
+`TRIGGERRELAYTYPE` ist der Relaistyp (`HIGH` oder `LOW`).
 
 
 ## Weight Scale
