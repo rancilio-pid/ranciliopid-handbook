@@ -19,7 +19,7 @@ Inhaltsverzeichnis
 
 ## WICHTIGER HINWEIS
 
-Beim ESP8266 haben wir mit Release 3.3.0 den WiFiManager wieder entfernt, da dieser für einen Absturz bei der Ersteinrichtung geführt hat. Tragt eure WLAN-Zugangsdaten bitte in der `userconfig.h` ein:
+Beim ESP8266 haben wir mit Release 3.3.0 den WiFiManager wieder entfernt, da dieser für einen Absturz bei der Ersteinrichtung geführt hat. Tragt eure WLAN-Zugangsdaten bitte in der `userConfig.h` ein:
 
 ```
 #define WIFI_SSID "yourSSID"       // SSID of your WiFi network
@@ -76,11 +76,11 @@ Nach dem `Save` sollte der ESP neu starten und ist für euer WLAN eingerichtet.
 **Dieser Abschnitt gilt nur für ESP32 mit Version 3.2.0**
 
 Zusätzlich zur Website, auf der ihr Einstellungen vornehmen oder die aktuelle Temperatur beobachten könnt, könnt ihr auch über PlatformIO / VS Code über WLAN auf den Serial Monitor zugreifen.
-Das ist vor allem nützlich, um mögliche Probleme im laufenden Betrieb zu debuggen. Wir raten dringend davon ab, einen in der Maschine verkabelten Mikrokontroller über USB an einen Rechner anzuschließen! 
+Das ist vor allem nützlich, um mögliche Probleme im laufenden Betrieb zu debuggen. Wir raten dringend davon ab, einen in der Maschine verkabelten Mikrokontroller über USB an einen Rechner anzuschließen!
 Wählt stattdessen in PlatformIO `esp32_ota` -> `Monitor` aus.
 
 ![](../../img/remote_monitor.png)
 
-Solltet ihr den Hostname oder das OTA-Passwort in der `userconfig.h` angepasst haben, müsst ihr für eine erfolgreiche Verbindung auch die `platformio.ini` in der Section `env:esp32_ota` anpassen. 
+Solltet ihr den Hostname oder das OTA-Passwort in der `userConfig.h` angepasst haben, müsst ihr für eine erfolgreiche Verbindung auch die `platformio.ini` in der Section `env:esp32_ota` anpassen.
 
 Wichtig, falls ihr Remote Monitoring schon während der Ersteinrichtung testen wollt: Ihr könnt das Monitoring nicht gleichzeitig via Kabel und OTA starten.
