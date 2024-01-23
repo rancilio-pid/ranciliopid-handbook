@@ -37,7 +37,7 @@ Am Ende zeigt euch folgende Meldung, dass PlatformIO erfolgreich installiert wur
 
 ![](../../img/softwareinstall/swinstall3.png)
 
-Ihr könnt aber zum aktuellen Stand ohne git oder Github Desktop nicht unseren Code kompilieren. Falls ihr dies doch tut erhaltet ihr zum Beispiel eine folgende Fehlermeldung:
+Ihr könnt aber zum aktuellen Stand ohne `git` oder GitHub Desktop nicht unseren Code kompilieren. Falls ihr dies doch tut erhaltet ihr zum Beispiel eine folgende Fehlermeldung:
 
 ![](../../img/softwareinstall/swinstall4.png)
 
@@ -49,7 +49,7 @@ Wir empfehlen euch git direkt zu installieren. Auf der [Webseite von git scm](ht
 
 
 ## Treiber ESP32 / ESP8266
-Ihr benötigt gegebenenfalls einen Treiber für den ESP32 beziehungsweise ESP8266. Ihr könnt in PlatformIO überprügen ob euer ESP32 / ESP8266 schon erkannt wird.
+Ihr benötigt gegebenenfalls einen Treiber für den ESP32 beziehungsweise ESP8266. Ihr könnt in PlatformIO überprüfen ob euer ESP32 / ESP8266 schon erkannt wird.
 
 Klickt in VS Code unter auf das PlatformIO Symbol ("Ameisenkopf") (1) und wählt `Devices` (2).
 
@@ -64,7 +64,7 @@ Wenn hier immer noch kein ESP32 / ESP8266 auftaucht, müsst ihr den Treiber inst
 
 [Treiber ESP32](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
-Der Treiber sollte auch für den ESP8266 funktionieren, solange der gleiche Controller verbaut ist (CP2102).
+Der Treiber sollte auch für den ESP8266 funktionieren, solange der gleiche Controller verbaut ist (`CP2102`).
 
 WICHTIG! Nach der Installation muss der Rechner neugestartet werden!
 
@@ -108,7 +108,7 @@ Wählt die aktuellste Version für den ESP32 aus. Es dauert ein paar Sekunden un
 
 ##  Kompilieren vorbereiten
 Bevor ihr die Version kompilieren könnt, müssen noch kleinere Vorbereitungen passieren.
-Geht in VS Code in den Verzeichnisbaum des Codes, öffnet den Ordner `/src` und benennt die `userconfig_sample.h` in `userconfig.h` um:
+Geht in VS Code in den Verzeichnisbaum des Codes, öffnet den Ordner `/src` und benennt die `userConfig_sample.h` in `userConfig.h` um:
 
 ![](../../img/softwareinstall/swinstall12.png)
 
@@ -120,17 +120,17 @@ Nun kann der Code kompiliert werden. Hierzu sind folgende Schritte notwendig:
 Drückt wieder das Symbol von PlatformIO (rechts in der Leiste). Ihr könnt später per OTA auch Daten auf den ESP32 übertragen, aber aktuell muss dieser per USB bespielt werden. Der ESP32 muss hierbei per USB-Kabel angeschlossen sein.
 
 Bei jeden Upload- oder Erase-Schritt auf den ESP32 kann es passieren, dass dies nicht sofort durchläuft.
-WICHTIG: Haltet die Taste "Boot" auf dem ESP gedrückt (ohne PINS kurzzuschließen), dann kann ein Upload per USB durchgeführt werden (Bei OTA besteht später das Problem nicht).
+WICHTIG: Haltet die Taste "Boot" auf dem ESP gedrückt (ohne Pins kurzzuschließen), dann kann ein Upload per USB durchgeführt werden (Bei OTA besteht später das Problem nicht).
 
 ![](../../img/softwareinstall/swinstall13.png)
 
 Bei jedem Teilschritt das `SUCCESS` in der Konsole abwarten:
-* (1) Daher wählt `esp32_usb` aus.
+* (1) Daher wählt `esp32_usb` aus
 * (2) `Erase flash` (Boottaste am ESP32 drücken) klicken, warten bis `SUCCESS`
 * (3) `Build Filesystem Image` klicken, warten bis `SUCCESS`
-* (4) `Upload FIlesystem Image`, Boottaste am ESP32 (beim ESP8266 nicht notwendig) drücken bis aufsteigende Prozent zu sehen sind, warten bis `SUCCESS`
+* (4) `Upload Filesystem Image`, Boottaste am ESP32 (beim ESP8266 nicht notwendig) drücken bis aufsteigende Prozent zu sehen sind, warten bis `SUCCESS`
 * (5) Unter dem Punkt `General` auf `Build` klicken, warten bis `SUCCESS`
-* (6) Upload klicken, Boottaste am ESP32 drücken bis aufsteigende Prozent zu sehen sind, warten bis `SUCCESS`
+* (6) `Upload` klicken, Boottaste am ESP32 drücken bis aufsteigende Prozent zu sehen sind, warten bis `SUCCESS`
 * (7) Monitor zum ESP32 öffnen, dann sollte folgendes zu sehen sein:
 
 ```
