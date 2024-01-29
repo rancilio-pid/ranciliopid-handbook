@@ -1,0 +1,37 @@
+---
+layout: default
+title: ESP8266
+parent: Platinen
+grand_parent: DE - Handbuch
+has_children: false
+nav_order: 2
+---
+
+## ESP8266 Platine
+
+Das PCB für den (älteren) Mikrocontroller ESP8266 sieht wie folgt aus:
+
+![Platine ESP8266](../../../img/Screenshot-at-M%C3%A4rz-10-20-53-04.png)
+
+###  PIN Belegung vom PCB ESP8266
+
+Die einzelnen Komponenten werden wie folgt angeschlossen:
+
+Pin|Funktion
+-|-
+Pin 15| Schalter Brühtaste
+Pin 14| Relay für die Heizung
+Pin 2| Temperatursensor
+A0| Drucksensor
+Pin 4| SDA
+Pin 5| SCL
+Pin 16| E-Trigger Standby Trigger Silvia E
+
+### Vollausbau
+
+Bei dem „Vollausbau“ wird noch die Steuerung für Magnetventil und Pumpe benötigt:
+
+PIN | Belegung
+-|-
+PIN 12 | Relais Ansteuerung Magnetventil
+PIN 13 | Relais Ansteuerung Pumpe
