@@ -103,45 +103,19 @@ Inklusive sind:
  * Das PCB
  * Die Schraubklemmenblöcke
  * Die Stiftleisten
- * Klebepads
+ * Klebepads  
+ 
+ **ZUSÄTZLICH** werden folgende Dinge benötigt:
 
-
-**ZUSÄTZLICH** werden folgende Dinge benötigt:
-
-Bauteil | Beschreibung | Link
--|-|-
-C1 |220µF (Elko) | [Link](https://www.reichelt.de/elko-radial-220-uf-10-v-105-c-low-esr-fm-a-220u-10-p200036.html?&trstct=pol_0&nbc=1)
-C2 |100nF (Keramik) | [Link](https://www.reichelt.de/vielschicht-kerko-100-nf-50-v-rm-5-125-c-hita-sf1h104z-l5-p246835.html?&trstct=pos_9&nbc=1)
-R1 |4,7kΩ (Display) | [Link](https://www.reichelt.de/widerstand-metallschicht-4-7-kohm-0204-0-4-w-1--yag-4fte52-4k7-p236963.html?&trstct=pol_0&nbc=1)
-R2 |4,7kΩ (Display) |[Link](https://www.reichelt.de/widerstand-metallschicht-4-7-kohm-0204-0-4-w-1--yag-4fte52-4k7-p236963.html?&trstct=pol_0&nbc=1)
-R3 |47kΩ (Brew switch) | [Link](https://www.reichelt.de/widerstand-metallschicht-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html?&trstct=pol_0&nbc=1)
-R4 |47kΩ (Power switch) |[Link](https://www.reichelt.de/widerstand-metallschicht-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html?&trstct=pol_0&nbc=1)
-R5 |47kΩ (Steam switch) |[Link](https://www.reichelt.de/widerstand-metallschicht-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html?&trstct=pol_0&nbc=1)
-R6 | Nach Bedarf | Widerstand entsprechend der gewählten LED nehmen, bei Nutzung von z.B. Neopixel braucht es keinen Widerstand, dafür Lötjumper JP1 schließen 
-
+Beschreibung | Link | Menge Rev 1.2 | Menge Rev 1.3 | Menge Rev 1.5
+-|-|-|-|-
+Kondensator Elko 220 µF | [Reichelt](https://www.reichelt.de/elko-radial-220-uf-10-v-105-c-low-esr-fm-a-220u-10-p200036.html?&trstct=pol_0&nbc=1) | 1 | 1 | 1
+Kondensator Keramik 100 nF | [Reichelt](https://www.reichelt.de/vielschicht-kerko-100-nf-50-v-rm-5-125-c-hita-sf1h104z-l5-p246835.html?&trstct=pos_9&nbc=1) | 1 | 1 | 1
+Widerstand 4,7 kΩ | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-4-7-kohm-0204-0-4-w-1--yag-4fte52-4k7-p236963.html?&trstct=pol_0&nbc=1) | 2 | 2 | 2
+Widerstand 47 kΩ | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html?&trstct=pol_0&nbc=1) | 3 | 3 | 4
+Widerstand 220 Ω | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-220-ohm-0204-0-4-w-1--yag-fte52-220r-p236948.html?&trstct=pol_0&nbc=1) Neopixel braucht keinen Widerstand,  Lötjumper JP1 schließen | 1 | 1 | 1   
 
 Beim Löten des Elkos auf die Polarität achten!
-
-**Bugs ESP32_mininmal PCB Rev 1.2:**
-
-Fehler in der Beschriftung:
-
-* S_LED: statt VCC muss hier 5V stehen
-* E_TRIG: statt VCC muss hier 5V stehen
-* W_SENS: statt IO36 muss hier IO23 stehen
-* GPIO Header:  statt IO23 muss hier IO36 stehen 
-
-Fehler Optokoppler für Brüherkennung:
-
-* Nur mit High Level Trigger Optokoppler kompatibel
-* Workaround für Low Level Trigger: Pulldown Widerstand R3 nicht einlöten und "PINMODEVOLTAGESENSOR" auf "INPUT_PULLUP" setzen 
-
-**Bugs EPS32_minimal PCB Rev 1.3:**
-
-Fehler Optokoppler für Brüherkennung:
-
-* Nur mit High Level Trigger Optokoppler kompatibel
-* Workaround für Low Level Trigger: Pulldown Widerstand R3 nicht einlöten und "PINMODEVOLTAGESENSOR" auf "INPUT_PULLUP" setzen 
 
 ### ESP8266 Platine
 
