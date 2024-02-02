@@ -65,13 +65,13 @@ Beschriftung PCB | Bauteil | Funktion
 -|-|-
 C1 | Kondensator Elko 220 µF  | Stabilisierung Spannungsversorgung
 C2 | Kondensator Keramik 100 nF | Stabilisierung Spannungsversorgung
-R1 | Widerstand 220 kOhm | Widerstand TEMP_LED 
-R2 | Widerstand 47 kOhm | Pull down Dampfschalter
-R3 | Widerstand 47 kOhm | Pull down Powerschalter
-R4 | Widerstand 4,7 kOhm | Pull up i2C
-R5 | Widerstand 4,7 kOhm | Pull up i2C
-R6 | Widerstand 47 kOhm | Pull down/up Bezugschalter
-R7 | Widerstand 47 kOhm | Pull down Heisswasserschalter
+R1 | Widerstand 220 Ω | Widerstand TEMP_LED 
+R2 | Widerstand 47 kΩ | Pull down Dampfschalter
+R3 | Widerstand 47 kΩ | Pull down Powerschalter
+R4 | Widerstand 4,7 kΩ | Pull up i2C
+R5 | Widerstand 4,7 kΩ | Pull up i2C
+R6 | Widerstand 47 kΩ | Pull down/up Bezugschalter
+R7 | Widerstand 47 kΩ | Pull down Heisswasserschalter
 JP1 | Lötjumper | Widerstand LED überbrücken für WS1812 LED
 JP3 | Lötjumper | Pull down oder Pull up für Bezugsschalter oder Optokopler 
 
@@ -129,12 +129,12 @@ Beschriftung PCB | Bauteil | Funktion
 -|-|-
 C1 | Kondensator Elko 220 µF  | Stabilisierung Spannungsversorgung
 C2 | Kondensator Keramik 100 nF | Stabilisierung Spannungsversorgung
-R1 | Widerstand 4,7 kOhm | Pull up i2C
-R2 | Widerstand 4,7 kOhm | Pull up i2C
-R3 | Widerstand 47 kOhm | Pull down Bezugschalter
-R4 | Widerstand 47 kOhm | Pull down Powerschalter
-R5 | Widerstand 47 kOhm | Pull down Dampfschalter
-R6 | Widerstand 220 kOhm | Widerstand TEMP_LED 
+R1 | Widerstand 4,7 kΩ | Pull up i2C
+R2 | Widerstand 4,7 kΩ | Pull up i2C
+R3 | Widerstand 47 kΩ | Pull down Bezugschalter
+R4 | Widerstand 47 kΩ | Pull down Powerschalter
+R5 | Widerstand 47 kΩ | Pull down Dampfschalter
+R6 | Widerstand 220 Ω | Widerstand TEMP_LED 
 JP1 | Lötjumper | Widerstand LED überbrücken für WS1812 LED
 
 ## Revision 1.2
@@ -199,11 +199,11 @@ Beschriftung PCB | Bauteil | Funktion
 -|-|-
 C1 | Kondensator Elko 220 µF  | Stabilisierung Spannungsversorgung
 C2 | Kondensator Keramik 100 nF | Stabilisierung Spannungsversorgung
-R1 | Widerstand 4,7 kOhm | Pull up i2C
-R2 | Widerstand 4,7 kOhm | Pull up i2C
-R3 | Widerstand 47 kOhm | Pull down Bezugschalter
-R4 | Widerstand 47 kOhm | Pull down Powerschalter
-R5 | Widerstand 47 kOhm | Pull down Dampfschalter
-R6 | Widerstand 220 kOhm | Widerstand TEMP_LED 
+R1 | Widerstand 4,7 kΩ | Pull up i2C
+R2 | Widerstand 4,7 kΩ | Pull up i2C
+R3 | Widerstand 47 kΩ | Pull down Bezugschalter
+R4 | Widerstand 47 kΩ | Pull down Powerschalter
+R5 | Widerstand 47 kΩ | Pull down Dampfschalter
+R6 | Widerstand 220 Ω | Widerstand TEMP_LED 
 JP1 | Lötjumper | Widerstand für LED überbrücken für WS1812 LED
 
