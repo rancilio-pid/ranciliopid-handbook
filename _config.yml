@@ -5,6 +5,7 @@ remote_theme: pmarsceill/just-the-docs
 color_scheme: "light"
 search_enabled: true
 logo: ./favicon.ico
+repository: rancilio-pid/ranciliopid-handbook
 # Aux links for the upper right navigation
 aux_links:
   "Clever-Coffee Website":
