@@ -97,7 +97,7 @@ Das Projekt verwendet eine [eigens entwickelte Platine](https://github.com/ranci
 
 Es steht ab sofort die neue ESP32 Platine zur Verfügung. Weitere Infos zu den Platinen findet ihr hier: [ESP32 Platinen](./hardware/platinen/ESP32.md)  
 [Bitte direkt über unseren Chat anfragen!](https://discord.com/invite/Kq5RFznuU4) **direkt per PN an @loque wenden**  
-**Stand 30.1.24: Momentan sind keine ESP32 Platinen verfügbar. Vorraussichtlich ab Februar wieder bestellbar**
+**Stand 8.2.24: PCB Rev 1.5 verfügbar**
 
 Inklusive sind:
  * Das PCB
