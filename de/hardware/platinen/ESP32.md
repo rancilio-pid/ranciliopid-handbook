@@ -7,6 +7,13 @@ has_children: false
 nav_order: 1
 ---
 
+{: .no_toc }
+
+Inhaltsverzeichnis
+
+* TOC
+{:toc}
+
 # ESP32 Platine 
 
 Von unsere Platine für den ESP32 gibt es inzwischen mehrere Revisionen.
