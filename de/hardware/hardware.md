@@ -26,38 +26,12 @@ Die Heizung eurer Maschine könnt ihr z. B. mit einer Glühbirne simulieren, jed
 *(1=Mikrocontroller, 2=Temperatursensor, 3=SSR Relais für Heizung, 4=Schaltnetzteil, 5=Display)*
 
 Das PCB für den (neuern) Mikrocontroller ESP32 sieht wie folgt aus:
-![PCB](../../img/pcbesp32.png)
+![PCB](../../img/pcb/esp32/pcb_esp32_rev1_5.png)
 
 
 Das PCB für den (älteren) Mikrocontroller ESP8266 sieht wie folgt aus:
 
 ![PCB](../../img/image-3.png)
-
-##  PIN Belegung vom PCB ESP32
-
-
-
-PIN Software | Bezeichnung auf dem PCB | Belegung
--|-|-
-PIN 2 | HT_RL | SSR Heizung     
-PIN 16 | T_SENS | Temperatursensor
-PIN 21 | IC2 (SDA) | Display-PIN SDA
-PIN 22 | IC2 (SDL) | Display-PIN SCL
-GND/Vin | V_IN | Netzteil (5Volt)
-PIN 17 | PV_RL (Valve) | Relais Ansteuerung Magnetventil
-PIN 27 | PV_RL (Pump) | Relais Ansteuerung Pumpe
-PIN 34 | B_SW | Bezugsschalter oder Optokopler 
-PIN 35 | S_SW | Dampfschalter
-PIN 39 | P_SW | Powerschalter (aktuell nicht in Software enthalten)
-PIN 25 | E_TRIG | Anschluss Trigger Silvia E CPU
-PIN 26 | S_LED | Status oder Temp LED
-PIN 23 | W_SENS | Wasserstandssensor
-PIN 32 | SCALE (DAT) | Waage DAT
-PIN 33 | SCALE (CLK) | Waage CLK
-
-
-
-
 
 ##  PIN Belegung vom PCB ESP8266
 
@@ -85,7 +59,6 @@ PIN 13 | Relais Ansteuerung Pumpe
 ### Temperatursensor anschließen
 
 **ACHTUNG!!** Aktuell kann es sein, dass der TSIC mit einem falschen Datenblatt ausgeliefert wird. Hier wird die Polung falsch angegeben.
-Lest hierzu bitte folgenden Thread im Chat durch: [Link](https://chat.rancilio-pid.de/ranciliopid/pl/dcf38jzk3pnoig5hi64nuodeqc).
 
 Besondere Sorgfalt müsst ihr bitte beim Anschließen des Temperatursensors TSIC 306 walten lassen: sobald dieser einmal falsch angeschlossen Spannung bekommen hat, ist er entweder sofort zerstört oder zumindest vorgeschädigt und liefert dadurch fehlerhafte Messwerte. Daher ist es immer ratsam einen Ersatz-Sensor parat zu haben.
 
