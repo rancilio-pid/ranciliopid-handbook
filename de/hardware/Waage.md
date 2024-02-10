@@ -26,8 +26,7 @@ Einen ausführlichen Einblick bekommt ihr auch im Chat im Kanal Waage: [Link](ht
 Ihr benötigt eine Wäägezelle mit einer ausreichend genauen Auflösung (0,1gr) und ausreichend Tragkraft (also größer Gewicht Abtropfschale + Lieblingstasse).
 Aktuell sind folgende Zellen die meistverbauten: [Link] (https://amzn.to/2RWJnKs)
 
-Um die Zellen am Gehäuse zu montieren gibt es eine Adapter-Lösung zum Klemmen, und eine zum Schieben, für den 3D-Drucker. Hier könnt ihr im Chat je nach Maschine die passenden Files finden.
-Kanal Waage: [Link](https://chat.rancilio-pid.de/ranciliopid/channels/projekt-waage)
+Um die Zellen am Gehäuse zu montieren gibt es eine Adapter-Lösung zum Klemmen, und eine zum Schieben, für den 3D-Drucker. 
 
 Anschließend verbindet ihr die Zellen mit dem HX711 und diesen mit den geeigneten freien Pins am Arduino.
 
