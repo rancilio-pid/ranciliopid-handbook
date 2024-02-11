@@ -4,6 +4,7 @@ title: CleverCoffee Platinen
 parent: DE - Handbuch
 has_children: true
 nav_order: 9
+
 ---
 
 # Platinen
