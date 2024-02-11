@@ -3,7 +3,7 @@ layout: default
 title: FAQ
 parent: DE - Handbuch
 has_children: false
-nav_order: 8
+nav_order: 9
 ---
 
 # FAQ
