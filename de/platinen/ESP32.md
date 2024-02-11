@@ -42,7 +42,7 @@ I2C | PIN 22 | SDL | Display-PIN SCL
 V_IN | - | V_IN | Netzteil (5 Volt)
 PV_RL | PIN 17 | Valve | Relais Ansteuerung Magnetventil
 PV_RL | PIN 27 | Pump | Relais Ansteuerung Pumpe
-BPSW_SW | PIN 34 | IO34 | Bezugsschalter oder Optokopler
+BPSW_SW | PIN 34 | IO34 | Bezugsschalter oder Optokoppler
 BPSW_SW | PIN 39 | IO39 | Powerschalter  
 BPSW_SW | PIN 35 | IO35 | Dampfschalter
 BPSW_SW | PIN 39 | IO39 | Heisswasserschalter (noch nicht implementiert)
@@ -111,7 +111,7 @@ I2C | PIN 22 | SDL | Display-PIN SCL
 V_IN | - | V_IN | Netzteil (5 Volt)
 PV_RL | PIN 17 | Valve | Relais Ansteuerung Magnetventil
 PV_RL | PIN 27 | Pump | Relais Ansteuerung Pumpe
-B_SW | PIN 34 | IO34 | Bezugsschalter oder Optokopler 
+B_SW | PIN 34 | IO34 | Bezugsschalter oder Optokoppler 
 S_SW | PIN 35 | IO35 | Dampfschalter
 P_SW | PIN 39 | IO39 | Powerschalter 
 E_TRIG | PIN 25 | IO25 | Anschluss Trigger Silvia E CPU **Bis SW Version 3.X danach "SCALE DAT2"**
@@ -181,7 +181,7 @@ I2C | PIN 22 | SDL | Display-PIN SCL
 V_IN | - | V_IN | Netzteil (5 Volt)
 PV_RL | PIN 17 | Valve | Relais Ansteuerung Magnetventil
 PV_RL | PIN 27 | Pump | Relais Ansteuerung Pumpe
-B_SW | PIN 34 | IO34 | Bezugsschalter oder Optokopler 
+B_SW | PIN 34 | IO34 | Bezugsschalter oder Optokoppler 
 S_SW | PIN 35 | IO35 | Dampfschalter
 P_SW | PIN 39 | IO39 | Powerschalter 
 E_TRIG | PIN 25 | IO25 | Anschluss Trigger Silvia E CPU **Bis SW Version 3.X danach "SCALE DAT2"**

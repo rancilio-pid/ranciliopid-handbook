@@ -97,6 +97,8 @@ Es steht ab sofort die neue ESP32 Platine zur Verfügung. Weitere Infos zu den P
 [Bitte direkt über unseren Chat anfragen!](https://discord.com/invite/Kq5RFznuU4) **direkt per PN an @loque wenden**  
 **Stand 8.2.24: PCB Rev 1.5 verfügbar**
 
+![PCB ESP32 Lieferumfang](../img/pcb/esp32/pcb_esp32_rev1_5_set_content.png)
+
 Inklusive sind:
  * Das PCB
  * Die Schraubklemmenblöcke
@@ -119,7 +121,7 @@ Beim Löten des Elkos auf die Polarität achten!
 
 [Bitte direkt über unseren Chat anfragen!](https://discord.com/invite/Kq5RFznuU4) **Bitte direkt per PN an @loque wenden**
 
-![PCB Lieferumfang](../img/PCB_Lieferumfang.jpeg)
+![PCB ESP8266 Lieferumfang](../img/pcb/esp8266/pcb_esp8266_rev1_1_set_content.jpeg)
 
 Inklusive sind:
  * Das PCB
