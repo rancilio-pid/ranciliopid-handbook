@@ -22,7 +22,7 @@ Du den einzelnen Revisionen findet ihr hier Informationen zu Bugs, Pinbelegungen
 
 ## Revision 1.5
 
-![PCB](../../../img/pcb/esp32/pcb_esp32_rev1_5.png)
+![PCB](../../img/pcb/esp32/pcb_esp32_rev1_5.png)
 
 In unserem Hardware Repository findet ihr das dazu passenden KiCAD Projekt und Gerber Files:
 [Minimal Rev 1.5](https://github.com/rancilio-pid/clevercoffee-hardware/releases/tag/Minimal_1.5)
@@ -84,7 +84,7 @@ JP3 | Lötjumper | Pull down oder Pull up für Bezugsschalter oder Optokopler
 
 ## Revision 1.3
 
-![PCB](../../../img/pcb/esp32/pcb_esp32_rev1_3.png)
+![PCB](../../img/pcb/esp32/pcb_esp32_rev1_3.png)
 
 In unserem Hardware Repository findet ihr das dazu passenden KiCAD Projekt und Gerber Files:
 [Minimal Rev 1.3](https://github.com/rancilio-pid/clevercoffee-hardware/releases/tag/Minimal_1.3)
@@ -146,7 +146,7 @@ JP1 | Lötjumper | Widerstand LED überbrücken für WS1812 LED
 
 ## Revision 1.2
 
-![PCB](../../../img/pcb/esp32/pcb_esp32_rev1_2.png)
+![PCB](../../img/pcb/esp32/pcb_esp32_rev1_2.png)
 
 In unsere Hardwarem Repository findet ihr das dazu passenden KiCAD Projekt und Gerber Files:
 [Minimal Rev 1.2](https://github.com/rancilio-pid/clevercoffee-hardware/releases/tag/Minimal_1.2)
