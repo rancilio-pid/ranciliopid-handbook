@@ -16,9 +16,9 @@ Inhaltsverzeichnis
 
 # ESP32 Platine 
 
-Von unsere Platine für den ESP32 gibt es inzwischen mehrere Revisionen.
+Von unserer Platine für den ESP32 gibt es inzwischen mehrere Revisionen.
 Ihr findet hier Informationen zu folgenden Revisionen: 1.2, 1.3 und 1.5  
-Du den einzelnen Revisionen findet ihr hier Informationen zu Bugs, Pinbelegungen, Funktionen und mehr.
+Zu den einzelnen Revisionen findet in diesem Abschnitt Informationen zu Bugs, Pinbelegungen, Funktionen und mehr.
 
 ## Revision 1.5
 
@@ -37,8 +37,8 @@ Header | PIN Software | Beschriftung PCB | Belegung
 -|-|-|-
 HT_RL | PIN 2 | IO02 | SSR Heizung     
 T_SENS | PIN 16 | IO16 | Temperatursensor
-I2C | PIN 21 | SDA | Display-PIN SDA
-I2C | PIN 22 | SDL | Display-PIN SCL
+I2C | PIN 21 | SDA | Display und Drucksensor - PIN SDA
+I2C | PIN 22 | SDL | Display und Drucksensor - PIN SCL
 V_IN | - | V_IN | Netzteil (5 Volt)
 PV_RL | PIN 17 | Valve | Relais Ansteuerung Magnetventil
 PV_RL | PIN 27 | Pump | Relais Ansteuerung Pumpe
@@ -55,8 +55,8 @@ GPIO | PIN 1 | IO01 | Für spätere Funktionen vorgesehen zb Bezugschalter LED
 GPIO | PIN 3 | IO03 | Für spätere Funktionen vorgesehen zb Drehencoder CLK
 GPIO | PIN 4 | IO04 | Für spätere Funktionen vorgesehen zb Drehencoder DT
 GPIO | PIN 5 | IO05 | Für spätere Funktionen vorgesehen zb Drehencoder SW
-GPIO | PIN 21 | SDA | Für spätere Funktionen vorgesehen zB Drucksensor
-GPIO | PIN 22 | SCL | Für spätere Funktionen vorgesehen zB Drucksensor
+GPIO | PIN 21 | SDA | Für spätere Funktionen vorgesehen zB IO Expander
+GPIO | PIN 22 | SCL | Für spätere Funktionen vorgesehen zB IO Expander
 GPIO | PIN 12 | IO12 | JTAG Debugger TDI
 GPIO | PIN 13 | IO13 | JTAG Debugger TCK
 GPIO | PIN 14 | IO14 | JTAG Debugger TMS
@@ -79,8 +79,8 @@ R4 | Widerstand 4,7 kΩ | Pull up i2C
 R5 | Widerstand 4,7 kΩ | Pull up i2C
 R6 | Widerstand 47 kΩ | Pull down/up Bezugschalter
 R7 | Widerstand 47 kΩ | Pull down Heisswasserschalter
-JP1 | Lötjumper | Widerstand LED überbrücken für WS1812 LED
-JP3 | Lötjumper | Pull down oder Pull up für Bezugsschalter oder Optokopler 
+JP1 | Lötjumper | Widerstand für LED überbrücken bei Verwendung von WS1812 LED
+JP2 | Lötjumper | Pull down oder Pull up für Bezugsschalter oder Optokopler 
 
 ## Revision 1.3
 
@@ -106,8 +106,8 @@ Header | PIN Software | PIN PCB | Belegung
 -|-|-|-
 HT_RL | PIN 2 | IO02 | SSR Heizung     
 T_SENS | PIN 16 | IO16 | Temperatursensor
-I2C | PIN 21 | SDA | Display-PIN SDA
-I2C | PIN 22 | SDL | Display-PIN SCL
+I2C | PIN 21 | SDA | Display und Drucksensor - PIN SDA
+I2C | PIN 22 | SDL | Display und Drucksensor - PIN SCL
 V_IN | - | V_IN | Netzteil (5 Volt)
 PV_RL | PIN 17 | Valve | Relais Ansteuerung Magnetventil
 PV_RL | PIN 27 | Pump | Relais Ansteuerung Pumpe
@@ -142,7 +142,7 @@ R3 | Widerstand 47 kΩ | Pull down Bezugschalter
 R4 | Widerstand 47 kΩ | Pull down Powerschalter
 R5 | Widerstand 47 kΩ | Pull down Dampfschalter
 R6 | Widerstand 220 Ω | Widerstand TEMP_LED 
-JP1 | Lötjumper | Widerstand LED überbrücken für WS1812 LED
+JP1 | Lötjumper | Widerstand für LED überbrücken bei Verwendung von WS1812 LED
 
 ## Revision 1.2
 
@@ -176,8 +176,8 @@ Header | PIN Software | PIN PCB | Belegung
 -|-|-|-
 HT_RL | PIN 2 | IO02 | SSR Heizung     
 T_SENS | PIN 16 | IO16 | Temperatursensor
-I2C | PIN 21 | SDA | Display-PIN SDA
-I2C | PIN 22 | SDL | Display-PIN SCL
+I2C | PIN 21 | SDA | Display und Drucksensor - PIN SDA
+I2C | PIN 22 | SDL | Display und Drucksensor - PIN SCL
 V_IN | - | V_IN | Netzteil (5 Volt)
 PV_RL | PIN 17 | Valve | Relais Ansteuerung Magnetventil
 PV_RL | PIN 27 | Pump | Relais Ansteuerung Pumpe
@@ -212,5 +212,5 @@ R3 | Widerstand 47 kΩ | Pull down Bezugschalter
 R4 | Widerstand 47 kΩ | Pull down Powerschalter
 R5 | Widerstand 47 kΩ | Pull down Dampfschalter
 R6 | Widerstand 220 Ω | Widerstand TEMP_LED 
-JP1 | Lötjumper | Widerstand für LED überbrücken für WS1812 LED
+JP1 | Lötjumper | Widerstand für LED überbrücken bei Verwendung von WS1812 LED
 
