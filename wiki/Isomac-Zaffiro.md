@@ -1,5 +1,5 @@
 # PID Umbau Isomac Zaffiro von Frank
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image1.png" alt="Isomac Zaffiro Front" width="400"/>
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image1.png" alt="Isomac Zaffiro Front" width="400"/>
 
 ## Author
 
@@ -37,13 +37,13 @@ Was man sonst noch braucht:\
 • Spiegelklebeband\
 • Schaltplan der Maschine
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image3.png" alt="Isomac Zaffiro Schaltplan ohne PID" width="800"/>
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image3.png" alt="Isomac Zaffiro Schaltplan ohne PID" width="800"/>
 
 **Schaltplan ohne PID**
 
 ## Umsetzung
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image2.png" alt="CleverCoffee Trockenaufbau" width="400"/>
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image2.png" alt="CleverCoffee Trockenaufbau" width="400"/>
 
 **Erster Trockenaufbau**
 
@@ -77,12 +77,12 @@ Alle anderen Werte habe ich gelassen wie sie waren. Da aber immer mal wieder Upd
 
 Nach erfolgreichem flashen des ESP kann man den Trockenaufbau nochmals testen bevor es an den Einbau geht. Das Webinterface des ESP erreicht man über die IP-Adresse oder durch Eingabe von silvia.local im Browser.
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image4.png" alt="Isomac Zaffiro Schaltplan mit PID" width="800"/>  
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image4.png" alt="Isomac Zaffiro Schaltplan mit PID" width="800"/>  
 
 **Schaltplan mit PID**
 
 ## Einbau
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image5.png" alt="Isomac Zaffiro Front" width="400"/>  
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image5.png" alt="Isomac Zaffiro Front" width="400"/>  
 
 **Einbau (noch ohne Steam-Switch)** 
 
@@ -90,36 +90,36 @@ Die Isomac Zaffiro bietet eigentlich genügend Platz, um alle Komponenten im inn
 Da ich aus einem vorherigen Umbau bereits drei Löcher in der Frontplatte hatte, um den Thermostatregler von außen zugänglich zu haben, habe ich diese kurzerhand für das Display genutzt, und dieses in einem selbstgedruckten Gehäuse aus ABS untergebracht . 
 Im Schaltplan oben sieht man die Anschlüsse. Strom fürs Netzteil habe ich mir an der Ein-/Aus-Leuchte geholt, weil man dort am besten dran kommt. 
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image8.png" alt="Anschluss 230V" width="400"/>  
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image8.png" alt="Anschluss 230V" width="400"/>  
 
 **Hier gibt es 230V fürs Netzteil**
 
 Die beiden Kabel vom nun nicht mehr benötigten Thermostat Regler habe ich am SSR angeschlossen, und von den beiden Pumpenanschlüssen habe ich mir zwei Kabel zum Optokoppler für die Brüherkennung gezogen.
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image6.png" alt="SSR Abgriff" width="400"/>  
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image6.png" alt="SSR Abgriff" width="400"/>  
 
 **Die beiden Kabel (orange & schwarz) werden nun vom SSR geschaltet**
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image9.png" alt="Anschluss Optokoppler" width="400"/>  
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image9.png" alt="Anschluss Optokoppler" width="400"/>  
 
 **Hier kommt der Optokoppler mit dran**
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image11.png" alt="Platz Optokoppler" width="400"/>  
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image11.png" alt="Platz Optokoppler" width="400"/>  
 
 **Der Optokoppler versteckt sich in der PVC Röhre, 
 der Dampfschalter ist noch nicht angeschlossen**
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image10.png" alt="Belegung Optokoppler" width="400"/>  
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image10.png" alt="Belegung Optokoppler" width="400"/>  
 
 **So wird der Optokoppler richtig verkabelt**
 
 Der Dampfschalter hat zwei Schaltebenen. Eine schaltet die Leuchte, die bleibt unberührt, die andere Seite Schaltet den Dampfthermoatat, diese wird abgezogen und nicht mehr benötigt (Steckerenden isolieren!) Nun können die frei gewordenen Anschlüsse des Schalter direkt mit dem PCB Verbunden werden (S_SW).
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image7.png" alt="Anschluss Dampfschalter" width="400"/>  
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image7.png" alt="Anschluss Dampfschalter" width="400"/>  
 
 **Eine Seite des Dampfschalters wird mit dem PCB verbunden ( grün & gelb)**
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image12.png" alt="WLAN Antenne" width="400"/>  
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image12.png" alt="WLAN Antenne" width="400"/>  
 
 **Die WLAN Antenne sitzt in einer kleinen Aussparung am Gehäuse, 
 sodass es problemlos nach oben abgenommen werden kann.**
@@ -130,5 +130,5 @@ Die von Clevercoffee voreingestellten Parameter im Webinterface, sind für die Z
 
 Verschiedene Kontrollmessungen mit einem Geisinger Brühgruppenthermometer sowie zur Verifikation einem externen Digitalthermometer, haben mir dennoch gezeigt, dass selbst 30 min Vorheizen bei einer E61 Maschine nicht ausreichend sind. Erst nach 45 min ist die Maschine soweit vorgewärmt, dass beim ersten Bezug die gewünschte Brühtemperatur erreicht wird. Und das trotz vorherigem Leerbezug.
 
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image13.png" alt="PID Parameter" width="400"/>  
-<img src="https://github.com/rancilio-pid/clevercoffee/blob/master/wiki/media/build_reports/Isomac_Zaffiro_frank/image14.png" alt="Brew PID Parameter" width="400"/>
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image13.png" alt="PID Parameter" width="400"/>  
+<img src="https://github.com/rancilio-pid/ranciliopid-handbook/blob/main/wiki/images/build_reports/isomac_zaffiro_frank/image14.png" alt="Brew PID Parameter" width="400"/>
