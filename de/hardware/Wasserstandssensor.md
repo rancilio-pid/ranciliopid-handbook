@@ -23,10 +23,9 @@ Es werden aktuell zwei Sensortypen standardmäßig von der Software unterstützt
 * [Xkx-Y25-Npn](https://www.amazon.de/Xkc-Y25-Npn-Fl%C3%BCssigkeitsstandsensor-Ber%C3%BChrungsloser-Wasserstandsmelder-Ausgangsschnittstelle/dp/B088PGKPJ4)
 * [Xkx-Y25-Pnp](https://www.amazon.de/Wasserdichter-ber%C3%BChrungsloser-Fl%C3%BCssigkeitsstandssensor-Schalter-Signalausgang/dp/B074NVLTW6)
 
-Detektiert der Sensor im Betrieb der Maschine kein Wasser mehr, erscheint ein Symbol auf dem Display und der PID wird deaktiviert
-(== es erfolgt kein Heizvorgang mehr). Ein laufender Espresso-Bezug wird nicht unterbrochen.
+Wenn der Wasserstand im Tank zu niedrig ist (==unterhalb der Einbauhöhe des Sensors), kann kein Espressobezug oder eine andere Aktion (z.B. Dampf) gestartet werden. Eine laufende Aktion wird dagegen nicht abgebrochen. 
 
-![Symbol](../../img/watersensor_0.png)
+![Symbol](../../img/hardware/watersensor/watersensor_0.png)
 
 
 ## Einbau
@@ -39,23 +38,23 @@ Den Anschlussstecker am Sensor entfernen und das gelbe, braune und blaue Kabel a
 
 ### Anschluss
 Die Kabel haben folgende Funktion:
-* Gelb: Signal (je nach PCB-Revision, z.B. V1.3 Pin 1023)
+* Gelb: Signal (je nach PCB-Revision, z.B. V1.5 Pin 1023)
 * Blau: Ground (GND)
 * Braun: Stromversorgung (3.3V)
 
-![Kabelfunktion](../../img/watersensor_1.png)
+![Kabelfunktion](../../img/hardware/watersensor/watersensor_1.png)
 
-Am PCB wird der Wasserstandssensor entsprechend der Beschreibung bei W_SENS angeschlossen.
+Am PCB wird der Wasserstandssensor entsprechend der Beschreibung bei **W_SENS** angeschlossen.
 
-![Anschluss PCB](../../img/watersensor_2.png)
+![Anschluss PCB](../../img/hardware/watersensor/watersensor_2.png)
 
 ### Platzierung des Sensors
 Der Sensor hat eine Reichweite von etwa 20mm (Herstellerangabe), d.h. er sollte möglichst nah am Wassertank angebracht werden. Bei der Rancilio Silvia funktioniert der Sensor, wenn er einfach an die Seitenwand geklebt wird. 
 
 Die **Einbauhöhe** des Sensors sollte so gewählt werden, dass zum Zeitpunkt der Wasserstandswarnung noch genügung Wasser im Tank ist, um einen eventuell laufenden Espressobezug zu beenden. 
 
-![Einbau ohne Halterung](../../img/watersensor_3.png)
-![Einbau mit 3D-gedruckter Halterung](../../img/watersensor_4.png)
+![Einbau ohne Halterung](../../img/hardware/watersensor/watersensor_3.png)
+![Einbau mit 3D-gedruckter Halterung](../../img/hardware/watersensor/watersensor_4.png)
 
 ### Konfiguration in der Firmware
 Der Sensor muss in der Firmware noch aktiviert werden. Hierfür in der Datei `userConfig.h` die folgende Einträge suchen und anpassen:
