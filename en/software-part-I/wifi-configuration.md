@@ -86,3 +86,11 @@ Instead, in PlatformIO open `esp32_ota` -> `Monitor`.
 In case you changed the hostname and the OTA password in your `userConfig.h`, you also have to change the connection details in `platformio.ini` (section `env:esp32_ota`).
 
 Important: If you want to use remote monitoring during the initial setup: You cannot use monitoring via USB cable and remotely via OTA at the same time.
+
+
+## Via CLI
+
+If you configured your ESP [via CLI](./install-software-cli.md) before, you can also use the `pio` command again to start the remote monitoring:
+```
+pio run -e esp32_ota -t monitor
+```
