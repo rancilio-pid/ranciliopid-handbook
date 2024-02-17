@@ -85,3 +85,11 @@ Wählt stattdessen in PlatformIO `esp32_ota` -> `Monitor` aus.
 Solltet ihr den Hostname oder das OTA-Passwort in der `userConfig.h` angepasst haben, müsst ihr für eine erfolgreiche Verbindung auch die `platformio.ini` in der Section `env:esp32_ota` anpassen.
 
 Wichtig, falls ihr Remote Monitoring schon während der Ersteinrichtung testen wollt: Ihr könnt das Monitoring nicht gleichzeitig via Kabel und OTA starten.
+
+
+## Per CLI
+
+Habt ihr das ESP [per CLI](./programmcode-cli.md) bespielt, könnt ihr den `pio`-Befehl auch verwenden, um das Remote Monitoring zu starten:
+```
+pio run -e esp32_ota -t monitor
+```
