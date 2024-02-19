@@ -64,7 +64,7 @@ GPIO | PIN 15 | IO15 | JTAG Debugger TDO
 GPIO | PIN 18 | IO18 | Für spätere Funktionen vorgesehen zb Dimmer ZC
 GPIO | PIN 19 | IO19 | Für spätere Funktionen vorgesehen zb Dampfschalter LED 
 
-## Bestückung und Funktion
+### Bestückung und Funktion
 
 In der folgenden Liste stehen alle benötigten Bauteile und ihre Funktion:
 
@@ -80,7 +80,7 @@ R5 | Widerstand 4,7 kΩ | Pull up i2C
 R6 | Widerstand 47 kΩ | Pull down/up Bezugschalter
 R7 | Widerstand 47 kΩ | Pull down Heisswasserschalter
 JP1 | Lötjumper | Widerstand für LED überbrücken bei Verwendung von WS1812 LED
-JP2 | Lötjumper | Pull down oder Pull up für Bezugsschalter oder Optokopler 
+JP2 | Lötjumper | Pull down oder Pull up für Bezugsschalter oder Optokoppler 
 
 ## Revision 1.3
 
@@ -128,7 +128,7 @@ GPIO | PIN 18 | IO18 | Für spätere Funktionen vorgesehen zb Dimmer ZC
 GPIO | PIN 19 | IO19 | Für spätere Funktionen vorgesehen zb Dampfschalter LED
 GPIO | PIN 36 | IO36 | Heisswasserschalter (noch nicht implementiert)
 
-## Bestückung und Funktion
+### Bestückung und Funktion
 
 In der folgenden Liste stehen alle benötigten Bauteile und ihre Funktion:
 
@@ -198,7 +198,7 @@ GPIO | PIN 18 | IO18 | Für spätere Funktionen vorgesehen zb Dimmer ZC
 GPIO | PIN 19 | IO19 | Für spätere Funktionen vorgesehen zb Dampfschalter LED
 GPIO | PIN 36 | IO36 | Heisswasserschalter (noch nicht implementiert)
 
-## Bestückung und Funktion
+### Bestückung und Funktion
 
 In der folgenden Liste stehen alle benötigten Bauteile und ihre Funktion:
 

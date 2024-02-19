@@ -176,13 +176,6 @@ WIFICINNECTIONDELAY ist die Zeitspanne bis der nächste Reconnect probiert wird.
 #define MQTT_SERVER_PORT 1883    
 ```
 
-## Grafana
-```
-#define GRAFANA 0                  // 2 = custom Grafana 1 = Grafana visualisation (access required), 0 = off (default)
-```
-
-GRAFANA aktiviert die Visualisierung mittels Grafana, diese muss in Blynk noch weiter definiert werden.
-
 ## Backflush values
 
 ```
