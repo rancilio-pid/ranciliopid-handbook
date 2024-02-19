@@ -17,33 +17,78 @@ Inhaltsverzeichnis
 
 ## Einleitung
 
-Wie in dem vorherigen Kapitel erwähnt, soll der **brew heater detection limit** Wert auf „0“ gestellt werden, um diesen bei dem ersten Test zu deaktivieren. Wenn der normale PID gut läuft,es sich ein für dich angenehmes Heizverhalten beim Starten zeigt und die Regelung stabil am Soll-Wert läuft, dann kannst du die Brüherkennung dir genauer anschauen.
+Es wird empfohlen, das **brew detection** Feature beim ersten Test zu deaktivieren. Wenn der normale PID gut läuft, es sich ein für dich angenehmes Heizverhalten beim Starten zeigt und die Regelung stabil am Soll-Wert läuft, dann kannst du dir die Brüherkennung genauer anschauen.
 
 ## Konfiguration der Erkennung
 
-Die Bezugserkennung wird beim Only PID oder Vollausbau unterschiedlich realisiert. In folgender Zeile in der User Config kann diese konfiguriert werden: 
+Die Bezugserkennung wird bei PID Only, PID Only+ und Vollausbau unterschiedlich realisiert.
+Mit den folgenden Parametern der User Config, kann die Bezugserkennung aktiviert und die Methode der Erkennung konfiguriert werden.
+
+_User Config Parameter für Version < 4.x:_
 ```
 #define BREWDETECTION 1            
 // 0 = off, 1 = Software, 2 = Hardware, 3 = Sensor/Hardware for Only PID 
 ```
-Bei Only PID kann Auswahl 1 oder 3 (nur mit zusätzlichen Equipment, dazu später mehr) und bei der Hardwarelösung (Vollausbau) Auswahl 2 genommen werden. Beim Vollausbau wird der Brühschalter direkt an den Controller angeschlossen, daher kann der Zustand des Schalters direkt abgefragt werden.
-Bei PID Only ist dem Controller dagegen nicht bekannt ob der Schalter gedrückt ist oder nicht, daher wird der Brühvorgang per Software ermittelt. Diese ist im nachfolgenden Kapitel erläutert.
-### Sensor zur Brüherkennung bei Only PID
-Als Ergänzung wurde eine Lösung zwischen Only PID und Vollausbau entwickelt (Only PID Plus, Auswahl 3). Hierbei wird der Brühschalter mit seiner regulären 230 Volt Verschaltung mit einem zusätzlichen Sensor überwacht, welcher dem Controller mitteilt, ob dieser betätigt wurde oder nicht. Da es unterschiedliche Sensoren gibt muss konfiguriert werden wie das Signal dem Controller übermittelt wird:
+
+_User Config Parameter für Version ab v4.x:_
+```
+#define FEATURE_BREWDETECTION 1    // 0 = deactivated, 1 = activated
+#define BREWDETECTION_TYPE 3       // 1 = Software (Onlypid 1), 2 = Hardware (Onlypid 0), 3 = optocoupler for Only PID
+```
+
+Die folgende Tabelle gibt einen Überblick über die drei möglichen Methoden der Bezugserkennung, welche in den folgenden Kapiteln detailliert beschrieben werden.
+
+|Auswahl|Methode|Beschreibung|
+|-------|-------|------------|
+|1|Erkennung mittels Software (PID Only)|Bei PID Only ist dem Controller nicht bekannt, ob der Bezugsschalter gedrückt ist oder nicht. Daher wird der Brühvorgang per Software anhand des Temperatur-/Heizverlaufs ermittelt.|
+|2|Erkennung mittels Hardware (Vollausbau)|Beim Vollausbau wird der Brühschalter direkt an den Controller angeschlossen, daher kann der Zustand des Schalters direkt abgefragt werden.|
+|3|Erkennung mittels Sensor (PID Only+)|Der Brühschalter wird (mit seiner regulären 230 Volt Verschaltung) mit einem zusätzlichen Sensor überwacht, welcher dem Controller mitteilt, ob dieser betätigt wurde oder nicht.|
+
+
+
+### Brüherkennung mittels Sensor (PID Only+)
+Als Ergänzung wurde eine Lösung zwischen PID Only und Vollausbau entwickelt: PID Only+. Hierbei wird der Brühschalter mit seiner regulären 230 Volt Verschaltung mit einem zusätzlichen Sensor überwacht, welcher dem Controller mitteilt, ob dieser betätigt wurde oder nicht.
+Da es unterschiedliche Sensoren gibt, muss konfiguriert werden wie das Signal dem Controller übermittelt wird.
+
+_User Config Parameter für Version < 4.x:_
+
 ```
 #define VOLTAGESENSORTYPE HIGH 
 #define PINMODEVOLTAGESENSOR INPUT // Mode INPUT_PULLUP, INPUT or INPUT_PULLDOWN_16 (Only Pin 16)
-#define PINVOLTAGESENSOR  15    //Input pin for voltage sensor
+#define PINVOLTAGESENSOR  15       //Input pin for voltage sensor
 ```
-PINVOLTAGESENSOR gibt den gewählten PIN am ESP an. "VOLTAGESENSORTYPE HIGH" bedeutet, dass der Sensor ein HIGH Signal (3,3 Volt) ausgibt, wenn der Schalter gedrückt ist. "VOLTAGESENSORTYPE LOW" muss gewählt werden, wenn bei gedrücktem Schalter am Sensor ein LOW Signal (GND) ausgegeben wird. Je nach gewählten PIN und Aufbau muss ggf. ein INPUT Pullup oder Pulldown (nur Pin 16) erfolgen (PINMODEVOLTAGESENSOR INPUT oder INPUT_PULLUP oder INPUT_PULLDOWN_16). Hintergrund ist, dass durch ein Pullup oder Pulldown der PIN am ESP definiert in LOW oder HIGH gehalten wird, um dann genau das gegensätzliche Signal vom Sensor zu messen. 
 
-Folgende Beispielkonfiguration gelten für folgende Sensoren:
+* `PINVOLTAGESENSOR` gibt den gewählten PIN am ESP an.
+* `VOLTAGESENSORTYPE`
+  * `HIGH` bedeutet, dass der Sensor ein HIGH Signal (3,3 Volt) ausgibt, wenn der Schalter gedrückt ist.
+  * `LOW` muss gewählt werden, wenn bei gedrücktem Schalter am Sensor ein LOW Signal (GND) ausgegeben wird.
+* Je nach gewählten PIN und Aufbau muss ggf. ein INPUT Pullup oder Pulldown (nur Pin 16) erfolgen (`PINMODEVOLTAGESENSOR INPUT` oder `INPUT_PULLUP` oder `INPUT_PULLDOWN_16`). Hintergrund ist, dass durch ein Pullup oder Pulldown der PIN am ESP definiert in LOW oder HIGH gehalten wird, um dann genau das gegensätzliche Signal vom Sensor zu messen.
+
+<br/>
+
+_User Config Parameter für Version ab v4.x:_
+````
+#define OPTOCOUPLER_TYPE HIGH      // BREWDETECTION 3 configuration; HIGH or LOW trigger optocoupler
+````
+
+Ab Version 4.x und dem PCB v1.5 vereinfacht sich die Konfiguration.
+Es muss lediglich der User Config Parameter `OPTOCOUPLER_TYPE` gesetzt und die dazu passende Verbindung am Lötjumper `JP2` auf dem PCB (per Lötverbindung) gesetzt werden.
+Der Lötjumper bestimmt, ob ein Pullup- oder Pulldown-Widerstand aktiviert wird und der PIN am ESP definiert in LOW oder HIGH gehalten wird, um dann genau das gegensätzliche Signal vom Sensor zu messen.
+
+* `OPTOCOUPLER_TYPE HIGH` bedeutet, dass der Sensor ein HIGH Signal (3,3 Volt) ausgibt, wenn der Schalter gedrückt ist. `JP2` muss in diesem Fall auf `pull down` gesetzt werden.
+* `OPTOCOUPLER_TYPE LOW` muss gewählt werden, wenn bei gedrücktem Schalter am Sensor ein LOW Signal (GND) ausgegeben wird. `JP2` muss in diesem Fall auf `pull up` gesetzt werden.
+
+
+<br/><br/>
+
+Folgende Beispielkonfigurationen gelten für folgende Sensoren:
+
 1. [Wago 859-358](https://www.elektro4000.de/Steuerungen-Schaltgeraete/Relais/Schaltrelais/Schaltrelais/WAGO-GmbH-Co-KG-Relaisklemme-859-358::185163.html)
 
-Der Sensor erhält 3,3 Volt und die andere Seite wird mit PIN 15 verbunden
+Der Sensor erhält 3,3 Volt und die andere Seite wird mit PIN 15 verbunden.
 
+_User Config Parameter für Version < 4.x:_
 ```
-
 // PID & Hardware 
 [...]
 #define VOLTAGESENSORTYPE HIGH 
@@ -52,16 +97,22 @@ Der Sensor erhält 3,3 Volt und die andere Seite wird mit PIN 15 verbunden
 // Pin Layout
 [...]
 #define PINVOLTAGESENSOR  15    //Input pin for voltage sensor
-
 ```
 
-2. [220V Sensor (Optokoppler - TTL AC 220V Isolation Modul SCM Test Board)](https://www.funduinoshop.com/epages/78096195.mobile/de_DE/?ObjectPath=/Shops/78096195/Products/B-7-2&Locale=de_DE) oder [Amazon-Link](https://www.amazon.de/DollaTek-Mikrocontroller-Optokoppler-Isolationsmodul-Testkarte/dp/B08HQ7K14H/ref=sr_1_19?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1GLK3KV3YG923&keywords=optokoppler&qid=1644770841&sprefix=optokoppler%2Caps%2C106&sr=8-19)
+_User Config Parameter für Version ab v4.x:_
+````
+#define OPTOCOUPLER_TYPE HIGH      // BREWDETECTION 3 configuration; HIGH or LOW trigger optocoupler
+````
+`JP2` wird auf `pull down` gesetzt.
 
-Der Sensor erhält 3,3 Volt und die andere Seite wird mit PIN 16 verbunden
+<br/>
 
+2. [220V Sensor (Optokoppler - TTL AC 220V Isolation Modul SCM Test Board)](https://www.amazon.de/DollaTek-Mikrocontroller-Optokoppler-Isolationsmodul-Testkarte/dp/B08HQ7K14H/ref=sr_1_19?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1GLK3KV3YG923&keywords=optokoppler&qid=1644770841&sprefix=optokoppler%2Caps%2C106&sr=8-19)
 
+Der Sensor erhält 3,3 Volt und die Signalleitung wird mit PIN 16 bzw. `BREW` (ab PCB v1.5) verbunden.
+
+_User Config Parameter für Version < 4.x:_
 ```
-
 // PID & Hardware 
 [...]
 #define VOLTAGESENSORTYPE LOW 
@@ -70,27 +121,32 @@ Der Sensor erhält 3,3 Volt und die andere Seite wird mit PIN 16 verbunden
 // Pin Layout
 [...]
 #define PINVOLTAGESENSOR  16    //Input pin for voltage sensor
-
 ```
 
+_User Config Parameter für Version ab v4.x:_
+````
+#define OPTOCOUPLER_TYPE LOW      // BREWDETECTION 3 configuration; HIGH or LOW trigger optocoupler
+````
+`JP2` wird auf `pull up` gesetzt.
+
 <details markdown="block">
-    <summary> Details zum Einbau </summary>
+    <summary>Details zum Einbau Optokoppler</summary>
 
-    Im Fall zwei (220V Sensor) sollte es dann wie folgt verbunden sein:
+Im Fall zwei (220V Sensor / Optokoppler) sollte es dann wie folgt verbunden sein:
 
-    |Board|Opto|
-    |-|-|
-    |GND|GND|
-    |3,3V|VCC|
-    |PIN 16|OUT|
+|Board        |Opto|
+|-------------|----|
+|GND          |GND |
+|3,3V         |VCC |
+|PIN 16 / BREW|OUT |
 
 ![QM Opto](../../img/qm-opto.png)
 </details>
 
 
-## Funktionsweise
+### Brüherkennung mittels Software (PID Only)
 
-Ohne zu tief in die technischen Details der Erkennung einzusteigen soll dir dennoch kurz die grundlegende Funktionsweise erläutert werden. Der Mikrocontroller überwacht bei aktivierter Brüherkennung (BREWDETECTION 1 ) kontinuierlich die Temperatur. Dabei wird die zeitliche Veränderung der Heizrate/Kühlrate für ein fortlaufendes Zeitfenster analysiert. Das Ergebnis ist dann die „heat average“. Kühlt die Maschine ab wird dieser Wert negativ, bei einem Hochheizen entsprechend positiv.
+Ohne zu tief in die technischen Details der Erkennung einzusteigen soll dir dennoch kurz die grundlegende Funktionsweise erläutert werden. Der Mikrocontroller überwacht bei aktivierter 'Brüherkennung mittels Software' (`BREWDETECTION 1` bzw. `FEATURE_BREWDETECTION 1`+`BREWDETECTION_TYPE 1`) kontinuierlich die Temperatur. Dabei wird die zeitliche Veränderung der Heizrate/Kühlrate für ein fortlaufendes Zeitfenster analysiert. Das Ergebnis ist dann die „heat average“. Kühlt die Maschine ab wird dieser Wert negativ, bei einem Hochheizen entsprechend positiv.
 
 ![Brüherkennung](../../img/fullsizeoutput_1c57.jpeg)
 

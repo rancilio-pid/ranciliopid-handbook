@@ -93,7 +93,7 @@ Lötkolben/Lötstation ZD-931|L|||[Reichelt-Link](https://www.reichelt.de/loetst
 ## Anmerkungen zur Bestelliste
 
 ### ESP32 Platine
-Es steht ab sofort die neue ESP32 Platine zur Verfügung. Weitere Infos zu den Platinen findet ihr hier: [ESP32 Platinen](./hardware/platinen/ESP32.md)  
+Es steht ab sofort die neue ESP32 Platine zur Verfügung. Weitere Infos zu den Platinen findet ihr hier: [ESP32 Platinen](./platinen/ESP32.md)  
 [Bitte direkt über unseren Chat anfragen!](https://discord.com/invite/Kq5RFznuU4) **direkt per PN an @loque wenden**  
 **Stand 8.2.24: PCB Rev 1.5 verfügbar**
 

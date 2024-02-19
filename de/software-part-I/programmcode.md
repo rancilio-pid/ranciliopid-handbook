@@ -16,7 +16,7 @@ Ab der Version 4 für den ESP32 bzw. für den ESP8266 (bis Version 3.1.3)  werde
 * Treiber für den ESP32 / ESP8266
 
 
-## Installtion Visual Studio Code & PlatformIO
+## Installation Visual Studio Code & PlatformIO
 
 Geh auf die Webseite von [VS Code](https://code.visualstudio.com/download) und lade deine entsprechende Version herunter.
 Öffne VS Code.

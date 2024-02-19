@@ -27,7 +27,7 @@ Beim ESP32 tritt dieses Problem nicht auf, benutzt vorerst das Release 3.2.0 ink
 
 ## Kurzfassung
 
-Für die Ersteinrichtung b wird der Wifi-Manager benutzt. Beim ersten Start vom Mikrocontroller wird ein Access Point von diesem geöffnet mit dem in der userConfig.h eingestellten ```HOSTNAME``` (default: "silvia") und Passwort ```PASS``` (default: "CleverCoffee"). Verbindet euch mit dem Access Point, wählt euer WLAN aus und gebt das Passwort des Netzwerks ein, dann wird dieses gespeichert und beim nächsten Start automatisch verwendet.
+Für die Ersteinrichtung wird der Wifi-Manager benutzt. Beim ersten Start vom Mikrocontroller wird ein Access Point von diesem geöffnet mit dem in der userConfig.h eingestellten ```HOSTNAME``` (default: "silvia") und Passwort ```PASS``` (default: "CleverCoffee"). Verbindet euch mit dem Access Point, wählt euer WLAN aus und gebt das Passwort des Netzwerks ein, dann wird dieses gespeichert und beim nächsten Start automatisch verwendet.
 Der ESP wird immer für 10 Sekunden versuchen, dass eingerichtete WLAN zu erreichen, falls dies nicht möglich ist, wird für 60 Sekunden das Konfigurationsportal wieder gestartet. Falls kein Zugriff auf das Portal passiert, startet die Maschine im Offline-Modus.
 ## Schritt für Schritt
 Wenn ihr den Code hochladet, ist im Log (Monitor-Befehl) etwa folgendes zu sehen:
