@@ -12,7 +12,7 @@ nav_order: 1
 
 
 ## Übersicht
-Ab der Version 4 für den ESP32 beziehungsweise für den ESP8266 (bis Version 3.1.3)  werden folgende Softwaretools benötigt:
+Ab der Version 4 für den ESP32 beziehungsweise für den ESP8266 (ab Version 3.1.3) werden folgende Softwaretools benötigt:
 * Visual Studio Code
 * PlatformIO (eine Extension in VS Code)
 * Git
