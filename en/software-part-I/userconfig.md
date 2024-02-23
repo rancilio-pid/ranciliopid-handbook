@@ -203,16 +203,6 @@ The corresponding Pins will be defined in [Pin Layout](#pin-layout) further belo
 ```
 
 
-## Grafana
-
-```
-#define GRAFANA 0                  // 0 = off (default), 1 = Grafana visualisation (access required), 2 = custom Grafana
-```
-
-`GRAFANA` aktiviert die Visualisierung mittels Grafana, diese muss in Blynk noch weiter definiert werden.
-`GRAFANA` activates the visualization via Grafana. More configuration must be done in Blynk.
-
-
 ## Backflush values
 
 ```
