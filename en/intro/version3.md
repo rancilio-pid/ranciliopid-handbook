@@ -33,9 +33,10 @@ Arduino IDE is not supported anymore. With version 3.0.0 we fully rely on Platfo
 For the initial configuration of the PID a WiFi manager is used. During the first boot of the ESP a temporary WiFi access point is created: name "silvia", password "CleverCoffee". This can also be configured in the `userConfig.h` file. After connecting with the access point, a page should open automatically where you can see a list of all local WiFi networks. Pick your local WiFi and enter your password. The ESP will remember this connection and connect to it automatically at start.
 
 
-### Website & Blynk
-Blync is still supported, but it is not the central control element of the PID anymore. Instead, we run a web interface on the ESP directly.
-You can find out the IP address of your ESP by checking the list of connected WiFi devices in your home router, or with the monitor command in PlatformIO, while the ESP is still connected via USB. We recommend to configure a static IP address and hostname for the ESP in your router, so that you can always reach the web interface of the PID the same way.
+### Web Interface
+The ESP hosts a dedicated web interface. Usually, you can find it at http://`<<HOSTNAME>>`.local. You can find the hostname in file `platform.ino` in value `upload_port`, please also see chapter [Remote Monitoring](../software-part-I/wifi-configuration.html#remote-monitoring). *Note*: Only devices in the same network as the ESP can open the web interface! By default, configuration sets [http://silvia.local](http://silvia.local).
+
+Alternatively, you can find out the IP address of your ESP by checking the list of connected WiFi devices in your home router, or with the monitor command in PlatformIO, while the ESP is still connected via USB. We recommend to configure a static IP address and hostname for the ESP in your router, so that you can always reach the web interface of the PID the same way.
 
 
 ## How can I upgrade from an older version (2.x or older)?
