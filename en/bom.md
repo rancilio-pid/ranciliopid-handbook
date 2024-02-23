@@ -108,7 +108,7 @@ Base board includes:
  * The PCB
  * Screw terminals
  * Headers
- * Adhesive dots
+ * Adhesive PCB holders
 
 **Additionally**, the following components are required:
 
