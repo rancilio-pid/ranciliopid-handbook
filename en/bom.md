@@ -104,8 +104,6 @@ This project uses a [custom designed Printed Circuit Board (PCB)](https://github
 
 There is a new version of the PCB available. [Please request via our chat directly!](https://discord.com/invite/Kq5RFznuU4). **Please send a direct message to @loque**.
 
-**Update 07.12.23: Currently there are no PCBs available. Expected date for new orders is january.**
-
 Base board includes:
  * The PCB
  * Screw terminals
