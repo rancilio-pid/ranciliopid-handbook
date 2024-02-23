@@ -43,7 +43,7 @@ Alternatively, you can find out the IP address of your ESP by checking the list 
 You have to complete the following important steps before upgrading, otherwise the PID might not work correctly.
 Connect your ESP to the computer via USB and open PlatformIO (VS Code):
 
-Schritt | Erklärung
+Step | Explanation
 :--|:--
 1. Erase Flash Storage | `nodemcuv2_usb` -> `Platform` -> `Erase Flash`
 2. Build and upload file sytsem | `nodemcuv2_usb` -> `Platform` -> `Upload Fileystem Image`
