@@ -123,28 +123,7 @@ Base board includes:
 | R5 | 47kΩ (Steam switch) |[Link](https://www.reichelt.de/de/en/metal-film-resistor-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html) |
 | R6 | As needed | Resistor based on LED used. For NeoPixel, e.g., no resistor is required but bridging the solder-resistor JP1. |
 
-Mind the correct polarity when soldering the capacitors!
-
-**Bugs ESP32_mininmal PCB Rev 1.2:**
-
-Errors in the PCB printing:
-
-* `S_LED`: instead of `VCC` it is `5V`
-* `E_TRIG`: instead of `VCC` it is `5V`
-* `W_SENS`: instead of `IO36` it is `IO23`
-* `GPIO Header`:  instead of `IO23` it is `IO36`
-
-Error optocoupler for brew detection:
-
-* Only compatible with high-level trigger optocoupler
-* Workaround for low-level triggers: Do not solder the pull-down resistor R2 and set `PINMODEVOLTAGESENSOR` to `INPUT_PULLUP`
-
-**Bugs EPS32_minimal PCB Rev 1.3:**
-
-Error optocoupler for brew detection:
-
-* Only compatible with high-level trigger optocoupler
-* Workaround for low-level triggers: Do not solder the pull-down resistor R2 and set `PINMODEVOLTAGESENSOR` to `INPUT_PULLUP`
+Mind the correct polarity when soldering the E-cap!
 
 
 ### Base Board For ESP8266
