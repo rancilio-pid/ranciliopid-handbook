@@ -83,7 +83,6 @@ All relevant settings for the display are configured here.
 
 `SHOTTIMER` (1) activates the shot timer, when using a scale (2) can be chosen to also see the weight.
 
-`HEATINGLOGO` zeigt euch bis kurz vor Erreichen der Solltemperatur ein entsprechendes Logo an, siehe      [Displayausgabe](../customization/Display.html).
 `HEATINGLOGO` shows a logo during heat-up phase, see [Displayausgabe](../customization/Display.html).
 
 `OFFLINEGLOGO` shows the logo when the PID is in offline mode, see [Displayausgabe](../customization/Display.html).

@@ -38,7 +38,7 @@ The controller to use (ESP8266 or ESP32) depends on which base board you ordered
 | Switching Power Supply | APV-8-5 | 1 | 1 | [Reichelt-Link](https://www.reichelt.de/led-trafo-7-w-5-v-dc-1400-ma-mw-apv-8-5-p170873.html) or [Amazon-Link](https://www.amazon.de/gp/product/B06Y29GSHH/) |
 | SSR Relais – Heating | RA 2425-D06 | 1 | 1 | [Reichelt-Link](https://www.reichelt.de/solid-state-relais-ust-2-32vdc-ulast-24-280v-ra-2425-d06-p22691.html) |
 | Mikrocontroller | NodeMCU V2 ESP8266 OR ESP32 (depending on base board) | 1 | 1 | ESP8266: [Amazon-Link](https://www.amazon.de/AZDelivery-NodeMCU-ESP8266-ESP-12E-Development/dp/B06Y1LZLLY) or [Ebay-Link](https://www.ebay.de/itm/NodeMCU-v3-2-ESP8266-Dev-Kit-WIFI-Lolin-Amica-CP2102-v2-Arduino-IOT/252712258856) or [unsoldered (Amazon)](https://www.amazon.de/-/en/AZDelivery-NodeMCU-Amica-Unsoldered-Parent/dp/B07GYW4T5F) OR ESP32 V4: [ESP32 Dev Kit C V4](https://www.amazon.de/-/en/AZDelivery-Development-Compatible-Including-Successor/dp/B07Z83MF5W) |
-| Display (optional aber empfehlenswert) | 128 x 64 Pixel OLED SSD1306 | 1 | 1 | [Amazon-Link](https://www.amazon.de/AZDelivery-Display-Arduino-Raspberry-gratis/dp/B01L9GC470) |
+| Display (optional, but recommended) | 128 x 64 Pixel OLED SSD1306 | 1 | 1 | [Amazon-Link](https://www.amazon.de/AZDelivery-Display-Arduino-Raspberry-gratis/dp/B01L9GC470) |
 | our base board | PCB | 1 | 1 | see below |
 
 
@@ -121,7 +121,7 @@ Base board includes:
 | R3 | 47kΩ (Brew switch) | [Link](https://www.reichelt.de/de/en/metal-film-resistor-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html) |
 | R4 | 47kΩ (Power switch) |[Link](https://www.reichelt.de/de/en/metal-film-resistor-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html) |
 | R5 | 47kΩ (Steam switch) |[Link](https://www.reichelt.de/de/en/metal-film-resistor-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html) |
-| R6 | As needed | Resistor based on LED used. For NeoPixel, e.g., no resistor is required but bridging the solder-resistor JP1. |
+| R6 | As needed | Resistor based on LED used. For NeoPixel, e.g., no resistor is required but solder jumper JP1 is required. |
 
 Mind the correct polarity when soldering the E-cap!
 
@@ -182,7 +182,7 @@ The display is not stricly necessary for any level of the build. Without a displ
 | :---: | :---: |
 | ![Heart-beat-like blinking lamp at the front of the coffee machine](../img/blink.gif) | ![Temperature graph in monitoring during heat-up and after reaching the target temperature](../img/blink_monitoring3.png) |
 
-For simple setups, you can just put the display next to the machine or fixate it on one of the sheets of the case. As shown in some write-ups ([link](https://clevercoffee.de/rancilio-silvia- e-konstantin/)) you can also prepare a nicely machined sheet and put the display behind there, or 3D-print a case and put this to the machine.
+For simple setups, you can just put the display next to the machine or or fix it on to one of the sheets of the case. As shown in some write-ups ([link](https://clevercoffee.de/rancilio-silvia- e-konstantin/)) you can also prepare a nicely machined sheet and put the display behind there, or 3D-print a case and put this to the machine.
 
 For a first run of the display we recommend to use the listed jumper cables - this way, you don't necessarily have to solder. Jumpers are also a good way to do a first round of "dry build-up" outside of the machine, but we don't recommend to use them for long-term build-ups since they tend to not hold strong enough.
 

@@ -16,7 +16,7 @@ Contents
 
 ## Introduction
 
-In this chapter we will explain how to get the program code onto your NodeMCU. You can start with that as soon as you have you Microcontroller at hand, no other parts are needed. For later testing, you will however need at least the temperature sensor
+In this chapter we will explain how to get the program code onto your NodeMCU. You can start with that as soon as you have you microcontroller at hand, no other parts are needed. For later testing, you will however need at least the temperature sensor
 
 
 ## Open the program in Arduino IDE

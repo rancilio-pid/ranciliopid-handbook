@@ -13,7 +13,7 @@ nav_order: 4
 
 {: .no_toc }
 
-Inhaltsverzeichnis
+Table of contents
 
 * TOC
 {:toc}
