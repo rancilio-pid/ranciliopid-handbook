@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Introduction PID System
+title: Introduction to the PID system
 parent: Introduction
 grand_parent: EN - Manual
 has_children: false
 nav_order: 2
 ---
 
-# Introduction PID System
+# Introduction to the PID system
 {: .no_toc }
 
 Contents
@@ -26,7 +26,7 @@ Then the boiler cools down to the thermostat's cut in point. The 'ready' light g
 
 Between these two points, the machine is always signalling 'ready', although the water can be close to the cut out temperature, or just barely above cut in. Or pretty much anywhere in between.
 
-Besides the exact amount of good quality beans, a good griner and its correct coarseness setting, in an espresso shot the water temperature is one of the critical parameters. Being off by just one or two degrees Celsius can make the difference between a sour shot (too cold), a burnt one (too hot) or a 'just right', well tasting, shot of espresso. Not all coffee beans come out best at the exact same temperature, either.
+Besides the exact amount of good quality beans, a good grinder and its correct coarseness setting, in an espresso shot the water temperature is one of the critical parameters. Being off by just one or two degrees Celsius can make the difference between a sour shot (too cold), a burnt one (too hot) or a 'just right', well tasting, shot of espresso. Not all coffee beans come out best at the exact same temperature, either.
 
 One way to a reproducible temperature is called temperature surfing. It entails flushing the machine to provoke the heater coming on, and then watching the ready lamp come back on when the thermostat cuts out. That way the machine is at a defined temperature and you can prepare the shot.
 
@@ -78,7 +78,7 @@ ID | Explanation
 1 | Micro controller ESP32 (DevKitC V4)
 2 | Temperature sensor TSIC 306
 3 | Solid State Relais (SSR)
-4 | Powersupply
+4 | Power supply
 5 | Display (recommended, but optional)
 Heizung | Heating
 

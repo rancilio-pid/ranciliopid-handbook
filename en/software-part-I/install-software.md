@@ -39,7 +39,7 @@ VS Code will show a message that PlatformIO was installed successfully:
 
 ![](../../img/softwareinstall/swinstall3.png)
 
-At this stage, you can't compile our code yet, you will have to install `git` or GitHub Desktop first. If you still tried anyways, you will see an error message similar to this:
+At this stage, you can't compile our code yet, you will have to install `git` or GitHub Desktop first. If you still tried anyways, you would see an error message similar to this:
 
 ![](../../img/softwareinstall/swinstall4.png)
 
