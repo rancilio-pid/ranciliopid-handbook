@@ -26,22 +26,22 @@ The following software needs to be installed, starting with version 4 on the ESP
 Go to the website of [Visual Studio Code](https://code.visualstudio.com/download) (VS Code) and download the correct version for your operating system.
 Open VS Code.
 
-![](../../img/softwareinstall/swinstall1.png)
+![](../../img/software-part-I/softwareinstall/swinstall1.png)
 
 Go to `Extensions` (1) and look for `platformio` (2). Click `Install` (3) and PlatformIO will be installed.
 
 During that, it's possible that a message pops up, indicating that more software components are missing:
 
-![](../../img/softwareinstall/swinstall2.png)
+![](../../img/software-part-I/softwareinstall/swinstall2.png)
 
 Python might be one of them. By clicking `Install Python` (1), you'll get to the documentation of PlatformIO. Follow the installation steps described there. After that, go back to the pop-up message in VS Code and click `Try again`
 VS Code will show a message that PlatformIO was installed successfully:
 
-![](../../img/softwareinstall/swinstall3.png)
+![](../../img/software-part-I/softwareinstall/swinstall3.png)
 
 At this stage, you can't compile our code yet, you will have to install `git` or GitHub Desktop first. If you still tried anyways, you would see an error message similar to this:
 
-![](../../img/softwareinstall/swinstall4.png)
+![](../../img/software-part-I/softwareinstall/swinstall4.png)
 
 You can close VS Code for now.
 
@@ -55,11 +55,11 @@ Depending on your operating system, you might need to install an additional driv
 
 Open VS Code and click the PlatformIO symbol (the ant's head) (1), then click `Devices` (2):
 
-![](../../img/softwareinstall/swinstall7.png)
+![](../../img/software-part-I/softwareinstall/swinstall7.png)
 
 Now you should see the ESP32 or ESP8266 if it is connected via USB:
 
-![](../../img/softwareinstall/swinstall8.png)
+![](../../img/software-part-I/softwareinstall/swinstall8.png)
 
 It should be described as device `CP2102` at port `usbserial-X`. If this is not the case, please try again with a different USB cable (some of them are only made for charging).
 If there's still no ESP32 or ESP8266 visible, you have to install the device driver:
@@ -78,27 +78,27 @@ Open the directory you want to store the sourcecode of the clevercoffee project:
 In VS Code, in the task bar click `View` -> `Command Palette` (on MacOS press `Shift` + `CMD` + `P`).
 Type (1): `git clone`
 
-![](../../img/softwareinstall/swinstall18.png)
+![](../../img/software-part-I/softwareinstall/swinstall18.png)
 
 and add the following URL (1):
 `https://github.com/rancilio-pid/clevercoffee`
 Now press return. This command copies the sourcecode from GitHub to your local folder.
 
-![](../../img/softwareinstall/swinstall19.png)
+![](../../img/software-part-I/softwareinstall/swinstall19.png)
 
 In the following dialog window, search for the directory where the the sourcecode should be copied. Then choose `Add to workspace`.
 A message might pop up, asking you to confirm the trustworthiness of the code. Click `Yes, I trust the authors` to proceed.
 
-![](../../img/softwareinstall/swinstall20.png)
+![](../../img/software-part-I/softwareinstall/swinstall20.png)
 
 Open VS Code and click `View` -> `Command Palette` (in MacOS press `Shift` + `CMD` + `P`).
 Enter (1) `git: checkout to`
 
-![](../../img/softwareinstall/swinstall9.png)
+![](../../img/software-part-I/softwareinstall/swinstall9.png)
 
 Press return or click the proposed command. A list of all available versions of the sourcecode will be shown:
 
-![](../../img/softwareinstall/swinstall10.png)
+![](../../img/software-part-I/softwareinstall/swinstall10.png)
 
 If you use the ESP32 microcontroller, only versions starting with 4.X.X are relevant, those versions do not support the ESP8266 anymore.
 
@@ -114,7 +114,7 @@ Pick the most recent stable version for the ESP32. It will take a few seconds to
 Before you can compile the code, you have to make some small preparations.
 In VS Code, open the directory tree of the code, open the folder `/src` and rename the file `userConfig_sample.h` to `userConfig.h`:
 
-![](../../img/softwareinstall/swinstall12.png)
+![](../../img/software-part-I/softwareinstall/swinstall12.png)
 
 You can configure basically everything about your espresso machine in that file. The possible settings will be explained later in this manual. Possible configurations are for example the PID mode, OTA settings, hostname, etc. WiFi will be configured later, when the software is running on the microcontroller for the first time.
 
@@ -127,7 +127,7 @@ Click the PlatformIO logo again. Later, you'll be able to transfer files to the 
 For each upload- and erase-event it can happen that they don't complete on first try.
 IMPORTANT: Press and hold the "Boot" button on the ESP32 (without fat-fingering other Pins). This lets you do an upload via USB (this problem doesn't exist for OTA later).
 
-![](../../img/softwareinstall/swinstall13.png)
+![](../../img/software-part-I/softwareinstall/swinstall13.png)
 
 For every step, wait for the `SUCCESS` message to appear:
 * (1) Choose your ESP: `esp32_usb`

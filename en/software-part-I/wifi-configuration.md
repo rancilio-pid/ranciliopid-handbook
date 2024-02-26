@@ -59,15 +59,15 @@ After you uploaded the compiled code to the ESP32, you should see the following 
 
 If you search for available WiFi networks with your phone/tablet/computer, you should be able to see the WiFi network `silvia`.
 
-![](../../img/wlan-setup1.PNG)
+![](../../img/software-part-I/wifi-configuration/wlan-setup1.PNG)
 
 As soon as you're connected to this network, a webpage will open automatically, showing the frontpage of the WiFiManager. If that page does not open for some reason, open your browser and type in 192.168.4.1 into the address bar.
 
-![](../../img/wlan-setup2.PNG)
+![](../../img/software-part-I/wifi-configuration/wlan-setup2.PNG)
 
 Click `Configure WiFi` to configure the ESP to connect to your local WiFi network.
 
-![](../../img/wlan-setup3.PNG)
+![](../../img/software-part-I/wifi-configuration/wlan-setup3.PNG)
 
 Choose your local WiFi network from the list or enter its name manually. Also enter the WiFi's password. After clicking `Save`, the ESP will restart and connect to your WiFi automatically.
 
@@ -81,7 +81,7 @@ In addition to the website, on which you can configure certain things or watch t
 This is especially helpful for finding issues during normal operation. We strongly advise you against connecting a microcontroller via USB to your computer while it is in operation inside the machine!
 Instead, in PlatformIO open `esp32_ota` -> `Monitor`.
 
-![](../../img/remote_monitor.png)
+![](../../img/software-part-I/wifi-configuration/remote_monitor.png)
 
 In case you changed the hostname and the OTA password in your `userConfig.h`, you also have to change the connection details in `platformio.ini` (section `env:esp32_ota`).
 

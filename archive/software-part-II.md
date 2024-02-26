@@ -262,21 +262,21 @@ WIFICINNECTIONDELAY ist die Zeitspanne bis der nächste Reconnect probiert wird.
 
 Wenn ihr die .ino Datei öffnet, öffnet sich automatisch im zweiten Tab die userConfig.h mit den wichtigen Einstellungen. Danach auf den Pfeil klicken für den Upload auf den Microkontroller. Achtet darauf, dass Ihr den Auth-Code der Blynk-App und die WLAN-Zugangsdaten im Code der userConfig.h hinterlegt habt.
 
-![](../img/image-2.png)
+![](../img/archive/software-part-II/image-2.png)
 
 Bitte achtet vorher drauf, dass Ihr in den Board Einstellungen den richtigen COM Port ausgewählt habt.
 
 Diesen könnt ihr auch auch im Gerätemanager prüfen (falls ihr ihn nicht wisst):
 
-![](../img/34.png)
+![](../img/archive/software-part-II/34.png)
 
-![](../img/35.png)
+![](../img/archive/software-part-II/35.png)
 
 ## Testen
 
 Wenn alles geklappt habt könnt ihr auf dem Serial Monitor erkennen, wie sich der Microkontroller mit Blynk verbindet.
 
-![](../img/36.png)
+![](../img/archive/software-part-II/36.png)
 
 Klappt das und ist der Temperatursensor korrekt angeschlossen seht ihr am Handy in der Blynk App die Raumtemperatur.
 Jetzt könnt iht nach und nach die anderen Bauteile verbinden (Relais) und weiter testen.

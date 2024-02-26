@@ -82,7 +82,7 @@ ID | Explanation
 5 | Display (recommended, but optional)
 Heizung | Heating
 
-![Trockenaufbau](../../img/trockenaufbau.png)
+![Trockenaufbau](../../img/intro/einleitung/trockenaufbau.png)
 
 There are two different levels of our system: PID only and full expansion. Over time there's been a few additional options, so the distinction is sometimes a bit less clear cut.
 

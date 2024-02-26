@@ -51,7 +51,7 @@ Schritt | Erklärung
 
 Alle drei Schritte müssen nacheinander erfolgen.
  
-![Update](../../img/platformio_upgrade.png)
+![Update](../../img/intro/version3/platformio_upgrade.png)
  
 
 ## Helft uns!

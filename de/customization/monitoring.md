@@ -19,7 +19,7 @@ Inhaltsverzeichnis
 
 Die Blynk-App kann so eingerichtet werden, dass via eines sog. Webhooks ein Monitoring genutzt werden kann. Dafür wird [Grafana](https://grafana.com/) genutzt. Damit sind auch die vorhandenen PID-Charts erstellt entstanden:
 
-![PID-Einführung](../../img/Bildschirmfoto-2020-11-04-um-20.51.31-1536x733.png)
+![PID-Einführung](../../img/customization/monitoring/Bildschirmfoto-2020-11-04-um-20.51.31-1536x733.png)
 
 ## Übersicht
 
@@ -37,7 +37,7 @@ Folgendes Video erklärt die einzelnen Schritte:
 
 In eurer `userConfig.h` muss Grafana aktiviert sein (sprich auf `1` gesetzt):
 
-![Grafana](../../img/grafana-on.png)
+![Grafana](../../img/customization/monitoring/grafana-on.png)
 
 <!-- markdown-link-check-disable -->
 ### Schritt für Schritt

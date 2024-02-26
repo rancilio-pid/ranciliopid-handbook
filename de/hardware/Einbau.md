@@ -129,7 +129,7 @@ Es gibt unzählig viele Möglichkeiten das Display zu positionieren. Folgend kö
 
 Displayhalterung | Powered by Dremel
 :---:|:---:
-![Display](../../img/Display.jpg)|![](https://clevercoffee.de/wp-content/uploads/2021/04/IMG_20210404_151123.jpg)
+![Display](../../img/hardware/einbau/Display.jpg)|![](https://clevercoffee.de/wp-content/uploads/2021/04/IMG_20210404_151123.jpg)
 
 Wer einen Dremel besitzt, etwas Geschick mitbringt und kein Problem damit hat, dass Änderungen irreversibel sind, kann damit eine sehr saubere und solide Lösung ausarbeiten.
 

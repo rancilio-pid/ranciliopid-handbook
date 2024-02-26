@@ -21,7 +21,7 @@ Wenn ihr die einzelnen Komponenten beisammenhabt, startet ihr am besten mit eine
 
 Die Heizung eurer Maschine könnt ihr z. B. mit einer Glühbirne simulieren, jeder andere 230V Verbraucher tut es aber genauso gut.
 
-![Trockenaufbau](../../img/trockenaufbau.png)
+![Trockenaufbau](../../img/hardware/hardware/trockenaufbau.png)
 
 *(1=Mikrocontroller, 2=Temperatursensor, 3=SSR Relais für Heizung, 4=Schaltnetzteil, 5=Display)*
 
@@ -31,7 +31,7 @@ Das PCB für den (neuern) Mikrocontroller ESP32 sieht wie folgt aus:
 
 Das PCB für den (älteren) Mikrocontroller ESP8266 sieht wie folgt aus:
 
-![PCB](../../img/image-3.png)
+![PCB](../../img/hardware/hardware/image-3.png)
 
 ##  PIN Belegung vom PCB ESP8266
 
@@ -68,7 +68,7 @@ Besondere Sorgfalt müsst ihr bitte beim Anschließen des Temperatursensors TSIC
 
 Wie ihr zu der Beschreibung zum Board sehen könnt, muss an Pin 2 der Temperatursensor angeschlossen werden. Die oberen Ports (14, 2, 12, 13, 15) sind einheitlich jeweils von links nach rechts mit Minus(-), Signal, 5V(+) belegt.
 
-![TSIC Sensor](../../img/20200503_223844-scaled.jpg)
+![TSIC Sensor](../../img/hardware/hardware/20200503_223844-scaled.jpg)
 
 Da wir öfters hören, dass die mitgelieferte Bildbeschreibung des TSIC nicht gut ist, haben wir hier nochmals die Pins vom Sensor dargestellt. Die flache Seite liegt unten. Ein falsch gepolter TSIC sollte entsorgt werden! Er misst vermeintlich richtig, aber definitiv nicht mehr genau.
 
@@ -89,12 +89,9 @@ Pin 15| Schalter Brühtaste
 Pin 14| Relay für die Heizung
 Pin 2| Temperatursensor
 A0| Drucksensor
-|
 Pin 4| SDA
 Pin 5| SCL
 Pin 16| E-Trigger Standby Trigger Silvia E
-
-![](../../img/Screenshot-at-M%C3%A4rz-10-20-53-04.png)
 
 ## Tipps und Tricks
 

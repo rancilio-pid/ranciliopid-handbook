@@ -161,13 +161,13 @@ Here, **O**ver **T**he **A**ir update is set up. This is important once your Nod
 
 Make sure the Auth token as well as the Wifi data you have entered is correct.
 
-![](../img/image-2.png)
+![](../img/software-part-II/image-2.png)
 
 Also make sure you have chosen the right COM port for flashing. If you are unsure, you can check the COM port number in device manager
 
-![](../img/34.png)
+![](../img/software-part-II/34.png)
 
-![](../img/35.png)
+![](../img/software-part-II/35.png)
 
 Next, click on the arrow symbol to start the upload to the Microcontroller
 
@@ -175,7 +175,7 @@ Next, click on the arrow symbol to start the upload to the Microcontroller
 
 If everything has worked fine, you can see the communication between your NodeMCU and Blynk in the Serial Monitor
 
-![](../img/36.png)
+![](../img/software-part-II/36.png)
 
 If that has worked and if you already have a temperature sensor connected, you can see you current room temperature in the Blynk app. Now you can start adding more and more parts to you setup, like the SSR or a display and continue testing.
 

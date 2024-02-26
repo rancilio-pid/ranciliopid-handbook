@@ -25,12 +25,12 @@ Diese können in der Userconfig ausgewählt werden:
 Es gibt Anzeigen, die unabhänbgig vom Displaytemplate angezeigt werden:
 
 ### Kaltstart:
-![Displayanzeige Kaltstart](../../img/disp-kaltstart.jpg)
+![Displayanzeige Kaltstart](../../img/customization/display/disp-kaltstart.jpg)
 
 Dies zeigt an, dass sich die Maschine noch im Kaltstart befindet. Inkl. der aktuellen Temperatur.
 
 ### Brewtimer:
-![Brewtimer](../../img/disp-brewtimer.jpg)
+![Brewtimer](../../img/customization/display/disp-brewtimer.jpg)
 
 Der Brewtimer (oder Shottimer) wird ebenfalls in der Userconfig ausgewählt:
 
@@ -41,7 +41,7 @@ Bei OnlyPID sind standardmaüßig 35 Sekunden hinterlegt.
 
 
 ## Standard Design - DISPLAYTEMPLATE 1
-![Display Template 1](../../img/Displaytemplate1.png)
+![Display Template 1](../../img/customization/display/Displaytemplate1.png)
 
 Erläuterung zur Anzeige:
 Oben sind von (links) folgende Symbole zu sehen:
@@ -59,7 +59,7 @@ Die mittige Anzeige (von oben)
 
 
 ## Minimal Design - DISPLAYTEMPLATE 2
-![Display Template 2](../../img/disp-minimal-default.jpg)
+![Display Template 2](../../img/customization/display/disp-minimal-default.jpg)
 
 Erläuterung der Anzeige:
 Links wird die Ist-Temperatur angezeigt. Rechts die Solltemperatur. Ist diese erreicht, beginnt das Display zu blinken.

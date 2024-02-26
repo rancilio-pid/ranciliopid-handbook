@@ -80,7 +80,7 @@ ID | Erklärung
 4 | Netzteil zur Stromversorgung               
 5 | Display SSD1306 (empfohlen, aber optional)      
 
-![Trockenaufbau](../../img/trockenaufbau.png)
+![Trockenaufbau](../../img/intro/einleitung/trockenaufbau.png)
 
 Es gibt zwei verschiedene Ausbaustufen unseres Systems: PID Only und den erweiterten Vollausbau.
 
@@ -90,7 +90,7 @@ Es gibt 2 Ausbaustufen: "PID Only" und den "Vollausbau".
 Mit der Zeit haben sich dazu Ergänzungen ergeben, die in der nachfolgenden Grafik dargestellt sind.
 Die Grenzen sind fließend, da auch beim "PID Only" nun zur Anzeige des Bezugsgewicht die Waage genutzt werden kann oder die Erkennung des Brühschalters per Optokoppler eine genaue Anzeige der Brühzeit ermöglicht.
 
-![Trockenaufbau](../../img/Ausbaustufen-Clevercoffeepid.jpg)
+![Trockenaufbau](../../img/intro/einleitung/Ausbaustufen-Clevercoffeepid.jpg)
 
 
 ## Grundversion (PID Only)

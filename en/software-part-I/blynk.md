@@ -39,12 +39,12 @@ from the app store on your phone
 
 Open the Blynk app and click „Create New Account“
 
-![](../../img/IMG_0115-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0115-576x1024.png)
 
 click on the traffic-light symbol to change the server!
 Otherwise you will use the "normal" Blynk server
 
-![](../../img/IMG_0116-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0116-576x1024.png)
 
 **Important**:
 
@@ -53,11 +53,11 @@ Server address: blynk.remoteapp.de
 Port: 9443
 confirm with „OK“
 
-![](../../img/IMG_0117-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0117-576x1024.png)
 
 add your email address and click next
 
-![](../../img/IMG_0119-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0119-576x1024.png)
 
 Your account has now been created
 Create your first project by clicking "New Project"
@@ -67,37 +67,37 @@ Here, you can also direcly press the "scan" symbol an scan the following QR code
 
 QR-Code for Android:
 
-![](../../img/qr_android_v292.png)
+![](../../img/software-part-I/blynk/qr_android_v292.png)
 
 QR-Code for IOS:
 
-![](../../img/qr-ios.jpg)
+![](../../img/software-part-I/blynk/qr-ios.jpg)
 
 (shown PID values are not up to date!)
 
-![](../../img/pid-werte.gif)
+![](../../img/software-part-I/blynk/pid-werte.gif)
 
 or create the app yourself.
 
-![](../../img/IMG_0120-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0120-576x1024.png)
 
 Give the project a meaningful name, choose "NodeMCU" as device
 
-![](../../img/IMG_0121-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0121-576x1024.png)
 
 To read the AuthKey (will be needed in Arduino IDE), press the square in the upper right corner
 
 
-![](../../img/IMG_0124-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0124-576x1024.png)
 
 Now, press the "nuts" symbol
 
-![](../../img/IMG_0123-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0123-576x1024.png)
 
 The AUth code is shown in the lower part of the screen, it is basically the key for encrypting the communication between NodeMCU, the server and your phone and should be kept sectet. You can also email it to yourself.
 
 
-![](../../img/IMG_0122-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0122-576x1024.png)
 
 
 
