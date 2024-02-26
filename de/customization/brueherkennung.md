@@ -140,7 +140,7 @@ Im Fall zwei (220V Sensor / Optokoppler) sollte es dann wie folgt verbunden sein
 |3,3V         |VCC |
 |PIN 16 / BREW|OUT |
 
-![QM Opto](../../img/qm-opto.png)
+![QM Opto](../../img/customization/brewdetection/qm-opto.png)
 </details>
 
 
@@ -148,7 +148,7 @@ Im Fall zwei (220V Sensor / Optokoppler) sollte es dann wie folgt verbunden sein
 
 Ohne zu tief in die technischen Details der Erkennung einzusteigen soll dir dennoch kurz die grundlegende Funktionsweise erläutert werden. Der Mikrocontroller überwacht bei aktivierter 'Brüherkennung mittels Software' (`BREWDETECTION 1` bzw. `FEATURE_BREWDETECTION 1`+`BREWDETECTION_TYPE 1`) kontinuierlich die Temperatur. Dabei wird die zeitliche Veränderung der Heizrate/Kühlrate für ein fortlaufendes Zeitfenster analysiert. Das Ergebnis ist dann die „heat average“. Kühlt die Maschine ab wird dieser Wert negativ, bei einem Hochheizen entsprechend positiv.
 
-![Brüherkennung](../../img/fullsizeoutput_1c57.jpeg)
+![Brüherkennung](../../img/customization/brewdetection/fullsizeoutput_1c57.jpeg)
 
 Die Brüherkennung „horcht“ nun auf diesen „heat average“ und überprüft ob ein definierter, negativer Grenzwert überschritten wird ab dem die Maschine von einem Bezug ausgehen soll. Dieser wird bei „brew heater detection limit“ definiert. Hierbei ist zu beachten, dass hier der absolute Werte eingetragen wird: 70 entspricht -70. Die Übersetzung in den negativen Wert erfolgt im Quellcode!
 
@@ -173,7 +173,7 @@ Quick Mill (Modell 0835 & 3000) | 80 | 0 | 80 | 100 | tbd.
 
 Ausgangssituation sind folgende PID Parameter:
 
-![PID Parameter](../../img/Screenshot-at-M%C3%A4rz-15-07-47-28.png)
+![PID Parameter](../../img/customization/brewdetection/Screenshot-at-März-15-07-47-28.png)
 
 Bei dem Vergleich von einem Bezug mit und ohne Brüherkennung ist zu sehen, dass die Solltemperatur zu einem ähnlichen Zeitpunkt „durchschritten“ wird, aber ohne Erkennung die Temperatur nach oben ausschlägt (96 °C). Die Erkennung kann hier ein deutlich besseres Ergebnis liefern (ca. 93,5 °C). Auch fällt die Temperatur beim Bezug nicht so rapide nach unten ab, da die Heizung schneller reagieren kann.
 

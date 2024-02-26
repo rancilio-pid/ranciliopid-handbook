@@ -58,15 +58,15 @@ Wenn ihr den Code hochladet, ist im Log (Monitor-Befehl) etwa folgendes zu sehen
 Diese IP-Adresse solltet ihr euch notieren, um später die Webseite für die Ersteinrichtung aufzurufen (falls diese nicht automatisch geöffnet wird).
 Wenn ihr nun per Mobile/Tablet/Desktop nach einem WLAN sucht werdet ihr das Netzwerk "silvia" sehen.
 
-![](../../img/wlan-setup1.PNG)
+![](../../img/software-part-I/wifi-configuration/wlan-setup1.PNG)
 
 Sobald ihr euch mit dem Netzwerk verbunden habt, öffnet sich automatisch die Seite des WiFiManagers. Geht die Portalseite nicht automatisch auf, gebt in eurem Browser die IP-Adresse 192.168.4.1 ein.
 
-![](../../img/wlan-setup2.PNG)
+![](../../img/software-part-I/wifi-configuration/wlan-setup2.PNG)
 
 Mit dem Klick auf `Configure WiFi` könnt ihr eurer WLAN auf dem ESP einrichten.
 
-![](../../img/wlan-setup3.PNG)
+![](../../img/software-part-I/wifi-configuration/wlan-setup3.PNG)
 
 Wählt euer lokales WLAN-Netzwerk oben aus der Liste aus oder gebt eure SSID manuell ein, zusätzlich eurer Passwort vom WLAN.
 Nach dem `Save` sollte der ESP neu starten und ist für euer WLAN eingerichtet.
@@ -80,7 +80,7 @@ Zusätzlich zur Website, auf der ihr Einstellungen vornehmen oder die aktuelle T
 Das ist vor allem nützlich, um mögliche Probleme im laufenden Betrieb zu debuggen. Wir raten dringend davon ab, einen in der Maschine verkabelten Mikrokontroller über USB an einen Rechner anzuschließen!
 Wählt stattdessen in PlatformIO `esp32_ota` -> `Monitor` aus.
 
-![](../../img/remote_monitor.png)
+![](../../img/software-part-I/wifi-configuration/remote_monitor.png)
 
 Solltet ihr den Hostname oder das OTA-Passwort in der `userConfig.h` angepasst haben, müsst ihr für eine erfolgreiche Verbindung auch die `platformio.ini` in der Section `env:esp32_ota` anpassen.
 

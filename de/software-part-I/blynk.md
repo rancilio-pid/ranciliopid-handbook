@@ -39,12 +39,12 @@ Siehe unter [https://www.blynk.cc/](https://www.blynk.cc/) gibt es für alle gä
 
 Öffnet hierzu die Blynk-App & Klickt auf „Create New Account“
 
-![](../../img/IMG_0115-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0115-576x1024.png)
 
 Klickt jetzt zuerst auf das Ampel-Symbol um den Server zu wechseln!
 Sonst nutzt Ihr den „normalen Blynk“-Server.
 
-![](../../img/IMG_0116-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0116-576x1024.png)
 
 **WICHTIG**:
 
@@ -53,12 +53,12 @@ Als Server tragt Ihr: blynk.clevercoffee.de
 Port: 9443
 Bestätigt die Eingabe mit „OK“
 
-![](../../img/IMG_0117-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0117-576x1024.png)
 
 Ergänzt jetzt eure E-Mail-Adresse:
 Und klickt im Fenster auf „Next“
 
-![](../../img/IMG_0119-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0119-576x1024.png)
 
 Der Account ist nun angelegt.
 Erstellt euer erstes Projekt mit dem Klick auf „New Project“
@@ -67,54 +67,54 @@ Hier könnt ihr auch direkt auf das Scan-Symbol oben rechts klicken und folgende
 
 QR-Code für IOS:
 
-![](../../img/qrV280.jpg)
+![](../../img/software-part-I/blynk/qrV280.jpg)
 
 QR-Code für Android:
 
-![](../../img/qr_android_v292.png)
+![](../../img/software-part-I/blynk/qr_android_v292.png)
 
 (Dargestellte PID Werte entsprechen nicht mehr den neusten Stand)
 
-![](../../img/pid-werte.gif)
+![](../../img/software-part-I/blynk/pid-werte.gif)
 
 oder die App selbst erstellen.
 
-![](../../img/IMG_0120-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0120-576x1024.png)
 
 Gebt dem Projekt einen sinnvollen Namen.
 Als Device wählt bitte "NodeMCU".
 
-![](../../img/IMG_0121-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0121-576x1024.png)
 
 AuthKey auslesen (wird im Arduino benötigt).
 Klickt hierzu auf das Viereck oben Rechts.
 
-![](../../img/IMG_0124-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0124-576x1024.png)
 
 Klick jetzt auf das „Muttern“-Symbol
 
-![](../../img/IMG_0123-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0123-576x1024.png)
 
 Im unteren Bereich – steht der Auth-Code.
 Dieser kann auch via E-Mail angefragt werden.
 Der Auth-Code ist sozusagen der Schlüssel, zwischen NodeMCU und deinem Handy/Server.
 Dieser Code sollte „Geheim“ bleiben.
 
-![](../../img/IMG_0122-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0122-576x1024.png)
 
 ## Schritt 3: Auth Token hinterlegen
 
 Authkey wird im 2. Schritt in der userConfig.h hinterlegt. Bei Auth kommt der Code aus Blynk hinein. Bei SSID und PASS euer Wlan Name und Passwort. Dazu gleich mehr.
 
-![](../../img/image-1.png)
+![](../../img/software-part-I/blynk/image-1.png)
 
 ## Schritt 4: Aufbau der App
 
 Klickt oben Rechts wieder auf das Viereck um in den Bearbeitungsmodus zu gelangen. Ihr müsst leider alle virtuelle PINS manuell in der App hinterlegen.
 
-![](../../img/IMG_8837.png)
+![](../../img/software-part-I/blynk/IMG_8837.png)
 
-![](../../img/IMG_8832-1.png)
+![](../../img/software-part-I/blynk/IMG_8832-1.png)
 
 Pin | Wert
 -|-
@@ -147,8 +147,8 @@ V36 | Brüherkennungs minimalWert
 
 Die App ist in Widgets aufgebaut – die Widgets können via Drag-and-Drop einfach von rechts aus der Widget-Box in die App gezogen werden.
 
-![](../../img/IMG_0127-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0127-576x1024.png)
 
 Einem Widget kann jetzt der INPUT Pin mitgeteilt werden (Siehe Liste oben)
 
-![](../../img/IMG_0128-576x1024.png)
+![](../../img/software-part-I/blynk/IMG_0128-576x1024.png)

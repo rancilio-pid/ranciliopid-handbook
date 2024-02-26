@@ -180,7 +180,7 @@ The display is not stricly necessary for any level of the build. Without a displ
 
 | Regular operation | Excerpt from monitoring (Grafana) |
 | :---: | :---: |
-| ![Heart-beat-like blinking lamp at the front of the coffee machine](../img/blink.gif) | ![Temperature graph in monitoring during heat-up and after reaching the target temperature](../img/blink_monitoring3.png) |
+| ![Heart-beat-like blinking lamp at the front of the coffee machine](../img/bestellliste/blink.gif) | ![Temperature graph in monitoring during heat-up and after reaching the target temperature](../img/bestellliste/blink_monitoring3.png) |
 
 For simple setups, you can just put the display next to the machine or or fix it on to one of the sheets of the case. As shown in some write-ups ([link](https://clevercoffee.de/rancilio-silvia- e-konstantin/)) you can also prepare a nicely machined sheet and put the display behind there, or 3D-print a case and put this to the machine.
 

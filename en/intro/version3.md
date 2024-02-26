@@ -51,7 +51,7 @@ Step | Explanation
 
 All three steps must be completed in this order.
 
-![Update](../../img/platformio_upgrade.png)
+![Update](../../img/intro/version3/platformio_upgrade.png)
 
 
 ## Help us!

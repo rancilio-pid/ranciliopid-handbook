@@ -24,22 +24,22 @@ Ab der Version 4 für den ESP32 beziehungsweise für den ESP8266 (ab Version 3.1
 Gehe auf die Webseite von [Visual Studio Code](https://code.visualstudio.com/download) (VS Code) und lade deine entsprechende Version herunter.
 Öffne VS Code.
 
-![](../../img/softwareinstall/swinstall1.png)
+![](../../img/software-part-I/softwareinstall/swinstall1.png)
 
 Suche bei `Extensions` (1) nach `platformio` (2). Klicke `Install` (3) und PlatformIO wird installiert.
 
 Hierbei kann unten rechts im Fenster eine Meldung zeigen, dass weitere Softwarepakete fehlen:
 
-![](../../img/softwareinstall/swinstall2.png)
+![](../../img/software-part-I/softwareinstall/swinstall2.png)
 
 Zum Beispiel muss Python extern installiert werden. Durch den Klick auf `Install Python` (1) gelangt ihr in die Dokumentation von PlatformIO. Befolgt dort die weiteren Installationsschritte. Klickt dann in VS Code in der Meldung `Try again`.
 Am Ende zeigt euch folgende Meldung, dass PlatformIO erfolgreich installiert wurde:
 
-![](../../img/softwareinstall/swinstall3.png)
+![](../../img/software-part-I/softwareinstall/swinstall3.png)
 
 Ihr könnt aber zum aktuellen Stand ohne `git` oder GitHub Desktop nicht unseren Code kompilieren. Falls ihr dies doch tut erhaltet ihr zum Beispiel eine folgende Fehlermeldung:
 
-![](../../img/softwareinstall/swinstall4.png)
+![](../../img/software-part-I/softwareinstall/swinstall4.png)
 
 Ihr könnt an dieser Stelle VS Code erst einmal schließen.
 
@@ -53,11 +53,11 @@ Ihr benötigt gegebenenfalls einen Treiber für den ESP32 beziehungsweise ESP826
 
 Klickt in VS Code unter auf das PlatformIO Symbol ("Ameisenkopf") (1) und wählt `Devices` (2).
 
-![](../../img/softwareinstall/swinstall7.png)
+![](../../img/software-part-I/softwareinstall/swinstall7.png)
 
 Hier müsste der per USB verbundene ESP32 oder ESP8266 zu sehen sein:
 
-![](../../img/softwareinstall/swinstall8.png)
+![](../../img/software-part-I/softwareinstall/swinstall8.png)
 
 Es müsste ein Gerät mit `CP2102` am usbserial-X auftauchen. Wenn dies nicht der Fall ist testet bitte nochmals einen zweites USB-Kabel (manche Kabel sind nur zum Laden geeignet).
 Wenn hier immer noch kein ESP32 / ESP8266 auftaucht, müsst ihr den Treiber installieren:
@@ -77,26 +77,26 @@ In dem oberen Fall wäre dies `/Documents/Github/clevercoffee`.
 In VS Code drückt ihr in MacOS `Shift` + `CMD` + `P` oder nutzt die Taskleiste von VS Code: `View` -> `Command Palette`.
 Hier gebt ihr ein (1): `git: clone`
 
-![](../../img/softwareinstall/swinstall18.png)
+![](../../img/software-part-I/softwareinstall/swinstall18.png)
 
 Damit kopiert ihr nun das Repository des Projektes von GitHub. Gebt nun in der oberen Eingabemaske folgende URL ein (1):
 `https://github.com/rancilio-pid/clevercoffee`
 
-![](../../img/softwareinstall/swinstall19.png)
+![](../../img/software-part-I/softwareinstall/swinstall19.png)
 
 In der nachfolgenden Meldung sucht ihr euch das Verzeichnis aus wohin das Repository kopiert werden soll, dann fügt mit `ADD to workspace` das kopierte Repository zu eurem Workspace hinzu.
 Es kann eine Meldung kommen, ob ihr den AutorInnen innerhalb des Verzeichnisses vertraut, klickt hierbei auf `Yes, i trust the authors`.
 
-![](../../img/softwareinstall/swinstall20.png)
+![](../../img/software-part-I/softwareinstall/swinstall20.png)
 
 In VS Code drückt ihr wieder in MacOS `Shift` + `CMD` + `P` oder nutzt die Taskleiste von VS Code: `View` -> `Command Palette`.
 Hier gebt ihr ein (1): `git: checkout to`
 
-![](../../img/softwareinstall/swinstall9.png)
+![](../../img/software-part-I/softwareinstall/swinstall9.png)
 
 Drückt Return oder klickt per Maus den Befehl an und es erscheint eine Auswahlliste aller verfügbaren Versionen des Projekts:
 
-![](../../img/softwareinstall/swinstall10.png)
+![](../../img/software-part-I/softwareinstall/swinstall10.png)
 
 Für den ESP32 sind nur die Versionen ab 4.X.X relevant, in dieser Version wird nicht mehr der ESP8266 unterstützt.
 Die Version `origin/master` ist die aktuelle Version der Entwicklung für den ESP32.
@@ -110,7 +110,7 @@ Wählt die aktuellste Version für den ESP32 aus. Es dauert ein paar Sekunden un
 Bevor ihr die Version kompilieren könnt, müssen noch kleinere Vorbereitungen passieren.
 Geht in VS Code in den Verzeichnisbaum des Codes, öffnet den Ordner `/src` und benennt die `userConfig_sample.h` in `userConfig.h` um:
 
-![](../../img/softwareinstall/swinstall12.png)
+![](../../img/software-part-I/softwareinstall/swinstall12.png)
 
 Ihr könnt nun in dieser Datei einige Dinge zu eurer Espresso Maschine einstellen. Diese sind auch ausführlicher später im Handbuch erläutert. Wichtig sind hier vor allem `ONLYPID` und die Konfiguration für den späteren Hostnamen oder die OTA Einstellungen. Die WLAN-Einrichtung für euer Netzwerk findet später direkt auf dem ESP32 per Access Point statt.
 
@@ -122,7 +122,7 @@ Drückt wieder das Symbol von PlatformIO (rechts in der Leiste). Ihr könnt spä
 Bei jeden Upload- oder Erase-Schritt auf den ESP32 kann es passieren, dass dies nicht sofort durchläuft.
 WICHTIG: Haltet die Taste "Boot" auf dem ESP gedrückt (ohne Pins kurzzuschließen), dann kann ein Upload per USB durchgeführt werden (Bei OTA besteht später das Problem nicht).
 
-![](../../img/softwareinstall/swinstall13.png)
+![](../../img/software-part-I/softwareinstall/swinstall13.png)
 
 Bei jedem Teilschritt das `SUCCESS` in der Konsole abwarten:
 * (1) Daher wählt `esp32_usb` aus

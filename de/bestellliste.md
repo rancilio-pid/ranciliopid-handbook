@@ -168,7 +168,7 @@ Das Display wird für keine Ausbaustufe zwangsläufig benötigt. Ohne Display l�
 
 | Regulärer Lauf | Auszug Monitoring (Grafana) |
 | :---: | :---: |
-| ![Herzschlag-artiges Blinken der Lampe auf dem Bedienfeld der Kaffeemaschine](../img/blink.gif) | ![Graph im Monitoring: Temperaturverlauf beim Aufheizen und während des Haltens der Zieltemperatur](../img/blink_monitoring3.png) |
+| ![Herzschlag-artiges Blinken der Lampe auf dem Bedienfeld der Kaffeemaschine](../img/bestellliste/blink.gif) | ![Graph im Monitoring: Temperaturverlauf beim Aufheizen und während des Haltens der Zieltemperatur](../img/bestellliste/blink_monitoring3.png) |
 
 Wer es einfach mag, kann das Display entweder neben die Maschine legen, oder an einem der Bleche fixieren. Wie ihr einzelnen Bauberichten entnehmen könnt ([Link](https://clevercoffee.de/rancilio-silvia-e-konstantin/)), kann das Display natürlich auch sauber hinter einem der Bleche integriert oder mit einem 3D-gedruckten Gehäuse an der Maschine befestigt werden.
 

@@ -19,7 +19,7 @@ Inhaltsverzeichnis
 
 Der PID-Regler soll die folgenden Betriebszustände korrekt handhaben:
 
-![PID-Einführung](../../img/Bildschirmfoto-2020-11-04-um-20.51.31-1536x733.png) 
+![PID-Einführung](../../img/customization/pidv3/Bildschirmfoto-2020-11-04-um-20.51.31-1536x733.png)
 
 Bereiche | Erklärung
 :--|:--
@@ -32,7 +32,7 @@ Beide Modi sind aber optional weiterhin aktivierbar.
 
 Die zugehörigen Werte lassen sich im Webinterface auf der Seite "Parameters" einstellen:
 
-![PID-Parametersmenu](../../img/PIDparametersmenu.png) 
+![PID-Parametersmenu](../../img/customization/pidv3/PIDparametersmenu.png)
 
 Parameter | Erklärung
 :--|:--
@@ -94,23 +94,23 @@ Insofern ein kleiner Maximalwert für den Integralteil festegelegt ist, hat Tn f
 ### Exemplarische Kurvenverläufe 
 
 Folgende Messreihe zeigt euch, wie eine Veränderung von P und Tv das Kaltstartverhalten verändert (Tn ist hier fix bei Tn = 200):
-![PID-P-I-Veränderung](../../img/PV-TV-Ansicht-1.png) 
+![PID-P-I-Veränderung](../../img/customization/pidv3/PV-TV-Ansicht-1.png)
 
 Im Detail sieht es wie folgt am Setpoint aus:
 
-![PID-P-I-Veränderung](../../img/PV-TV-Ansicht-2.png) 
+![PID-P-I-Veränderung](../../img/customization/pidv3/PV-TV-Ansicht-2.png)
 
 Eine Erhöhnung von kP führt zu deutlichem Überschwingen, eine Erhöhung von Tv kann aber wiederum gegensteuern. Insgesamt liefern aber alle 9 Wertepaare bereits relativ gute Ergebnisse. Eine zusätzliche Veränderung entsteht durch der Parameter PID Integrator Max. Ist dieser größer, hat der aufgeladene "Puffer" (der Integrator) beim Start einen stärkeren Einfluss auf das Heizen und es dauert eine längere Zeit, diesen bei Überschreiten des Sollwertes wieder zu reduzieren.
 Wenn das Gegenteil der Fall ist und der PID Integrator Max zu klein gewählt wird, kann der Integrator die bleibende Regelabweichung nicht ausreichend überwinden und der Sollwert wird nicht erreicht.
 
-![PID-P-I-Veränderung](../../img/Imax-Ansicht.png) 
+![PID-P-I-Veränderung](../../img/customization/pidv3/Imax-Ansicht.png)
 
 ### Brühvorgang
 
 Bei der Ausbaustufe "PID Only" (ohne Plus) ist die "PID BD Time (s)" und "PID BD Sensitivity" nur noch notwendig, um die Zeitanzeige im Display korrekt anzuzeigen. Diese Werte haben keinen Einfluss mehr auf den PID, solange "Enable Brew PID" deaktiviert ist. Mit Aktivierung von "Enable Brew PID", können nochmals eigene PID-Werte für den Brühvorgang gesetzt werden. Diese sind für die Dauer von "PID BD Time (s)" aktiv.
 Es ist in der Regel aber nicht ratsam, während des Brühens stärker nachzuheizen, da die Maschine selbst bereits temperaturstabil durch ihr aufgeheiztes Metall ist (z.B. Rancilio Silvia, andere Maschinen evtl. abweichend). Durch zu starkes Nachheizen steigt dann die Temperatur im Sieb sogar noch an, was für den Kaffeegeschmack eher nachteilig sein kann. Bei kleineren/günstigeren Maschinen kann die Temperaturstabilität aber weniger gut sein, so dass ein sofortiges Nachheizen (Enable Brew PID) dort sinnvoll sein kann.
 
-![PID-Parametersmenu BD](../../img/PIDparametersBDmenu.png) 
+![PID-Parametersmenu BD](../../img/customization/pidv3/PIDparametersBDmenu.png)
 
 Parameter | Erklärung
 :--|:--

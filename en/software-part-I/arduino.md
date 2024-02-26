@@ -29,7 +29,7 @@ Needed to transfer the program code onto the controller.
 
 [Link to Arduino](https://www.arduino.cc/en/Main/Software)
 
-![Screenshot of the Arduino Website](../../img/1.png)
+![Screenshot of the Arduino Website](../../img/software-part-I/arduino/1.png)
 
 ## The program code
 
@@ -37,11 +37,11 @@ You can download the program code from the current release.
 
 [Link to Github Repository](https://github.com/rancilio-pid/ranciliopid/releases)
 
-![Screenshot of the Github Website](../../img/2.png)
+![Screenshot of the Github Website](../../img/software-part-I/arduino/2.png)
 
 ## Installation of Arduino IDE
 
-![Arduino Installation](../../img/installation.gif)
+![Arduino Installation](../../img/software-part-I/arduino/installation.gif)
 
 Help on how to install the Arduino IDE can be found at [Arduino Website](https://www.arduino.cc/en/Guide).
 
@@ -63,14 +63,14 @@ You can find it under: File > Preferences
 <details markdown="block">
   <summary> Windows </summary>
 
-  ![Windows Arduino Preferences](../../img/8.png)
+  ![Windows Arduino Preferences](../../img/software-part-I/arduino/8.png)
 
 </details>
 
 <details markdown="block">
   <summary> Linux (Ubuntu) </summary>
 
-  ![Linux (Ubuntu)](../../img/arduino-voreinstellungen-ubu.png)
+  ![Linux (Ubuntu)](../../img/software-part-I/arduino/arduino-voreinstellungen-ubu.png)
 
 </details>
 
@@ -85,14 +85,14 @@ You can find those under Tools > Board: "[\<Version\>]" > Boards Manager...
 <details markdown="block">
   <summary> Windows </summary>
 
-  ![Windows Arduino Boards Manager](../../img/9.png)
+  ![Windows Arduino Boards Manager](../../img/software-part-I/arduino/9.png)
 
 </details>
 
 <details markdown="block">
   <summary> Linux (Ubuntu) </summary>
 
-  ![Linux (Ubuntu) Boards Manager](../../img/arduino-boardverwalter-ubu.png)
+  ![Linux (Ubuntu) Boards Manager](../../img/software-part-I/arduino/arduino-boardverwalter-ubu.png)
 
 </details>
 
@@ -100,7 +100,7 @@ Please install the current version
 
 Typ \<All\> > "esp": "**esp8266** by **ESP8266 Community**"
 
-![ESP8266 install](../../img/boardtreiber.gif)
+![ESP8266 install](../../img/software-part-I/arduino/boardtreiber.gif)
 
 The Arduino IDE setup is done now, we will continue with the libraries
 
@@ -120,12 +120,12 @@ As usual, it is recommended to get more information from the official guide: [Li
 
 ## Board setup
 
-![](../../img/29.png)
-![](../../img/Bildschirmfoto-2019-07-03-um-00.01.26.png)
+![](../../img/software-part-I/arduino/29.png)
+![](../../img/software-part-I/arduino/Bildschirmfoto-2019-07-03-um-00.01.26.png)
 
 After all libraries have been installed, it should look like this:
 
 
-![](../../img/31.png)
+![](../../img/software-part-I/arduino/31.png)
 
 Everything is now prepared for setting up Blynk and flashing of the actual code on the NodeMCU.

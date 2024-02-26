@@ -23,7 +23,7 @@ Hier möchten wir dir die wesentlichen Bedienelemente der PID in Blynk erläuter
 
 Wir haben festgestellt, dass ein Regler benötigt wird, um perfekt auf Solltemperatur zu regeln und dieser übergibt dann an den zweiten Regler für den regulären Betrieb. Dieser muss sich dann um das perfekte Regeln am Sollpunkt kümmern. Der Brühvorgang stellt eine besondere Abweichung dar, die wir versuchen mit der Brüherkennung zu optimieren. Auch dies ist ein separater Regler.
 
-![PID-Einführung](../../img/Bildschirmfoto-2020-11-04-um-20.51.31-1536x733.png)
+![PID-Einführung](../../img/customization/pid-werte/Bildschirmfoto-2020-11-04-um-20.51.31-1536x733.png)
 
 Bereich | Erklärung
 :--|:--
@@ -41,13 +41,13 @@ Es somit drei Regler/Bereiche:
 
 Der Kaltstart ist aktiv bis zur Solltemperatur, danach gilt der reguläre PID. Wir haben die User Config (userConfig.h) so vorkonfiguriert, dass dieser Kaltstart ohne euer Zutun mit Standardwerten funktioniert. Diesen könnt ihr aber auch selber konfiguriert werden. Den PID für den regulären Betrieb findet ihr im „Hauptmenü“. Natürlich müsst ihr auch eine Solltemperatur definieren.
 
-![Erklärung Brüherkennung](../../img/Bildschirmfoto-2020-11-04-um-19.43.11.png)
+![Erklärung Brüherkennung](../../img/customization/pid-werte/Bildschirmfoto-2020-11-04-um-19.43.11.png)
 
 Reguläre PID Einstellung (roter Kasten)
 
 Der Kaltstart befindet sich im „Expertenmodus“ Reiter in der Blynk App. Dieser ist nur aktiv wenn in der **User Config „Coldstart = 2“ gewählt wird!** Sonst gelten vordefinierte Standardwerte.
 
-![Erklärung Brüherkennung](../../img/Bildschirmfoto-2020-11-04-um-19.46.38.png)
+![Erklärung Brüherkennung](../../img/customization/pid-werte/Bildschirmfoto-2020-11-04-um-19.46.38.png)
 
 Kaltstart im Expertenmodus
 
@@ -98,7 +98,7 @@ Quick Mill (Modell 0835 & 3000) | 250 | 35
 
 Folgende Grafik soll euch bei der Einstellungen vom Kaltstart helfen, wenn ihr diesen selber einstellen wollt. Das Grundprinzip des Reglern beim Kaltstart ist hier beschrieben (auf Englisch): [Link](http://brettbeauregard.com/blog/2017/06/introducing-proportional-on-measurement/). 
 
-![PID-Kurven](../../img/image.png)
+![PID-Kurven](../../img/customization/pid-werte/image.png)
 
 Diese Grafik zeigt euch qualitativ, wie sich die Kaltstartkurve verschiebt, wenn P oder I verändert werden. Das Ziel von dem Kaltstart sollte sein, dass die Maschine ohne ein nennenswerte Überschwingen perfekt auf die Solltemperatur landet. (vgl. Kurve P 45, I 130).
 

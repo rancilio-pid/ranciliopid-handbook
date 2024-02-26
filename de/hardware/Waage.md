@@ -31,7 +31,7 @@ Anschließend verbindet ihr die Zellen mit dem HX711 und diesen mit den geeignet
 
 Bild vom Einbau:
 
-![Waage](../../img/IMG_20210404_133048.jpg)
+![Waage](../../img/hardware/scale/IMG_20210404_133048.jpg)
 
 ## Software
 
