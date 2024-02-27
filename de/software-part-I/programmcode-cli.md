@@ -36,9 +36,9 @@ $ cd clevercoffee/
 
 Erstellt zuerst ein Virtual Environment mit Python:
 ```
-$ python -m env env
+$ python -m venv env
 ```
-Dieser Befehl erstellt ein Python Virtual environment mit dem Name `env`.
+Dieser Befehl erstellt ein Python Virtual Environment mit dem Name `env`.
 
 Aktiviert das virtual environment:
 ```

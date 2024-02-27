@@ -9,7 +9,7 @@ nav_order: 2
 # Bill Of Material
 {: .no_toc }
 
-Content
+Contents
 
 * TOC
 {:toc}
