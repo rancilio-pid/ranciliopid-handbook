@@ -86,3 +86,21 @@ Jetzt noch die Firmware bauen und auf das ESP laden:
 ```
 
 Das ESP ist fertig vorbereitet. Um es neu zu starten reicht es den Reset-Button zu drücken, oder das USB-Kabel aus- und wieder einzustecken.
+
+## Over The Air (OTA) Updates
+
+Neuere Versionen können per OTA-Funktion auf das ESP32 geladen werden. Stellt dafür sicher dass die Einstellungen in `platformio.ini` im Abschnitt `[env:esp32_ota]` korrekt sind.
+
+Stellt auch sicher dass keine Firewall den Zugriff des ESPs auf einen unpriviligierten Port auf eurem Host blockiert (standardmäßig ein random TCP-Port 10000-60000). Dieser Port kann statisch konfiguriert werden, siehe [PlatformIO docs - Authentication and upload options](https://docs.platformio.org/en/latest/platforms/espressif32.html#authentication-and-upload-options).
+
+Wenn es seit dem letzten Flashen des ESPs Änderungen im `data/`-Verzeichnis des Projekts gab:
+
+```
+(env) $ pio run -e esp32_ota -t uploadfs
+```
+
+Kompilieren und Hochladen der neuen Version:
+
+```
+(env) $ pio run -e esp32_ota -t upload
+```
