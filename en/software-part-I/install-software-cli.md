@@ -40,7 +40,7 @@ $ cd clevercoffee/
 Create a Python Virtual Environment:
 
 ```
-$ python -m env env
+$ python -m venv env
 ```
 
 This command creates a Python "virtual environment" named `env`.
