@@ -22,7 +22,7 @@ The following software tools are required:
 * PlatformIO (via pip)
 
 
-## Installtion Of Git
+## Installation Of Git
 
 We recommend to install git via your distribution's package manager. Usually, the package is named `git`, otherwise you can find a [list of package names here](https://pkgs.org/download/git). On MacOS, it might be fastest to use [homebrew](https://brew.sh).
 
@@ -82,10 +82,10 @@ Description: CP2102 USB to UART Bridge Controller - CP2102 USB to UART Bridge Co
 > (env) $ platformio run --list-targets
 > ```
 
-Now you can compile and upload the filesystem: <!-- TODO: einmal ota target, einmal usb? -->
+Now you can compile and upload the filesystem:
 
 ```
-(env) $ pio -e esp32_usb -t uploadfs
+(env) $ pio run -e esp32_usb -t uploadfs
 ```
 
 Now build the firmware and upload it to the ESP32:
