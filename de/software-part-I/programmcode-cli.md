@@ -97,7 +97,7 @@ Das ESP ist fertig vorbereitet. Um es neu zu starten reicht es den Reset-Button 
 
 Neuere Versionen können per OTA-Funktion auf das ESP32 geladen werden. Stellt dafür sicher dass die Einstellungen in `platformio.ini` im Abschnitt `[env:esp32_ota]` korrekt sind.
 
-Stellt auch sicher dass keine Firewall den Zugriff des ESPs auf einen unpriviligierten Port auf eurem Host blockiert (standardmäßig ein zufälliger TCP-Port 10000-60000). Dieser Port kann als statischer Port konfiguriert werden, siehe [PlatformIO docs - Authentication and upload options](https://docs.platformio.org/en/latest/platforms/espressif32.html#authentication-and-upload-options).
+Stellt auch sicher dass keine Firewall den Zugriff des ESPs auf einen unpriviligierten Port auf eurem Host blockiert (standardmäßig ein zufälliger TCP-Port 10000-60000). Dieser kann als statischer Port konfiguriert werden, siehe [PlatformIO docs - Authentication and upload options](https://docs.platformio.org/en/latest/platforms/espressif32.html#authentication-and-upload-options).
 
 Wenn es seit dem letzten Flashen des ESPs Änderungen im `data/`-Verzeichnis des Projekts gab:
 
