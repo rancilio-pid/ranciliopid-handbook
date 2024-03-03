@@ -15,13 +15,16 @@ Inhaltsverzeichnis
 * TOC
 {:toc}
 
+
 ## Warnhinweis
 
-> {{ site.warnhinweis }}
+> {{ site.warning.de }}
+
 
 ## Einleitung
 
-Wenn der Test erfolgreich war, kannst du beginnen deinen Einbau zu planen. Je nach Ausbaustufe musst du nur das Netzteil und Controller mit Strom versorgen, den Temperatursensor einbauen am Kessel. Wir zeigen dir hier am Beispiel der Rancilio Siliva wie der Umbau gelingt. Weiter Maschinen, wie z.B. die Gaggia wurde auch schon erfolgreich umgebaut.
+Wenn der Test erfolgreich war, kannst du beginnen deinen Einbau zu planen. Unabhängig von der gewählten Ausbaustufe musst du das Netzteil und ESP mit Strom versorgen und den Temperatursensor einbauen am Kessel. Wir zeigen dir hier am Beispiel der Rancilio Siliva wie der Umbau gelingt. Weiter Maschinen, wie z.B. die Gaggia wurde auch schon erfolgreich umgebaut.
+
 
 ## Rancilio
 
@@ -31,7 +34,8 @@ Der erste Schaltplan zeigt den original Zustand der Silvia vor dem Umbau.
 
 ![Org Schaltplan](../../schaltplan/OrginalSchaltplanRancilio.png)
 
-### "Only PID"
+
+### Only PID
 
 Der zweite Schaltplan zeigt die PID Anpassung.
 Diese Version ist nur für die Temperatursteuerung verantwortlich.
@@ -39,11 +43,13 @@ Die Pumpe und das 3-Wege-Ventil werden nicht durch den Controller gesteuert.
 
 ![PID Schaltplan](../../schaltplan/OnlyPIDRancilio.png)
 
-### "Only PID+"
+
+### Only PID+
 
 Ein Schaltplan für Only PID+, also mit Optokoppler zur Brüherkennung liegt bisher noch nicht vor. Zusätzlich zum obigen Schaltplan ist ein Optoppler parallel zum Bezugsschalter und dem 3/2-Wegeventil zu setzen.
 
-### "Vollausbau"
+
+### Vollausbau
 
 Der dritte Schaltplan ist der aktuelle „Vollausbau“.
 Enthalten ist die PID für die Kesseltemperatursteuerung

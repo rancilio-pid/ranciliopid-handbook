@@ -9,14 +9,13 @@ nav_order: 3
 
 #   {{ page.title }}
 
-<details open markdown="block">
-  <summary>
-    Inhaltsverzeichnis
-  </summary>
-  {: .text-delta }
-1. TOC
+{: .no_toc }
+
+Inhaltsverzeichnis
+
+* TOC
 {:toc}
-</details>
+
 
 Grundsätzlich würde ich alle Kabel erstmal mit einer Kabellänge von ca. 60 cm abschneiden. Nach dem Einbau auf Seite 1 und dem Verlegen sollten diese beim Anschließen an Seite 2 gekürzt werden.
 

@@ -78,12 +78,12 @@ Those accessories are definitely recommended. You might already have one or the 
 
 | Description | ID | Amount PID Only | Amount Full Expansion | Link |
 | --- | --- | --- | --- | --- |
-| Piggy Back disconnects with shrinking tube – 1,5 … 2,5 mm² | WE F602638HS | 10 | 20 | [Reichelt-Link](https://www.reichelt.de/de/en/female-disconnects-with-shrinking-tube-we-f602638hs-p189402.html) |
+| Piggy back disconnects with shrinking tube – 1,5 … 2,5 mm² | WE F602638HS | 10 | 20 | [Reichelt-Link](https://www.reichelt.de/de/en/female-disconnects-with-shrinking-tube-we-f602638hs-p189402.html) |
 | Piggy back disconnects with shrinking tube - 1,5-2,5 mm² | WE F606638.1N | 5 | 5 | [Reichelt-Link](https://www.reichelt.de/de/en/piggy-back-disconnects-nylon-transp--we-f606638-1n-p189372.html) |
 | Piggy Back disconnects with shrinking tube - 1,5-2,5 mm² | WE F616638HS | 10 | 20 | [Reichelt-Link](https://www.reichelt.de/de/en/female-disconnects-with-shrinking-tube-we-f616638hs-p189408.html) |
 | Ring connector for M3, red | RK-R-3 | 10 | 10 | [Reichelt-Link](https://www.reichelt.de/de/en/ring-connector-for-m3-red-rk-r-3-p15259.html) |
 | Ring connector for M5, red | RK-R-5 | 10 | 10 | [Reichelt-Link](https://www.reichelt.de/de/en/ring-connector-for-m5-red-rk-r-5-p142770.html) |
-| Relais for **Full Expansion** (see below) | DEBO RELAY 4WAY | 0 | 1 | [Reichelt-Link](https://www.reichelt.de/de/en/developer-boards-4-way-solid-state-relay-5v-240v-2a-debo-relay-4way-p280064.html) |
+| Relay for **Full Expansion** (see below) | DEBO RELAY 4WAY | 0 | 1 | [Reichelt-Link](https://www.reichelt.de/de/en/developer-boards-4-way-solid-state-relay-5v-240v-2a-debo-relay-4way-p280064.html) |
 | Heat-shrink tubing assortment, black, 100 pieces | DELOCK 86271 | 1 | 1 | [Link](https://www.reichelt.de/de/en/heat-shrink-tubing-assortment-black-100-pieces-delock-86271-p152924.html) |
 | Screw M4x16 |  | 1 | 1 |
 | Nut M4 |  | 2 | 2 |
@@ -103,6 +103,8 @@ Those accessories are definitely recommended. You might already have one or the 
 This project uses a [custom designed Printed Circuit Board (PCB)](https://github.com/rancilio-pid/clevercoffee-hardware) for connecting all components of the PID. It mounts the ESP32 and some small passive electronics as well as screw terminals for connecting all required cables.
 
 There is a new version of the PCB available. [Please request via our chat directly!](https://discord.com/invite/Kq5RFznuU4). **Please send a direct message to @loque**.
+
+![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_5_set_content.png)
 
 Base board includes:
  * The PCB
@@ -130,7 +132,8 @@ Mind the correct polarity when soldering the E-cap!
 
 [Please request via our chat directly!](https://discord.com/invite/Kq5RFznuU4). **Please send a direct message to @loque**.
 
-![Included items](../img/PCB_Lieferumfang.jpeg)
+![Included items](../img/bestellliste/pcb_esp8266_rev1_1_set_content.jpeg)
+
 
 Base board includes:
  * The PCB

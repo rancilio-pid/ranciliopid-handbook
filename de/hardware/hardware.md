@@ -72,10 +72,13 @@ Wie ihr zu der Beschreibung zum Board sehen könnt, muss an Pin 2 der Temperatur
 
 Da wir öfters hören, dass die mitgelieferte Bildbeschreibung des TSIC nicht gut ist, haben wir hier nochmals die Pins vom Sensor dargestellt. Die flache Seite liegt unten. Ein falsch gepolter TSIC sollte entsorgt werden! Er misst vermeintlich richtig, aber definitiv nicht mehr genau.
 
+
+### SSR anschließen
+
 Beim Anschließen des SSR zur Ansteuerung der Heizung ist es wichtig, dass die Polarität der SSR-Ports 3 und 4 beachtet werden:
 
-* SSR Port 3 (+) : Board PIN 14 Signal
-* SSR Port 4 (-) : Board PIN 14 GND
+* SSR Port 3 (+) : Board Pin 14 Signal
+* SSR Port 4 (-) : Board Pin 14 GND
 
 Damit habt ihr das System zum ersten Mal aufgebaut.
 
