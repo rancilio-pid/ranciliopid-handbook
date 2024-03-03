@@ -17,7 +17,7 @@ Inhaltsverzeichnis
 
 ## Warnhinweis
 
-> {{ site.warnhinweis }}
+> {{ site.warning.de }}
 
 ## Einleitung
 Wir möchten die Schalter von 230V auf 3.3V bzw. 5V umbauen um das Signal direkt ohne Optokopller o.ä. an den Mikrocontroller weitergeben zu können. Dies ist glücklicherweise recht einfach ohne Löten oder änhliches und vor allem reversibel möglich. Der größte Aufwand hierbei ist es, dass ein Teil der alten Verkabelung raus muss und die Schalter neu verdrahtet werden müssen, hierzu aber am Ende des Kapitels mehr. 
@@ -72,7 +72,7 @@ Auf der Rückseite der Schalter befinden Nummern für die Anschlüsse von 1-6, w
 - Signal auf 2
 - GND auf 4
 
-Wobei sich alle Schalter auch VCC und GND teilen können und Signal geht dann jeweils von dem Schalter zu den jeweiligen Eingängen auf dem Board. Da die meisten von euch, gerade beim ESP, nicht mehr genügend Eingänge frei haben werden um alle Schalter anzuschließen, kann z.B. der Wasserbezugschalter direkt mit an den Eingang des Relais für die Pumpe angeschlossen werden. In diesem Fall geht dann der Signal Ausgang (2) vom Schalter mit auf den Schalteingang des Reilais. Zur Zeit wird das im PID mit dem Signal des Wasserbezugs sowieso keine Funktion ausgelöst.
+Wobei sich alle Schalter auch VCC und GND teilen können und Signal geht dann jeweils von dem Schalter zu den jeweiligen Eingängen auf dem Board. Da die meisten von euch, gerade beim ESP, nicht mehr genügend Eingänge frei haben werden um alle Schalter anzuschließen, kann z.B. der Wasserbezugschalter direkt mit an den Eingang des Relais für die Pumpe angeschlossen werden. In diesem Fall geht dann der Signal Ausgang (2) vom Schalter mit auf den Schalteingang des Relais. Zur Zeit wird das im PID mit dem Signal des Wasserbezugs sowieso keine Funktion ausgelöst.
 Hier noch ein Bild des fertig verdrahteten Schalters.
 ![LeFin](../../img/hardware/led-mod/IMG_2866.png)![LeFin2](../../img/hardware/led-mod/IMG_2867.png)
  
