@@ -1,103 +1,73 @@
 ---
 layout: default
-title: Aufbau
+title: Assembly
 parent: Hardware
 grand_parent: EN - Manual
 has_children: false
 nav_order: 1
 ---
 
-# Aufbau und Einbau der Hardware
+# Assembly And Installation Of Hardware
 {: .no_toc }
 
-Inhaltsverzeichnis
+Contents
 
 * TOC
 {:toc}
 
-## Trockenaufbau
 
-Wenn ihr die einzelnen Komponenten beisammenhabt, startet ihr am besten mit einem Trockenaufbau außerhalb eurer Maschine. So könnt ihr das System zum Laufen bringen und kommt jederzeit problemlos an alle Stecker etc. heran.
+## Test Assembly
 
-Die Heizung eurer Maschine könnt ihr z. B. mit einer Glühbirne simulieren, jeder andere 230V Verbraucher tut es aber genauso gut.
+After you gathered all the individual parts, we recommend to do a test assembly outside of the machine. This way, you can get the whole system up and running and can still reach all cables and parts easily.
 
-![Trockenaufbau](../../img/hardware/hardware/trockenaufbau.png)
-*(1=Mikrocontroller, 2=Temperatursensor, 3=SSR Relais für Heizung, 4=Schaltnetzteil, 5=Display)*
+Instead of running the heating of your coffee machine, you can use e.g. a light bulb instead, but any other 120V or 230V consumer works equally.
 
-Das PCB für den Mikrocontroller sieht wie folgt aus:
+![Test Setup](../../img/hardware/hardware/trockenaufbau.png)
 
-![PCB](../../img/hardware/hardware/image-3.png)
+*(1=Microcontroller, 2=Temperature Sensor, 3=SSR Relay for Heating, 4=Switching Power Supply, 5=Display, Heizung=Heating)*
 
 
-###  Grundversion PID Only
+## Setup
 
-Die einzelnen Komponenten werden wie folgt angeschlossen:
+### Connecting the Temperature Sensor
 
-PIN | Belegung
--|-
-PIN 14 | SSR Heizung     
-PIN 2 | Temperatursensor
-PIN 4 | Display-PIN SDA
-PIN 5 | Display-PIN SCL
-GND/Vin | Netzteil
 
-### Vollausbau
+**CAUTION!** The TSIC temperature sensor is sometimes delivered with an incorrect data sheet, which shows the wrong polarity.
 
-Bei dem „Vollausbau“ wird noch die Steuerung für Magnetventil und Pumpe benötigt:
+You should take special precaution when connecting the TSIC 306 temperature sensor. Once they have been connected incorrectly and got supplied with current, they are either destroyed instantly or will at least be damaged and will report incorrect measurements. It is therefore recommended to always have a spare sensor at hand.
 
-PIN | Belegung
--|-
-PIN 12 | Relais Ansteuerung Magnetventil
-PIN 13 | Relais Ansteuerung Pumpe
+* Sensor `VCC` : Board `T_SENS` `3.3V`
+* Sensor `Signal` : Board `T_SENS` `SIG`
+* Sensor `GND` : Board `T_SENS` `GND`
 
-## Einbau
+The flat side of the sensor faces down. An incorrectly wired sensor should be disposed! It seemingly measures correctly, but definitely not accurately anymore.
+Since the original description of the sensor is sparse, here is another description of the sensor's pins.
 
-### Temperatursensor anschließen
-
-Besondere Sorgfalt müsst ihr bitte beim Anschließen des Temperatursensors TSIC306 walten lassen: sobald dieser einmal falsch angeschlossen Spannung bekommen hat, ist er entweder sofort zerstört oder zumindest vorgeschädigt und liefert dadurch fehlerhafte Messwerte. Daher ist es immer ratsam einen Ersatz-Sensor parat zu haben.
-
-* Sensor V+ : Board PIN 2 5V
-* Sensor Signal: Board PIN 2 Signal
-* Sensor GND:  Board PIN 2 GND
-
-Wie ihr zu der Beschreibung zum Board sehen könnt, muss an Pin 2 der Temperatursensor angeschlossen werden. Die oberen Ports (14, 2, 12, 13, 15) sind einheitlich jeweils von links nach rechts mit Minus(-), Signal, 5V(+) belegt.
+*TSIC sensor, flat side facing down:*
 
 ![TSIC Sensor](../../img/hardware/hardware/20200503_223844-scaled.jpg)
 
-Da wir öfters hören, dass die Bildbeschreibung zum TSIC nicht gut ist, haben wir hier nochmals die Pins vom Sensor dargestellt. Die flache Seite liegt unten. Ein falsch gepolter TSIC sollte entsorgt werden! Er misst vermeintlich richtig, aber definitiv nicht mehr genau.
 
-Beim Anschließen des SSR zur Ansteuerung der Heizung ist es wichtig, dass die Polarität der SSR-Ports 3 und 4 beachtet werden:
+### Connecting the SSR
 
-* SSR Port 3 (+) : Board PIN 14 Signal
-* SSR Port 4 (-) : Board PIN 14 GND
+When connecting the Solid State Relay (SSR) for controlling the heating, it is important to get the polarity of SSR ports 3 and 4 correctly.
 
-Damit habt ihr das System zum ersten Mal aufgebaut.
+* SSR Port 3 (+) : Board `HT_RL` `IO02`
+* SSR Port 4 (-) : Board `HT_RL` `GND`
 
-### PIN Belegung vom PCB
+With that, you have setup the hardware for the first time.
 
-Pin|Funktion
--|-
-Pin 12| Relay für das Ventil
-Pin 13| Relay für die Pumpe
-Pin 15| frei
-Pin 14| Relay für die Heizung
-Pin 2| Temperatursensor
-A0| Schalter Brühtaste
-|
-Pin 4| SDA
-Pin 5| SCL
-Pin 16| frei
 
-## Tipps und Tricks
+## Tips and Tricks
 
-Hier einige gesammelte Hinweise zum Einbau in die Maschine:
+Here are some collected notes about the setup of the machine:
 
-* Verbaut die Komponenten an einem trockenen Ort und möglichst entfernt von der Hitzequelle Boiler.
+* Install the components in a dry spot, and as far away as possible from the boiler heatsource.
 
-* Das SSR schaltet die Heizleistung von ca. 1.000 W, von daher kann eine Montage mit wärmeleitendem Kleber bzw. Klebepads nicht schaden.
+* The SSR operates the heating capacity of around 1.000 watts, therefore assembly with a heat-conducting glue or adhesive pads doesn't hurt.
 
-*  Den Temperatursensor solltet ihr wenn möglich nicht nur an den Kessel ankleben, sondern fest verschrauben. Bei der Rancilio Silvia kann man dazu die Halteklammer des nun überflüssigen Brühthermostaten nutzen, bei der Gaggia Classic kann der Sensor am vorhandenen M4-Gewinde der Thermostataufnahme verschraubt werden.
+* If possible, the temperature sensor should not only be glued to the boiler, but rather screwed down. For Rancilio Silvia machines it is possible to reuse the metal brackets of the now-obsolete brew thermostat, for the Gaggia Classic the existing M4 screw thread of the thermostat mounting can be used.
 
-* Zum Anschluss des Temperatursensors TSIC keine Steckverbinder (Jumperkabel) nehmen, sondern Litze an die Beine des TSIC löten. Das ist etwas fummelig, aber dafür habt ihr weniger Neigung zu Wackelkontakten im verbauten Zustand.
+* For connecting the temperature sensor, do not use simple jumper cables, but instead solder them onto hook-up wires. This might be a bit fiddly to do, but the connection will be way less susceptible for loose connections, once installed permanently.
 
-* Beim ersten Probelauf nach dem erfolgreichen Zusammenbau muss der PID einmalig über die Konfigurationshomepage aktiviert werden, ansonsten zeigt das Display nur "PID is disabled manually" an. Danach sollte das Relais schalten und "heizen".
+* During the start of the ESP, after final assembly, the PID must be enabled manually on the web page in "Parameters". Otherwise, the display will only show "PID is disabled manually". After this, the relay should trigger and heat the boiler.
