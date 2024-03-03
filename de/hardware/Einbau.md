@@ -108,7 +108,7 @@ Da direkt beide Schalter umgebaut werden, bietet es sich an, je ein gemeinsames 
 1. Vom Hauptschalter L (schwarz) ein Kabel zum Relais für Pumpe und Ventil ziehen. Dieses Kabel werden sich Pumpe und Ventil teilen. Am Ende beim Relais also z.B. eine Wago-Klemme für drei Kabel oder einen Steckverbinder mit Abzweig anbringen. 
 2. Weiteres (kurzes) Kabel von Wago/Steckverbinder zu "SW1" auf der 220V-Seite des Relais legen. 
 3. Am zweiten Anschluss von SW1 am Relais ein Kabel anschließen. Kabel so ablängen, dass es zum Ventil führt. Steckverbinder anbringen, orangenes Kabel am Ventil abziehen, stattdessen neues Kabel aufstecken. 
-4. Weiteres Kabel N (rot) zum Ventil legen und auf den Stecker mit vormals weißem Kabel aufstecken. Ich habe den Strom beim neuen Netzteil für den ESP abgegriffen, im Prinzip eignet sich aber jedes in der Nähe liegende Kabel mit N (rot) vom Hauptschalter. 
+4. Weiteres Kabel N (rot) zum Ventil legen und auf den Stecker mit vormals weißem Kabel aufstecken.
 5. Kabel für 5V, GND und VALVE vom ESP zum Relais legen. (Wenn Dupont-Stecker am ESP verwendet werden, bietet es sich an, direkt auch die Leitung für das Pumpen-Signal mit anzubringen). Am Relais darauf achten, dass das die Steuersignal korrekt anliegen (wenn Ventil wie oben an SW1 angeschlossen, dann Signal für Ventil an CH1). 
 6. Software konfigurieren, flashen, Maschine mit dem Strom verbinden, Bezug testen -- das Ventil sollte deutlich hörbar klacken, wenn der Bezugschalter umgelegt wird. 
 7. Vor dem Weitermachen Maschine vom Strom trennen.
