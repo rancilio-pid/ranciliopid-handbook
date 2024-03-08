@@ -21,7 +21,8 @@ CleverCoffee supports both brew switches (which remain switched on after flippin
 Depending on the hardware installed, the configuration in `userConfig.h` must be adapted: 
 
 ```
-#define BREWSWITCHTYPE 2 // 0 = no switch connected, 1 = normal switch, 2 = trigger switch
+#define FEATURE_BREWSWITCH 0                     // 0 = deactivated, 1 = activated
+#define BREWSWITCH_TYPE Switch::TOGGLE           // Switch::TOGGLE or Switch::MOMENTARY (trigger)
 ```
 
 ### Brew head rinse with brew trigger

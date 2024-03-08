@@ -21,7 +21,8 @@ CleverCoffee unterstützt im "Vollausbau" sowohl Brühschalter (die nach dem Uml
 Je nach verbauter Hardware ist die Konfiguration in der `userConfig.h` anzupassen: 
 
 ```
-#define BREWSWITCHTYPE 2    // 0 = no switch connected, 1 = normal switch, 2 = trigger switch
+#define FEATURE_BREWSWITCH 0                     // 0 = deactivated, 1 = activated
+#define BREWSWITCH_TYPE Switch::TOGGLE           // Switch::TOGGLE or Switch::MOMENTARY (trigger)
 ```
 
 ### Brühkopf Spülen mit Brühtrigger
