@@ -32,7 +32,7 @@ What you will need for the modification, for each switch:
 * One LED in your preferred colour, 5mm diameter
 * Two resistors, type `SMD 0207 MELF`
 
-For Rancilio machines, orange/amber coloured LEDs are a decent choise, since the switch's light-covers are already the same colour. Pick a diffusing LED with a brightness of around 1800 mcd.
+For Rancilio machines, orange/amber coloured LEDs are a decent choice, since the switch's light-covers are already the same colour. Pick a diffusing LED with a brightness of around 1800 mcd.
 The resistors must match the LED and current (3.3V or 5V). Use a LED resistance calculator to get the correct values, e.g. [https://www.leds-and-more.de/catalog/resistor.php]().
 
 Based on the example of an orange LED with a forward voltage of 1.8V and a current draw of 20 mA at an operating voltage of 3.3V, this will result in 75 Ω.
