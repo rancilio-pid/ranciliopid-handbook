@@ -162,7 +162,7 @@ As an alternative to gluing the temperature sensor, use the empty screw-mounting
 
 
 ### Infos About The Temperature Sensor
-We advise you to order at least two TSIC sensors. We had to experience multiple times already that sensors were wired incorrectly or damaged in other ways. Therefore, it's better to have a reserve already than ordering twice. Please do not continue to use a sensor that was wired the wrong way, it will probably break soon or show unrealistic values. For details, see [Connect Temperature Sensor](./hardware/hardware.md#connect-temperature-sensor)<!--TODO-->.
+We advise you to order at least two TSIC sensors. We had to experience multiple times already that sensors were wired incorrectly or damaged in other ways. Therefore, it's better to have a reserve already than ordering twice. Please do not continue to use a sensor that was wired the wrong way, it will probably break soon or show unrealistic values. For details, see [Connect Temperature Sensor](./hardware/hardware.md#connecting-the-temperature-sensor).
 
 
 ### Infos About The Microcontroller
@@ -189,7 +189,7 @@ For simple setups, you can just put the display next to the machine or or fix it
 
 For a first run of the display we recommend to use the listed jumper cables - this way, you don't necessarily have to solder. Jumpers are also a good way to do a first round of "dry build-up" outside of the machine, but we don't recommend to use them for long-term build-ups since they tend to not hold strong enough.
 
-Alternatively, you can use the Dupont-set and the crimping pliers. This adds the benefit that you can choose the correct length of the cables, but you definitely need crimping pliers for it. Dupont contacts are a good choice for the final build-up, plus you don't have to solder on the display's board. Note though that for the temperature sensor, it is still recommended to solder: [link](./ hardware/hardware.md/#tipps-und-tricks).<!--TODO-->
+Alternatively, you can use the Dupont-set and the crimping pliers. This adds the benefit that you can choose the correct length of the cables, but you definitely need crimping pliers for it. Dupont contacts are a good choice for the final build-up, plus you don't have to solder on the display's board. Note though that for the temperature sensor, it is still recommended to solder: [link](./hardware/hardware.md#tips-and-tricks).
 
 
 ### Infos about Full Expansion SSR
