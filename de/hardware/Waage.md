@@ -63,9 +63,9 @@ Haltet dazu ein Kalibriergewicht parat, bei welchem euch das Gewicht bekannt ist
 
 ![Parameter der Waage auf der Website einstellen](../../img/website_scale_parameters.png)
 
-Tragt hier das Gewicht eures Kalibiergewichts ein. Den/Die Kalibrierungsfaktor(en) könnt ihr ignorieren. Diese Werte werden während der Kalibrierung überschrieben. 
+Tragt hier das Gewicht eures Kalibriergewichts ein. Den/Die Kalibrierungsfaktor(en) könnt ihr ignorieren. Diese Werte werden während der Kalibrierung überschrieben. 
 
-Wechselt dann auf die Startseite und klickt bei "Toggle Calibration Mode" auf "on":
+Wechselt dann auf die Startseite und klickt bei "Toggle Scale Calibration Mode" auf "on":
 
 ![Alt text](../../img/website_with_scale_calibration.png)
 
