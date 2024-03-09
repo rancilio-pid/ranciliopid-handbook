@@ -4,7 +4,7 @@ title: Water Level Sensor
 parent: Hardware
 grand_parent: EN - Manual
 has_children: false
-nav_order: 3
+nav_order: 4
 ---
 
 # Installation of a Water Level Sensor
