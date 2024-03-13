@@ -21,9 +21,6 @@ Die Blynk-App kann so eingerichtet werden, dass via eines sog. Webhooks ein Moni
 
 ![PID-Einführung](../../img/customization/monitoring/Bildschirmfoto-2020-11-04-um-20.51.31-1536x733.png)
 
-## Übersicht
-
-Eine Übersicht über alle vorhandenen Sensoren findet er ihr hier: [Rancilio-PID Monitoring](https://monitoring.rancilio-pid.de/d/oJOWQzKZk/ranciliopid-ubersicht).
 
 ## Installations-Video
 
