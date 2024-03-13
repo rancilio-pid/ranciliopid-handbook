@@ -56,6 +56,6 @@ Based on the wiring diagram of the OnlyPID above, the OnlyPID+ variant adds an o
 The third wiring diagram shows the current "full expansion". This version includes a temperature sensor on the boiler. Additionally, it can also control the brew time duration and do a pre-infusion (feeding some water into the portafilter, break, brew like normal).
 In this version, both the pump and the 3-way-valve are controlled by the ESP microcontroller.
 
-**IMPORTANT NOTE: This modification on the brew-switch can only be done if a switch without a lamp is used, or if the lamp is taken out of the lamp, or if you re-wire the lamp to use only 3.3 Volts (see [LED-Mod](./led-mod). Otherwise, there is NO galvanic separation between 3.3 Volts and 120/230 Volts! This can possibly be a danger to you or the microcontroller!**
+**IMPORTANT NOTE: This modification on the brew-switch can only be done if a switch without a lamp is used, or if the lamp is taken out of the lamp, or if you re-wire the lamp to use only 3.3 Volts (see [LED-Mod](./led-mod.md). Otherwise, there is NO galvanic separation between 3.3 Volts and 120/230 Volts! This can possibly be a danger to you or the microcontroller!**
 
 ![Full Expansion Wiring Diagram](../../img/hardware/wirings/Screenshot-at-Dez.-11-11-12-33-1536x1147.png)

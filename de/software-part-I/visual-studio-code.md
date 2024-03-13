@@ -66,7 +66,7 @@ Im Gegensatz zur ArduinoIDE ist es bei der Arbeit mit Visual Studio Code und Pla
 
 Nach dem Herunterladen des Programmcodes muss man diesen in PlatformIO in Visual Studio Code über "Open Project" unter "PIO Home" -> "Open" auswählen. Beim ersten Öffnen installiert PlatformIO an dieser Stelle alle notwendigen Abhängigkeiten und Tools, wie die benötigten Compiler und Bibliotheken für die Boards. Das Projekt öffnet sich nun in der Projektansicht von PlatformIO.
 
-Bevor man den Programmcode nun kompilieren und auf das Board laden kann, muss erst noch die Datei `userConfig.h` erstellt werden, in der alle für dich spezifischen Optionen eingetragen werden. Alle Einstellungsmöglichkeiten auf Basis dieser Datei sind in [Software Teil II](../software-part-II.md#userconfigh) erklärt bzw. als Kommentare innerhalb der Datei vorhanden.
+Bevor man den Programmcode nun kompilieren und auf das Board laden kann, muss erst noch die Datei `userConfig.h` erstellt werden, in der alle für dich spezifischen Optionen eingetragen werden. Alle Einstellungsmöglichkeiten auf Basis dieser Datei sind in [Beschreibung der userConfig.h](./Userconfig.md) erklärt bzw. als Kommentare innerhalb der Datei vorhanden.
 
 Wichtiger Hinweis: 
 Wenn ihr das OTA Passwort in der `userconfig` ändert, muss es auch in der `platformio.ini` eingetragen werden unter: 

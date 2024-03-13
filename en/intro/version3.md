@@ -34,7 +34,7 @@ For the initial configuration of the PID a WiFi manager is used. During the firs
 
 
 ### Web Interface
-The ESP hosts a dedicated web interface. Usually, you can find it at http://`<<HOSTNAME>>`.local. You can find the hostname in file `platform.ino` in value `upload_port`, please also see chapter [Remote Monitoring](../software-part-I/wifi-configuration.html#remote-monitoring). *Note*: Only devices in the same network as the ESP can open the web interface! By default, configuration sets [http://silvia.local](http://silvia.local).
+The ESP hosts a dedicated web interface. Usually, you can find it at http://`<<HOSTNAME>>`.local. You can find the hostname in file `platform.ino` in value `upload_port`, please also see chapter [Remote Monitoring](../software-part-I/wifi-configuration.md#remote-monitoring). *Note*: Only devices in the same network as the ESP can open the web interface! By default, configuration sets [http://silvia.local](http://silvia.local).
 
 Alternatively, you can find out the IP address of your ESP by checking the list of connected WiFi devices in your home router, or with the monitor command in PlatformIO, while the ESP is still connected via USB. We recommend to configure a static IP address and hostname for the ESP in your router, so that you can always reach the web interface of the PID the same way.
 

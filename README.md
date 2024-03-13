@@ -30,6 +30,15 @@ This project is intended to be a safe, welcoming space for collaboration, and co
 * Open http://localhost:4000 in your browser
 Changes will be applied every time you save a file. Changes in `_config.yml` need a restart of the Jekyll server.
 
+### Local linting
+Linting is done automatically via GitHub Actions on every push. If you wish to run the Markdown linting manually, here's how to do it locally:
+* Clone the [gaurav-nelson/github-action-markdown-link-check](https://github.com/gaurav-nelson/github-action-markdown-link-check) repository and `cd github-action-markdown-link-check/`
+* Checkout version: `git checkout v1`
+* Build Docker image: `docker build -t github-action-markdown-link-check:v1 .`
+* Change directory back to the `rancilio-pid/ranciliopid-handbook` repository
+* Run lint container: `docker run -ti -v $(pwd):/data:Z github-action-markdown-link-check:latest "no" "no" "/data/mlc_config.json" "/data" "-1" "no" "main" ".md" ""`
+* Parameters for the container are described [here](https://github.com/gaurav-nelson/github-action-markdown-link-check?tab=readme-ov-file#custom-variables).
+
 ### Design and development principles of this manual:
 
 * As few dependencies as possible

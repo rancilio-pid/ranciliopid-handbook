@@ -174,7 +174,7 @@ Wer es einfach mag, kann das Display entweder neben die Maschine legen, oder an 
 
 Für einen ersten Betrieb des Displays empfehlen sich die gelisteten Jumperkabel - so muss nicht zwangsläufig gelötet werden. Jumper sind gut für den Trockenaufbau geeignet, haben aber keinen ausreichend stabilen Halt an den Pins für den dauerhaften Einbau.
 Alternativ könnt ihr euch ein Dupont-Set mit Crimpzange zulegen. Dieses hat den Vorteil, dass ihr die Länge der Verbindung frei zuschneiden könnt. Es kann aber nur mit einer Crimpzange genutzt werden kann. Dupont-Stecker sind gut für den finalen Einbau geeignet und man muss ebenfalls nicht am Display löten.
-Beachtet jedoch den entsprechenden Hinweis zum Temperatursensor (dieser sollte gelötet werden): [Link](./hardware/hardware.md/#tipps-und-tricks).
+Beachtet jedoch den entsprechenden Hinweis zum Temperatursensor (dieser sollte gelötet werden): [Link](./hardware/hardware.md#tipps-und-tricks).
 
 ### Infos zum Vollausbau SSR
 Wir haben im Projekt viele diverse Relais für die Pumpe und das Ventil testen „dürfen“ – diese sind leider nicht so stabil wie die der SSR für die Heizung. Folgende Erkenntnisse haben wir dabei gesammelt:
