@@ -28,11 +28,10 @@ Ab der Version 4 für den ESP32 bzw. für den ESP8266 (bis Version 3.1.3)  werde
 
 ## Installation von git
 
-Wir empfehlen euch git direkt über den Paketmanager eurer Distribution zu installieren. Üblicherweise heißt das Paket `git`, ansonsten findet ihr [hier eine Liste](https://pkgs.org/download/git) vieler Distributionen und des Paketnamens für Git. Auf MacOS geht der Weg via [homebrew](https://brew.sh) am schnellsten.
+Wir empfehlen euch git direkt über den Paketmanager eurer Distribution zu installieren, üblicherweise heißt das Paket `git`. Auf MacOS geht der Weg via [homebrew](https://brew.sh) am schnellsten.
 
 Klont das Projekt in einen Ordner eurer Wahl:
 ```
-$ cd repos/
 $ git clone https://github.com/rancilio-pid/clevercoffee.git
 $ cd clevercoffee/
 ```

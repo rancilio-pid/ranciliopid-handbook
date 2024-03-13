@@ -29,7 +29,7 @@ The following software tools are required:
 
 ## Installation Of Git
 
-We recommend to install git via your distribution's package manager. Usually, the package is named `git`, otherwise you can find a [list of package names here](https://pkgs.org/download/git). On MacOS, it might be fastest to use [homebrew](https://brew.sh).
+We recommend to install git via your distribution's package manager, usually, the package is named `git`. On MacOS, it might be fastest to use [homebrew](https://brew.sh).
 
 Clone the project into a folder of your choice:
 
