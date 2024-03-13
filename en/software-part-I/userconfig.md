@@ -77,15 +77,15 @@ All relevant settings for the display are configured here.
 
 `OLED_I2C` defines the I2C address, this usually doesn't have to be changed.
 
-`DISPLAYTEMPLATE` defines the template you want to use, see [Displayausgabe](../customization/Display.html). <!-- TODO -->
+`DISPLAYTEMPLATE` defines the template you want to use, see [display output (german)](../../de/customization/Display.md). <!-- TODO -->
 
 `DISPLAYROTATE` rotates the display. When using portrait mode, you'll also have to use a suitable display template (20).
 
 `SHOTTIMER` (1) activates the shot timer, when using a scale (2) can be chosen to also see the weight.
 
-`HEATINGLOGO` shows a logo during heat-up phase, see [Displayausgabe](../customization/Display.html).
+`HEATINGLOGO` shows a logo during heat-up phase, see [display output (german)](../../de/customization/Display.md).
 
-`OFFLINEGLOGO` shows the logo when the PID is in offline mode, see [Displayausgabe](../customization/Display.html).
+`OFFLINEGLOGO` shows the logo when the PID is in offline mode, see [display output (german)](../../de/customization/Display.md).
 
 `BREWSWITCHDELAY` sets the delay of still showing the brewing timer on the display after the brewing has already stopped.
 
@@ -117,11 +117,11 @@ Here, the most important parameters for the PID hardware are defined.
 
 `BREWMODE` defines if you want to control only the valve and the pump (1) or if there's also a scale built in (2). In the future, there will be more information available in the manual.
 
-`BREWDETECTION` Defines if brewing is detected by software (1), by brew switch in the full expansion (2) or via sensor in the OnlyPID version (3). This is explained in more detail here [Brüherkennung](../customization/brueherkennung.html) <!--TODO-->.
+`BREWDETECTION` Defines if brewing is detected by software (1), by brew switch in the full expansion (2) or via sensor in the OnlyPID version (3). This is explained in more detail here [Brew Detection (german)](../../de/customization/brueherkennung.md) <!--eliba TODO: not yet translated-->
 
 `TRIGGERTYPE HIGH` defines the trigger type for the valve/pump. Can be `LOW` or `HIGH`.
 
-`VOLTAGESENSORTYPE` and `PINMODEVOLTAGESENSOR` defines the voltage sensor, see: [Brüherkennung bei Only PID](../customization/brueherkennung.html#sensor-zur-brüherkennung-bei-only-pid) <!--TODO-->
+`VOLTAGESENSORTYPE` and `PINMODEVOLTAGESENSOR` defines the voltage sensor, see: [Brew Detection In Only PID (german)](../../de/customization/brueherkennung.md#sensor-zur-brüherkennung-bei-only-pid) <!--eliba TODO: not yet translated-->
 
 `PRESSURESENSOR` (...)
 

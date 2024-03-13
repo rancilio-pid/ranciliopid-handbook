@@ -31,4 +31,4 @@ Um den Brühkopf, z.B. nach einem Bezug durchzuspülen, kann der Brühtrigger ge
 
 ### Rancilio Silvia: Umbau Brühschalter auf Brühtrigger
 
-Der in älteren Rancilio Silvias verbaute Brühschalter kann einfach auf einen Brühtrigger umgebaut werden. Dazu wird der Schalter wie in der [Anleitung zum LED-Umbau der Schalter](LED_Umbau.md) beschrieben geöffnet und eine kleine Feder (z.B. aus einem Kugelschreiber) oben im Schalter eingesetzt. Anschließend den Schalter wieder zusammenbauen, fertig. 
+Der in älteren Rancilio Silvias verbaute Brühschalter kann einfach auf einen Brühtrigger umgebaut werden. Dazu wird der Schalter wie in der [Anleitung zum LED-Umbau der Schalter](../hardware/LED_Umbau.md) beschrieben geöffnet und eine kleine Feder (z.B. aus einem Kugelschreiber) oben im Schalter eingesetzt. Anschließend den Schalter wieder zusammenbauen, fertig.

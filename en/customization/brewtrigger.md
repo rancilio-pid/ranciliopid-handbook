@@ -31,4 +31,4 @@ To rinse the brew head, e.g. after a brew, the brew trigger can be held. The pum
 
 ### Rancilio Silvia: Conversion of brew switch to brew trigger
 
-The brew switch installed in older Rancilio Silvias can easily be converted to a brew trigger. To do this, open the switch as described in the [Instructions for converting the LED switch](LED_Umbau.md) and insert a small spring (e.g. from a ballpoint pen) into the top of the switch. Then reassemble the switch and you're done.
+The brew switch installed in older Rancilio Silvias can easily be converted to a brew trigger. To do this, open the switch as described in the [Instructions for converting the LED switch](../hardware/led-mod.md) and insert a small spring (e.g. from a ballpoint pen) into the top of the switch. Then reassemble the switch and you're done.

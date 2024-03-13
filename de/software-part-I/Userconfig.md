@@ -78,15 +78,15 @@ Hier werden alle für das Display relevanten Einstellungen vorgenommen.
 
 `OLED_I2C` gibt die I2C Adresse an, hier muss in der Regel nichts angepasst werden.
 
-`DISPLAYTEMPLATE` definiert das Template das ihr verwenden möchtet, siehe [Displayausgabe](../customization/Display.html).
+`DISPLAYTEMPLATE` definiert das Template das ihr verwenden möchtet, siehe [Displayausgabe](../customization/Display.md).
 
 `DISPLAYROTATE` lässt das Display rotieren. Beim Hochformat muss ein entsprechendes vertikales Displaytemplate (20) verwendet werden.
 
 `SHOTTIMER` (1) aktiviert den Shot Timer, bei der Verwendung einer Waage kann (2) ausgewählt werden, um auch das Gewicht zu sehen.
 
-`HEATINGLOGO` zeigt euch bis kurz vor Erreichen der Solltemperatur ein entsprechendes Logo an, siehe [Displayausgabe](../customization/Display.html).
+`HEATINGLOGO` zeigt euch bis kurz vor Erreichen der Solltemperatur ein entsprechendes Logo an, siehe [Displayausgabe](../customization/Display.md).
 
-`OFFLINEGLOGO` zeigt euch beim Deaktivieren des PIDs ein Logo an, siehe [Displayausgabe](../customization/Display.html).
+`OFFLINEGLOGO` zeigt euch beim Deaktivieren des PIDs ein Logo an, siehe [Displayausgabe](../customization/Display.md).
 
 `BREWSWITCHDELAY` ermöglicht euch einzustellen, wie lange die Dauer des Bezugs im Display noch angezeigt werden soll, nachdem der Brühvorgang bereits beendet ist.
 
@@ -118,11 +118,11 @@ Hier sind die wichtigsten Parameter für die PID/Hardware definiert.
 
 `BREWMODE` definiert, ob ihr nur das Ventil und die Pumpe steuert (1) oder auch eine Waage verbaut habt (2). Dazu wird in der Zukunft im Handbuch noch mehr stehen.
 
-`BREWDETECTION` definiert, ob die Brüherkennung per Software (1), Brühschalter beim Vollausbau (2) oder per Sensor bei OnlyPID (3) realisiert ist. Diese ist hier [Brüherkennung](../customization/brueherkennung.html) genauer erläutert.
+`BREWDETECTION` definiert, ob die Brüherkennung per Software (1), Brühschalter beim Vollausbau (2) oder per Sensor bei OnlyPID (3) realisiert ist. Diese ist hier [Brüherkennung](../customization/brueherkennung.md) genauer erläutert.
 
 `TRIGGERTYPE HIGH` es gibt `LOW` und `HIGH` Trigger für das Ventil/Pumpe. Dies wird hier definiert.
 
-`VOLTAGESENSORTYPE` und `PINMODEVOLTAGESENSOR` ist für die Konfiguration vom Voltagesensor hier dazu mehr: [Brüherkennung bei Only PID](../customization/brueherkennung.html#sensor-zur-brüherkennung-bei-only-pid)
+`VOLTAGESENSORTYPE` und `PINMODEVOLTAGESENSOR` ist für die Konfiguration vom Voltagesensor hier dazu mehr: [Brüherkennung bei Only PID](../customization/brueherkennung.md#sensor-zur-brüherkennung-bei-only-pid)
 
 `PRESSURESENSOR` (...)
 

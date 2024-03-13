@@ -170,6 +170,6 @@ Things you could do while the machine is partly disassembled anyways:
 Features that could be added:
 
 * digital Manometer
-* [integrated Scale](./scale.md) <!-- eliba TODO: not written yet) -->
+* [integrated Scale (german)](../../de/hardware/Waage.md) <!-- eliba TODO: not written yet) -->
 * Change timer duration for Silvia E power save mode
 * Automatically changing from steam mode to brew mode

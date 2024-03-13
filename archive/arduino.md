@@ -27,11 +27,11 @@ Wird benötigt, um den Code auf den Controller zu spielen.
 
 [Link zu Arduino](https://www.arduino.cc/en/Main/Software)
 
-![Screenshot der Arduino Homepage](../../img/archive/arduino/1.png)
+![Screenshot der Arduino Homepage](../img/archive/arduino/1.png)
 
 ## Installation der Arduino IDE
 
-![Arduino Installation](../../img/archive/arduino/installation.gif)
+![Arduino Installation](../img/archive/arduino/installation.gif)
 
 Hinweise zur Installation befinden sich auf der [Arduino Homepage](https://www.arduino.cc/en/Guide).
 
@@ -52,14 +52,14 @@ Diese erreicht ihr unter: Datei > Voreinstellungen
 <details markdown="block">
   <summary> Windows </summary>
 
-  ![Windows Arduino Voreinstellungen](../../img/archive/arduino/8.png)
+  ![Windows Arduino Voreinstellungen](../img/archive/arduino/8.png)
 
 </details>
 
 <details markdown="block">
   <summary> Linux (Ubuntu) </summary>
 
-  ![Linux (Ubuntu)](../../img/archive/arduino/arduino-voreinstellungen-ubiu.png)
+  ![Linux (Ubuntu)](../img/archive/arduino/arduino-voreinstellungen-ubu.png)
 
 </details>
 
@@ -75,14 +75,14 @@ Dies erreicht ihr unter: Werkzeuge > Board: "[\<Version\>]" > Boardverwalter...
 <details markdown="block">
   <summary> Windows </summary>
 
-  ![Windows Arduino Boardverwalter](../../img/archive/arduino/9.png)
+  ![Windows Arduino Boardverwalter](../img/archive/arduino/9.png)
 
 </details>
 
 <details markdown="block">
   <summary> Linux (Ubuntu) </summary>
 
-  ![Linux (Ubuntu) Boardverwalter](../../img/archive/arduino/arduino-boardverwalter-ubu.png)
+  ![Linux (Ubuntu) Boardverwalter](../img/archive/arduino/arduino-boardverwalter-ubu.png)
 
 </details>
 
@@ -90,13 +90,13 @@ Bitte die aktuelle Version installieren.
 
 Typ \<Alle\> > "esp": "**esp8266** by **ESP8266 Community**"
 
-![ESP8266 installieren](../../img/archive/arduino/boardtreiber.gif)
+![ESP8266 installieren](../img/archive/arduino/boardtreiber.gif)
 
 Nun ist die Arduino IDE vorbereitet. Weiter geht es mit den Bibliotheken.
 
 ## Bibliotheken installieren
 
-Der sicherste und einfachste Weg alle Bibliotheken korrekt zu installieren, ist es, die [Bibliotheken aus Github](https://github.com/rancilio-pid/ranciliopid/tree/master/rancilio-pid/libraries) zu nehmen. Diese solltet ihr bereits heruntergeladen haben (siehe [Programmcode](#der-programmcode)). Kopiert die kompletten Ordner einfach in den Arduino Libraries Ordner zu kopieren:
+Der sicherste und einfachste Weg alle Bibliotheken korrekt zu installieren, ist es, die [Bibliotheken aus Github](https://github.com/rancilio-pid/ranciliopid/tree/master/rancilio-pid/libraries) zu nehmen. Diese solltet ihr bereits heruntergeladen haben (siehe [Programmcode](#der-programmcode)). Kopiert die kompletten Ordner einfach in den Arduino Libraries Ordner zu kopieren:<!-- markdown-link-check-disable-line -->
 
 | OS | Arduino Libraries Ordner |
 |-|-|
@@ -121,12 +121,12 @@ Alternativ müssen folgende Libraries per Hand installiert werden:
 
 Die Installation der einzelnen Bibliotheken erfolgt wieder über die Verwaltung in Arduino IDE:
 
-![Bibliotheken verwalten](../../img/archive/arduino/12.png)
+![Bibliotheken verwalten](../img/archive/arduino/12.png)
 
 <details markdown="block">
   <summary> OneWire </summary>
 
-  ![](../../img/archive/arduino/13.png)
+  ![](../img/archive/arduino/13.png)
 </details>
 
 <details markdown="block">
@@ -134,7 +134,7 @@ Die Installation der einzelnen Bibliotheken erfolgt wieder über die Verwaltung 
     DallasTemperature
   </summary>
 
-![](../../img/archive/arduino/14.png)
+![](../img/archive/arduino/14.png)
 </details>
 
 <details markdown="block">
@@ -142,12 +142,12 @@ Die Installation der einzelnen Bibliotheken erfolgt wieder über die Verwaltung 
 
   1. Geht auf [https://github.com/olikraus/u8g2](https://github.com/olikraus/u8g2)
   1. Code > Download Zip
-  ![](../../img/archive/arduino/15.png)
+  ![](../img/archive/arduino/15.png)
   1. Legt die Dateien im [Arduino Libraries Ordner](#bibliotheken-installieren) ab
   1. Erstellen einen Ordner: `U8x8lib`
   1. Den Inhalt aus dem ZIP File Ordner: u8g2-master.zip\u8g2-master\cppsrc  UND csrc in den neu erstellten Ordner kopieren (ja, es sind eine ganze Menge Dateien :))
-  ![](../../img/archive/arduino/16.png)
-  ![](../../img/archive/arduino/17.png)
+  ![](../img/archive/arduino/16.png)
+  ![](../img/archive/arduino/17.png)
 </details>
 
 <details markdown="block">
@@ -155,36 +155,36 @@ Die Installation der einzelnen Bibliotheken erfolgt wieder über die Verwaltung 
 
   1. Geht auf [https://github.com/br3ttb/Arduino-PID-Library](https://github.com/br3ttb/Arduino-PID-Library)
   1. Code > Download Zip  
-  ![](../../img/archive/arduino/arduino-pid-lib.png)
+  ![](../img/archive/arduino/arduino-pid-lib.png)
   1. Legt die Dateien im [Arduino Libraries Ordner](#bibliotheken-installieren) ab
   1. Erstellen einen Ordner: `PID_v1`
   1. Die vier Dateien aus dem ZIP File kopieren und in den neuen Ordner einfügen:
-  ![](../../img/archive/arduino/19.png)
-  ![](../../img/archive/arduino/20.png)
+  ![](../img/archive/arduino/19.png)
+  ![](../img/archive/arduino/20.png)
 </details>
 
 <details markdown="block">
   <summary> Blynk </summary>
 
   1. Geht auf [https://www.blynk.cc/getting-started/](https://www.blynk.cc/getting-started/)
-  ![](../../img/archive/arduino/21.png)
+  ![](../img/archive/arduino/21.png)
   1. Geht auf [https://github.com/blynkkk/blynk-library/releases/tag/v0.5.4](https://github.com/blynkkk/blynk-library/releases/tag/v0.5.4)
-  ![](../../img/archive/arduino/22.png)
-  ![](../../img/archive/arduino/23.png)
-  ![](../../img/archive/arduino/25.png)
-  ![](../../img/archive/arduino/26.png)
+  ![](../img/archive/arduino/22.png)
+  ![](../img/archive/arduino/23.png)
+  ![](../img/archive/arduino/25.png)
+  ![](../img/archive/arduino/26.png)
   1. Wechseln in den [Arduino Libraries Ordner](#bibliotheken-installieren)
-  ![](../../img/archive/arduino/27.png)
-  ![](../../img/archive/arduino/28.png)
+  ![](../img/archive/arduino/27.png)
+  ![](../img/archive/arduino/28.png)
 </details>
 
 ## Board einstellen
 
-![](../../img/archive/arduino/29.png)
-![](../../img/archive/arduino/Bildschirmfoto-2019-07-03-um-00.01.26.png)
+![](../img/archive/arduino/29.png)
+![](../img/archive/arduino/Bildschirmfoto-2019-07-03-um-00.01.26.png)
 
 Wenn alle Bibliotheken installiert sind, müsste es wie folgt aussehen:
 
-![](../../img/archive/arduino/31.png)
+![](../img/archive/arduino/31.png)
 
 Somit ist alles nun für das Einrichten von Blynk und das Flashen von dem Code vorbereitet. Dann kann der erste Test beginnen.
