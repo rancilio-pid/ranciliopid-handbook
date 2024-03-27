@@ -58,7 +58,7 @@ In homebrew auf macOS geht das auch direkt mit:
 
 Downloads des aktuellen Programmcodes findest du auf unserer Github-Projektseite bei Releases.
 
-[Link zum Github Repository](https://github.com/rancilio-pid/ranciliopid/releases)
+[Link zum Github Repository](https://github.com/rancilio-pid/clevercoffee/releases)
 
 ## Einrichtung von Visual Studio Code und PlatformIO
 
