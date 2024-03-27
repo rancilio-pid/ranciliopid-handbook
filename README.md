@@ -1,19 +1,19 @@
 # CleverCoffee Manual
 
 ## Über
-Dies ist das Handbuch für die Umsetzung des CleverCoffee-Projektes. Dieses Handbuch deckt alle notwendigen Schritte ab. Dazu gehören zum einen die Installation von PlatformIO und das Hochladen auf den Mikrocontroller. Weiterhin beinhaltet das Handbuch die Bestellliste, Infos zum Einbau und der Konfiguration der PID-Parameter.
+Dies ist das Handbuch für die Umsetzung des CleverCoffee-Projekts. Dieses Handbuch deckt alle notwendigen Schritte ab. Dazu gehören zum einen die Installation von PlatformIO und das Hochladen auf den Mikrocontroller. Weiterhin beinhaltet das Handbuch die Bestellliste, Infos zum Einbau und der Konfiguration der PID-Parameter.
 
 Hier geht es zum deutschen Handbuch: [Link](https://manual.rancilio-pid.de/de/).
 
-Mehr zum Projekt findet ihr auf der [Clever Coffee Website](http://clevercoffee.de/).
+Mehr zum Projekt findet ihr auf der [Clever Coffee Website](https://clevercoffee.de/).
 
 ## About
 
-This is the manual for the implementation of the CleverCoffee project. This manual covers all the necessary steps. This includes installing PlatformIO and uploading the code to the microcontroller. The manual also includes the parts list, information on installing and configuring the PID parameters.
+This is the manual for the implementation of the CleverCoffee project. This manual covers all the necessary steps. This includes installing PlatformIO and uploading the code to the microcontroller. The manual also includes the parts list, information about installing and configuring the PID parameters.
 
-Click here for the English manual: [Link](https://manual.rancilio-pid.de/en/)
+Click here for the english manual: [Link](https://manual.rancilio-pid.de/en/)
 
-You can find more about the project on the [Clever Coffee Website](http://clevercoffee.de/).
+You can find out more about the project on the [Clever Coffee Website](https://clevercoffee.de/).
 
 ## Contributing
 
