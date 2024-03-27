@@ -1,4 +1,4 @@
-title: "Rancilio-PID Manual"
+title: "CleverCoffee Manual"
 # theme: just-the-docs
 # source: de
 remote_theme: pmarsceill/just-the-docs
@@ -12,7 +12,7 @@ aux_links:
   "Manual on GitHub":
     - "https://github.com/rancilio-pid/ranciliopid-handbook"
   "Code on Github":
-    - "https://github.com/rancilio-pid/ranciliopid"
+    - "https://github.com/rancilio-pid/clevercoffee"
 warning:
   en: "Working with high voltage can be deadly! **Always pull the power plug of your coffee maker before touching a screw or opening the housing!** Just switching the machine off is not sufficient. Smart or WiFi plugs are not necessarily providing full separation from the mains! **The power plug always has to be pulled from the socket!** You are working at your own risk and carry all responsibility for any modifications."
   de: "Das Arbeiten mit 230 V kann tödlich sein! **Bitte trennt eure Maschine vollständig vom Stromnetz bevor ihr irgendeine Schraube löst oder das Gehäuse öffnet!** Es reicht nicht einen Schalter an der Maschine oder Steckdose zu betätigen, wenn ihr an der Maschine arbeitet wollt. Auch smarte Steckdosen trennen nicht vollständig vom Netz, selbst wenn sie ausgeschaltet sind! **Der Netzstecker muss immer gezogen werden!** Ihr handelt auf eigene Gefahr und seid selbst für den Umbau verantwortlich."
