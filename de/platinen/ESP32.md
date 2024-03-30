@@ -35,19 +35,19 @@ Aktuell sind keine Bugs bekannt.
 
 Header | PIN Software | Beschriftung PCB | Belegung
 -|-|-|-
-HT_RL | PIN 2 | IO02 | SSR Heizung
-T_SENS | PIN 16 | IO16 | Temperatursensor
+HT_RL | PIN 2 | OUT | SSR Heizung
+T_SENS | PIN 16 | SIG | Temperatursensor
 I2C | PIN 21 | SDA | Display und Drucksensor - PIN SDA
-I2C | PIN 22 | SDL | Display und Drucksensor - PIN SCL
-V_IN | - | V_IN | Netzteil (5 Volt)
+I2C | PIN 22 | SCL | Display und Drucksensor - PIN SCL
+V_IN | - | 5V | Netzteil (5 Volt)
 PV_RL | PIN 17 | Valve | Relais Ansteuerung Magnetventil
 PV_RL | PIN 27 | Pump | Relais Ansteuerung Pumpe
-BPSW_SW | PIN 34 | IO34 | Bezugsschalter oder Optokoppler
-BPSW_SW | PIN 39 | IO39 | Powerschalter
-BPSW_SW | PIN 35 | IO35 | Dampfschalter
-BPSW_SW | PIN 39 | IO39 | Heißwasserschalter (noch nicht implementiert)
-S_LED | PIN 26 | IO26 | Status oder Temp LED
-W_SENS | PIN 23 | IO23 | Wasserstandssensor
+BPSW_SW | PIN 34 | BREW | Bezugsschalter oder Optokoppler
+BPSW_SW | PIN 39 | PWR | Powerschalter
+BPSW_SW | PIN 35 | STEAM | Dampfschalter
+BPSW_SW | PIN 39 | WATER | Heißwasserschalter (noch nicht implementiert)
+S_LED | PIN 26 | OUT | Status oder Temp LED
+W_SENS | PIN 23 | SIG | Wasserstandssensor
 SCALE | PIN 25 | DAT2 | Waage DAT2
 SCALE | PIN 32 | DAT | Waage DAT
 SCALE | PIN 33 | CLK | Waage CLK

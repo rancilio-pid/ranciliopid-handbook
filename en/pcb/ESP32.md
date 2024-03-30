@@ -38,19 +38,19 @@ Currently, there are no known bugs.
 
 Header | Pin Software | Pin PCB | Connection
 -|-|-|-
-HT_RL | PIN 2 | IO02 | SSR Heating
-T_SENS | PIN 16 | IO16 | Temperature sensor
+HT_RL | PIN 2 | OUT | SSR Heating
+T_SENS | PIN 16 | SIG | Temperature sensor
 I2C | PIN 21 | SDA | Display and pressure sensor - Pin SDA
-I2C | PIN 22 | SDL | Display and pressure sensor - Pin SCL
-V_IN | - | V_IN | Switching power supply (5 Volt)
+I2C | PIN 22 | SCL | Display and pressure sensor - Pin SCL
+V_IN | - | 5V | Switching power supply (5 Volt)
 PV_RL | PIN 17 | Valve | Relay 3-way-valve
 PV_RL | PIN 27 | Pump | Relay pump
-BPSW_SW | PIN 34 | IO34 | Brew switch or optocoupler
-BPSW_SW | PIN 39 | IO39 | Power switch
-BPSW_SW | PIN 35 | IO35 | Steam switch
-BPSW_SW | PIN 39 | IO39 | Hot water switch (not yet implemented)
-S_LED | PIN 26 | IO26 | Status or Temp LED
-W_SENS | PIN 23 | IO23 | Water level sensor
+BPSW_SW | PIN 34 | BREW | Brew switch or optocoupler
+BPSW_SW | PIN 39 | PWR | Power switch
+BPSW_SW | PIN 35 | STEAM | Steam switch
+BPSW_SW | PIN 39 | WATER | Hot water switch (not yet implemented)
+S_LED | PIN 26 | OUT | Status or Temp LED
+W_SENS | PIN 23 | SIG | Water level sensor
 SCALE | PIN 25 | DAT2 | Scale DAT2
 SCALE | PIN 32 | DAT | Scale DAT
 SCALE | PIN 33 | CLK | Scale CLK
