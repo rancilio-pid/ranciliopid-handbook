@@ -1,0 +1,7 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^http://localhost:4000|^http://silvia.local|^https://www.reichelt.de"
+    }
+  ]
+}
