@@ -24,4 +24,4 @@ Question: My PID values don't seem to work, e.g. the temperature overshoots
 
 Question: My microcontroller seems to detect brews and brew stops, and randomly switches between those two at frequent intervals. Why?
 
-> Dependig of the level of expansion you chose (PID only to full expansion), you might need the resistor `R6` for your build. Also check that you solder-bridged `JP2` correctly on the back side of the PCB base board ([see JP2](./pcb/ESP32.html#placement-and-function) starting with PCB version 1.5).
+> Dependig of the level of expansion you chose (PID only to full expansion), you might need the resistor `R6` for your build. Also check that you solder-bridged `JP2` correctly on the back side of the PCB base board ([see JP2](./pcb/ESP32.md#placement-and-function) starting with PCB version 1.5).

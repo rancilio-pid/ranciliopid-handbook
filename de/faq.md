@@ -34,4 +34,4 @@ Frage: Mein ESP8266 startet nicht korrekt den Access Point, um mein Wlan einzuri
 
 Frage: Mein Microcontroller erkennt scheinbar Bezüge und manuelle Stops und wechselt zufällig und in kurzen Abständen die Modi, warum?
 
-> Überprüfe ob du für deine Ausbaustufe die Pull-down- oder Pull-Up-Funktion des Widerstands `R6` benötigst und richtig gesetzt hast, und ob du gegebenenfalls auch `JP2` auf der Rückseite des PCBs passend überbrückt hast ([siehe JP2](./platinen/ESP32.html#bestückung-und-funktion) ab PCB Version 1.5)
+> Überprüfe ob du für deine Ausbaustufe die Pull-down- oder Pull-Up-Funktion des Widerstands `R6` benötigst und richtig gesetzt hast, und ob du gegebenenfalls auch `JP2` auf der Rückseite des PCBs passend überbrückt hast ([siehe JP2](./platinen/ESP32.md#bestückung-und-funktion) ab PCB Version 1.5)
