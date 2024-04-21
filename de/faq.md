@@ -21,10 +21,17 @@ Frage: Meine PID-Werte passen nicht, meine Maschine schwingt über o.ä.
 > Schaut bitte zu erst in unsere PID-Wert Liste [PID-Werte](./customization/pid-werte.md) oder ab Version 3.0.1 [PID-Werte](./customization/pid-werte.md), hier sind für viele PID-Werte dokumentiert für den Kaltstart, den normalen Betrieb und für die Brüherkennung. Bei Fragen im Chat bitte genau sagen, was genau nicht passt und schickt am besten Werte aus eurem Blynk dazu. Am besten im jeweiligen Chat zu den Maschinen.
 
 Frage: Kann ich mein Iphone oder Apple Watch nutzen um z.B. den Dampfmodus zu aktivieren.
+
 > Ja, kannst du. Der User [@saway](https://github.com/sway) hat hierzu ein Kurzbefehl gebaut, womit du via Apple Watch oder Iphone den Steam mode aktivieren kannst. Der Link zum Kurzbefehl (muss auf dem Iphone geöffnet werden): [Kurzbefehl](https://www.icloud.com/shortcuts/ee08f4989e834fecb03d96d7f3d08425) Ihr müsst nur die IP von eurer Maschine dort eintragen. (fixe IP vorrausgesetzt)
 
 Frage: Das Display zeigt an: "PID is disabled manually"
+
 > Wenn du das erste mal deinen PID in Betrieb nimmst, musst du die vom ESP gehostete Webseite öffnen und die PID auf der Parameter Seite aktivieren.
 
 Frage: Mein ESP8266 startet nicht korrekt den Access Point, um mein Wlan einzurichten. Was soll ich tun? 
+
 > Leider kollidiert der Wifi Manager und das Display bei der Ersteinrichtung. Beim ESP32 ist dieses Problem nicht vorhanden. In Release 3.3.0 haben wir den Wifimanger für den ESP8266 entfernt. Wir empfehlen ein Update auf diese Version, dort werden die Wifi Zugangsdaten wieder in der userconfig.h fest eingetragen.
+
+Frage: Mein Microcontroller erkennt scheinbar Bezüge und manuelle Stops und wechselt zufällig und in kurzen Abständen die Modi, warum?
+
+> Überprüfe ob du für deine Ausbaustufe die Pull-down- oder Pull-Up-Funktion des Widerstands `R6` benötigst und richtig gesetzt hast, und ob du gegebenenfalls auch `JP2` auf der Rückseite des PCBs passend überbrückt hast ([siehe JP2](./platinen/ESP32.html#bestückung-und-funktion) ab PCB Version 1.5)
