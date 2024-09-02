@@ -96,9 +96,10 @@ Lötkolben/Lötstation ZD-931|L|||[Reichelt-Link](https://www.reichelt.de/loetst
 Das Projekt verwendet eine [eigens entwickelte Platine](https://github.com/rancilio-pid/clevercoffee-hardware) um alle Komponenten des PIDs zusammenzuführen. Sie verbindet den aufgesteckten ESP32 Mikrocontroller und passive elektronische Bauteile mit Schraubklemmblöcken, an die alle wichtigen Kabel für das PID angeschlossen werden.
 
 Es steht ab sofort die Revision 1.6 der ESP32 Platine zur Verfügung. Weitere Infos zu den Platinen findet ihr hier: [ESP32 Platinen](./platinen/ESP32.md)  
-[Auf unserem Discord](https://discord.com/invite/Kq5RFznuU4) **könnt ihr per PN bei LoQue ein PCB Set anfragen**  
 
-![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_5_set_content.png)
+**[Auf unserem Discord](https://discord.com/invite/Kq5RFznuU4) könnt ihr per PN bei LoQue ein PCB Set anfragen.**
+
+![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_6_set_content.png)
 
 Lieferumfang PCB Set Rev 1.6:
  * 1x PCB
@@ -108,7 +109,7 @@ Lieferumfang PCB Set Rev 1.6:
  * 4x 3-Pin-Stiftleisten
  * 2x Kondensatoren
  * 7x Widerstände (1x 220Ω rot, 2x 4,7kΩ grün, 4x 47kΩ blau)
- * 3x Jumper
+ * 4x Jumper
  * 4x Klebepads  
 
 Beim Löten des Elkos auf die Polarität achten!
@@ -122,12 +123,12 @@ Beim Löten des Elkos auf die Polarität achten!
   Widerstand 4,7 kΩ | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-4-7-kohm-0204-0-4-w-1--yag-4fte52-4k7-p236963.html?&trstct=pol_0&nbc=1) | 2 | 2 | 2
   Widerstand 47 kΩ | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html?&trstct=pol_0&nbc=1) | 3 | 3 | 4
   Widerstand 220 Ω | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-220-ohm-0204-0-4-w-1--yag-fte52-220r-p236948.html?&trstct=pol_0&nbc=1) Neopixel braucht keinen Widerstand,  Lötjumper JP1 schließen | 1 | 1 | 1
-  
+
 </details>
 
 ### ESP8266 Platine
 
-[Bitte direkt über unseren Chat anfragen!](https://discord.com/invite/Kq5RFznuU4) **Bitte direkt per PN an @loque wenden**
+**[Auf unserem Discord](https://discord.com/invite/Kq5RFznuU4) könnt ihr per PN bei LoQue ein PCB Set anfragen.**
 
 ![PCB ESP8266 Lieferumfang](../img/bestellliste/pcb_esp8266_rev1_1_set_content.jpeg)
 
