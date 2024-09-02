@@ -102,35 +102,43 @@ Those accessories are definitely recommended. You might already have one or the 
 ### Base Board for ESP32
 This project uses a [custom designed Printed Circuit Board (PCB)](https://github.com/rancilio-pid/clevercoffee-hardware) for connecting all components of the PID. It mounts the ESP32 and some small passive electronics as well as screw terminals for connecting all required cables.
 
-There is a new version of the PCB available. [Please request via our chat directly!](https://discord.com/invite/Kq5RFznuU4). **Please send a direct message to @loque**.
+There is a now the revision 1.6 of the PCB available. You will find more information here: [ESP32 Platinen](./pcb/ESP32.md) 
 
-![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_5_set_content.png)
+**[On our Discord](https://discord.com/invite/Kq5RFznuU4) you could get a pcb set from LoQue via DM**.
 
-Base board includes:
- * The PCB
- * Screw terminals
- * Headers
- * Adhesive PCB holders
+![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_6_set_content.png)
 
-**Additionally**, the following components are required:
-
-| Component | Description | Link |
-| --- | --- | --- |
-| C1 | 220µF (E-Cap) | [Link](https://www.reichelt.de/de/en/e-cap-radial-220-uf-10-v-105-c-low-esr-fm-a-220u-10-p200036.html) |
-| C2 | 100nF (Ceramic capacitor) | [Link](https://www.reichelt.de/de/en/capacitor-100-nf-50-v-rm-5-125-c-hita-sf1h104z-l5-p246835.html) |
-| R1 | 4,7kΩ (Resistor for display) | [Link](https://www.reichelt.de/de/en/metal-film-resistor-4-7-kohm-0204-0-4-w-1--yag-4fte52-4k7-p236963.html) |
-| R2 | 4,7kΩ (Resistor for display) |[Link](https://www.reichelt.de/de/en/metal-film-resistor-4-7-kohm-0204-0-4-w-1--yag-4fte52-4k7-p236963.html)
-| R3 | 47kΩ (Brew switch) | [Link](https://www.reichelt.de/de/en/metal-film-resistor-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html) |
-| R4 | 47kΩ (Power switch) |[Link](https://www.reichelt.de/de/en/metal-film-resistor-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html) |
-| R5 | 47kΩ (Steam switch) |[Link](https://www.reichelt.de/de/en/metal-film-resistor-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html) |
-| R6 | As needed | Resistor based on LED used. For NeoPixel, e.g., no resistor is required but solder jumper JP1 is required. |
+Base board set includes:
+ * 1x PCB
+ * 9x Screw terminals (2x 2-Pin, 3x 3-Pin, 2x 4-Pin, 1x 5-Pin, 1x 6-Pin)
+ * 2x 19-Pin-Headers female
+ * 1x 2x8-Pin-Header female
+ * 4x 3-Pin-Headers male
+ * 2x capacitors
+ * 7x resistors (1x 220Ω red, 2x 4,7kΩ green, 4x 47kΩ blue)
+ * 4x jumpers
+ * 4x adhesive PCB holders
 
 Mind the correct polarity when soldering the E-cap!
 
+<details markdown="block">
+  <summary>Parts for older pcb revisions</summary>
+
+  | Component | Description | Link |
+  | --- | --- | --- |
+  | C1 | 220µF (E-Cap) | [Link](https://www.reichelt.de/de/en/e-cap-radial-220-uf-10-v-105-c-low-esr-fm-a-220u-10-p200036.html) |
+  | C2 | 100nF (Ceramic capacitor) | [Link](https://www.reichelt.de/de/en/capacitor-100-nf-50-v-rm-5-125-c-hita-sf1h104z-l5-p246835.html) |
+  | R1 | 4,7kΩ (Resistor for display) | [Link](https://www.reichelt.de/de/en/metal-film-resistor-4-7-kohm-0204-0-4-w-1--yag-4fte52-4k7-p236963.html) |
+  | R2 | 4,7kΩ (Resistor for display) |[Link](https://www.reichelt.de/de/en/metal-film-resistor-4-7-kohm-0204-0-4-w-1--yag-4fte52-4k7-p236963.html)
+  | R3 | 47kΩ (Brew switch) | [Link](https://www.reichelt.de/de/en/metal-film-resistor-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html) |
+  | R4 | 47kΩ (Power switch) |[Link](https://www.reichelt.de/de/en/metal-film-resistor-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html) |
+  | R5 | 47kΩ (Steam switch) |[Link](https://www.reichelt.de/de/en/metal-film-resistor-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html) |
+  | R6 | As needed | Resistor based on LED used. For NeoPixel, e.g., no resistor is required but solder jumper JP1 is required. |
+</details>
 
 ### Base Board For ESP8266
 
-[Please request via our chat directly!](https://discord.com/invite/Kq5RFznuU4). **Please send a direct message to @loque**.
+**[On our Discord](https://discord.com/invite/Kq5RFznuU4) you could get a pcb set from LoQue via DM**.
 
 ![Included items](../img/bestellliste/pcb_esp8266_rev1_1_set_content.jpeg)
 
