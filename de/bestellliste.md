@@ -95,29 +95,35 @@ Lötkolben/Lötstation ZD-931|L|||[Reichelt-Link](https://www.reichelt.de/loetst
 ### ESP32 Platine
 Das Projekt verwendet eine [eigens entwickelte Platine](https://github.com/rancilio-pid/clevercoffee-hardware) um alle Komponenten des PIDs zusammenzuführen. Sie verbindet den aufgesteckten ESP32 Mikrocontroller und passive elektronische Bauteile mit Schraubklemmblöcken, an die alle wichtigen Kabel für das PID angeschlossen werden.
 
-Es steht ab sofort die neue ESP32 Platine zur Verfügung. Weitere Infos zu den Platinen findet ihr hier: [ESP32 Platinen](./platinen/ESP32.md)  
-[Bitte direkt über unseren Chat anfragen!](https://discord.com/invite/Kq5RFznuU4) **direkt per PN an @loque wenden**  
-**Stand 8.2.24: PCB Rev 1.5 verfügbar**
+Es steht ab sofort die Revision 1.6 der ESP32 Platine zur Verfügung. Weitere Infos zu den Platinen findet ihr hier: [ESP32 Platinen](./platinen/ESP32.md)  
+[Auf unserem Discord](https://discord.com/invite/Kq5RFznuU4) **könnt ihr per PN bei LoQue ein PCB Set anfragen**  
 
 ![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_5_set_content.png)
 
-Inklusive sind:
- * Das PCB
- * Die Schraubklemmenblöcke
- * Die Stiftleisten
- * Klebepads  
- 
- **ZUSÄTZLICH** werden folgende Dinge benötigt:
-
-Beschreibung | Link | Menge Rev 1.2 | Menge Rev 1.3 | Menge Rev 1.5
--|-|-|-|-
-Kondensator Elko 220 µF | [Reichelt](https://www.reichelt.de/elko-radial-220-uf-10-v-105-c-low-esr-fm-a-220u-10-p200036.html?&trstct=pol_0&nbc=1) | 1 | 1 | 1
-Kondensator Keramik 100 nF | [Reichelt](https://www.reichelt.de/vielschicht-kerko-100-nf-50-v-rm-5-125-c-hita-sf1h104z-l5-p246835.html?&trstct=pos_9&nbc=1) | 1 | 1 | 1
-Widerstand 4,7 kΩ | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-4-7-kohm-0204-0-4-w-1--yag-4fte52-4k7-p236963.html?&trstct=pol_0&nbc=1) | 2 | 2 | 2
-Widerstand 47 kΩ | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html?&trstct=pol_0&nbc=1) | 3 | 3 | 4
-Widerstand 220 Ω | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-220-ohm-0204-0-4-w-1--yag-fte52-220r-p236948.html?&trstct=pol_0&nbc=1) Neopixel braucht keinen Widerstand,  Lötjumper JP1 schließen | 1 | 1 | 1   
+Lieferumfang PCB Set Rev 1.6:
+ * 1x PCB
+ * 9x Schraubklemmenblöcke (2x 2-Pin, 3x 3-Pin, 2x 4-Pin, 1x 5-Pin, 1x 6-Pin)
+ * 2x 19-Pin-Buchsenleisten
+ * 1x 2x8-Pin-Buchsenleisten
+ * 4x 3-Pin-Stiftleisten
+ * 2x Kondensatoren
+ * 7x Widerstände (1x 220Ω rot, 2x 4,7kΩ grün, 4x 47kΩ blau)
+ * 3x Jumper
+ * 4x Klebepads  
 
 Beim Löten des Elkos auf die Polarität achten!
+<details markdown="block">
+  <summary>Bauteile für ältere Revisionen</summary>
+
+  Beschreibung | Link | Menge Rev 1.2 | Menge Rev 1.3 | Menge Rev 1.5
+  -|-|-|-|-
+  Kondensator Elko 220 µF | [Reichelt](https://www.reichelt.de/elko-radial-220-uf-10-v-105-c-low-esr-fm-a-220u-10-p200036.html?&trstct=pol_0&nbc=1) | 1 | 1 | 1
+  Kondensator Keramik 100 nF | [Reichelt](https://www.reichelt.de/vielschicht-kerko-100-nf-50-v-rm-5-125-c-hita-sf1h104z-l5-p246835.html?&trstct=pos_9&nbc=1) | 1 | 1 | 1
+  Widerstand 4,7 kΩ | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-4-7-kohm-0204-0-4-w-1--yag-4fte52-4k7-p236963.html?&trstct=pol_0&nbc=1) | 2 | 2 | 2
+  Widerstand 47 kΩ | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html?&trstct=pol_0&nbc=1) | 3 | 3 | 4
+  Widerstand 220 Ω | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-220-ohm-0204-0-4-w-1--yag-fte52-220r-p236948.html?&trstct=pol_0&nbc=1) Neopixel braucht keinen Widerstand,  Lötjumper JP1 schließen | 1 | 1 | 1
+  
+</details>
 
 ### ESP8266 Platine
 
