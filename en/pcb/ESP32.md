@@ -47,7 +47,7 @@ PV_RL | PIN 27 | Pump | Relay pump
 BPSW_SW | PIN 34 | BREW | Brew switch or optocoupler
 BPSW_SW | PIN 39 | PWR | Power switch
 BPSW_SW | PIN 35 | STEAM | Steam switch
-BPSW_SW | PIN 39 | WATER | Hot water switch (not yet implemented)
+BPSW_SW | PIN 36 | WATER | Hot water switch (not yet implemented)
 S_LED | PIN 26 | OUT | Status or Temp LED
 W_SENS | PIN 23 | SIG | Water level sensor
 SCALE | PIN 25 | DAT2 | Scale DAT2
@@ -115,7 +115,7 @@ PV_RL | PIN 27 | Pump | Relay pump
 BPSW_SW | PIN 34 | BREW | Brew switch or optocoupler
 BPSW_SW | PIN 39 | PWR | Power switch
 BPSW_SW | PIN 35 | STEAM | Steam switch
-BPSW_SW | PIN 39 | WATER | Hot water switch (not yet implemented)
+BPSW_SW | PIN 36 | WATER | Hot water switch (not yet implemented)
 S_LED | PIN 26 | OUT | Status LED
 W_SENS | PIN 23 | SIG | Water level sensor
 SCALE | PIN 25 | DAT2 | Scale DAT2

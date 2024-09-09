@@ -45,7 +45,7 @@ PV_RL | PIN 27 | Pump | Relais Ansteuerung Pumpe
 BPSW_SW | PIN 34 | BREW | Bezugsschalter oder Optokoppler
 BPSW_SW | PIN 39 | PWR | Powerschalter
 BPSW_SW | PIN 35 | STEAM | Dampfschalter
-BPSW_SW | PIN 39 | WATER | Heisswasserschalter (noch nicht implementiert)
+BPSW_SW | PIN 36 | WATER | Heisswasserschalter (noch nicht implementiert)
 S_LED | PIN 26 | OUT | Status oder Temp LED
 W_SENS | PIN 23 | SIG | Wasserstandssensor
 SCALE | PIN 25 | DAT2 | Waage DAT2
@@ -110,7 +110,7 @@ PV_RL | PIN 27 | Pump | Relais Ansteuerung Pumpe
 BPSW_SW | PIN 34 | BREW | Bezugsschalter oder Optokoppler
 BPSW_SW | PIN 39 | PWR | Powerschalter
 BPSW_SW | PIN 35 | STEAM | Dampfschalter
-BPSW_SW | PIN 39 | WATER | Heisswasserschalter (noch nicht implementiert)
+BPSW_SW | PIN 36 | WATER | Heisswasserschalter (noch nicht implementiert)
 S_LED | PIN 26 | OUT | Status oder Temp LED
 W_SENS | PIN 23 | SIG | Wasserstandssensor
 SCALE | PIN 25 | DAT2 | Waage DAT2
