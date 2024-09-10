@@ -107,7 +107,7 @@ Lieferumfang PCB Set Rev 1.6:
  * 2x 19-Pin-Buchsenleisten
  * 1x 2x8-Pin-Buchsenleisten
  * 4x 3-Pin-Stiftleisten
- * 2x Kondensatoren
+ * 2x Kondensatoren (Elko 220 µF kurzes Bein Minus, Kerko 100 nF)
  * 7x Widerstände (1x 220Ω rot, 2x 4,7kΩ grün, 4x 47kΩ blau)
  * 4x Jumper
  * 4x Klebepads  

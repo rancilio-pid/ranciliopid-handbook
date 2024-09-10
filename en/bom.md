@@ -114,7 +114,7 @@ Base board set includes:
  * 2x 19-Pin-Headers female
  * 1x 2x8-Pin-Header female
  * 4x 3-Pin-Headers male
- * 2x capacitors
+ * 2x capacitors (Elko 220 µF short leg minus, Kerko 100 nF)
  * 7x resistors (1x 220Ω red, 2x 4,7kΩ green, 4x 47kΩ blue)
  * 4x jumpers
  * 4x adhesive PCB holders
