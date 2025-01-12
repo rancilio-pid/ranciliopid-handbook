@@ -85,6 +85,18 @@ JP3 | Steckjumper | Pull down oder Pull up für Bezugsschalter oder Optokoppler
 JP4 | Steckjumper | Pull down oder Pull up für Powerschalter
 JP5 | Steckjumper | Pull down oder Pull up für Dampfschalter
 
+### Steckjumper Einstellungen
+
+Mit den Steckjumpern lassen sich für die Schalter für Heisswasser, Bezug, Power und Dampf die Widerstände zwischen Pulldown und Pullup tauschen.
+Über die Widerstände wird der Zustand des Schaltereinganges im unbetätigten Zustand definiert.
+Die Standardkonfiguration sieht vor das alle Jumper auf Pulldown gesteckt werden.
+
+### Änderungen
+
+- PCB-Ecken abgerundet  
+- Pull-Widerstände für Bezug, Heißwasser, Dampf und Power steckbar  
+- Änderung der Position und Bauraumgröße für Elko und Kerko 
+
 ## Revision 1.5
 
 ![PCB](../../img/pcb/esp32/pcb_esp32_rev1_5.png)
