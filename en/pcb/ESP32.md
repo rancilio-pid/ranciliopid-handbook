@@ -87,7 +87,15 @@ JP3 | Jumper | Pull down or Pull up for brew switch or optocoupler
 JP4 | Jumper | Pull down or Pull up for power switch
 JP5 | Jumper | Pull down or Pull up for steam switch
 
+### Jumper Settings
 
+The jumpers allow switching the resistors between pulldown and pullup for the hot water, brewing, power, and steam switches. These resistors define the state of the switch input when it is not activated. The standard configuration has all jumpers set to pulldown.
+
+### Changes
+
+- Rounded corners for the PCB  
+- Pull resistors for brewing, hot water, steam, and power are pluggable  
+- Adjusted position and size of the installation space for Elko and Kerko
 
 ## Revision 1.5
 
