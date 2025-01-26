@@ -124,6 +124,7 @@ WICHTIG: Haltet die Taste "Boot" auf dem ESP gedrückt (ohne Pins kurzzuschließ
 ![](../../img/software-part-I/softwareinstall/swinstall13.png)
 
 Bei jedem Teilschritt das `SUCCESS` in der Konsole abwarten:
+
 * (1) Daher wählt `esp32_usb` aus
 * (2) `Erase flash` (Boottaste am ESP32 drücken) klicken, warten bis `SUCCESS`
 * (3) `Build Filesystem Image` klicken, warten bis `SUCCESS`
@@ -146,4 +147,4 @@ Bei jedem Teilschritt das `SUCCESS` in der Konsole abwarten:
 *wm:[1] Connect Wifi, ATTEMPT # 2 of 3
 ```
 
-Glückwunsch, der ESP32 (oder ESP8266) ist nun mit der Software bespielt, weiter geht es mit der Einrichtung des WLANs!
+Glückwunsch, der ESP32 (oder ESP8266) ist nun mit der Software bespielt, weiter geht es mit der [Einrichtung des WLANs!](./ErsteinrichtungWLAN.md)
