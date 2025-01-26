@@ -95,9 +95,13 @@ Drückt Return oder klickt per Maus den Befehl an und es erscheint eine Auswahll
 
 ![](../../img/software-part-I/softwareinstall/swinstall10.png)
 
-Für den ESP32 sind nur die Versionen ab 4.X.X relevant, in dieser Version wird nicht mehr der ESP8266 unterstützt.
-Die Version `origin/master` ist die aktuelle Version der Entwicklung für den ESP32.
+### Version 4.X.X - ESP32-only
+Für den ESP32 sind nur die Versionen ab 4.X.X relevant bzw. der aktuelle `master`. In dieser Version wird nicht mehr der ESP8266 unterstützt.
 
+> Aktuell gibt es noch keinen 4.X.X branch, also muss der aktuelle master branch verwendet werden
+<!-- TODO, maybe one could use a callout here,  -->
+
+### Version 3.X.X - ESP8266/ESP32
 Die Version `origin/ESP8266-master` ist die alte Entwicklungsversion für den ESP8266. Hier gibt es nur noch Bugfixes. Die aktuelle Version für den ESP8266 ist jeweils die Version mit dem Zusatz `-esp8266` zum Beispiel: `v3.1.2-esp8266`
 
 Wählt die aktuellste Version für den ESP32 aus. Es dauert ein paar Sekunden und dann sollte der Code heruntergeladen sein.
@@ -109,11 +113,6 @@ Geht in VS Code in den Verzeichnisbaum des Codes, öffnet den Ordner `/src` und 
 
 ![](../../img/software-part-I/softwareinstall/swinstall12.png)
 
-Für den ESP32 sind nur die Versionen ab 4.X.X relevant, in dieser Version wird nicht mehr der ESP8266 unterstützt. 
-Die "origin/master" ist die aktuelle Version der Entwicklung für den ESP32. 
-
-Die Master "origin/ESP8266-master" ist die alte Entwicklungsversion für den ESP8266. Hier gibt es nur noch Bugfixes. Die aktuelle Version vom ESP8266 ist jeweils die Version mit dem Zusatz "-esp8266" z.B: "v3.1.2-esp8266"
-Wählt die aktuellste Version für den ESP32 aus. Es dauert paar Sekunden und dann sollte der Code heruntergeladen sein.
 
 ##  Kompilieren
 Nun kann der Code kompiliert werden. Hierzu sind folgende Schritte notwendig:
