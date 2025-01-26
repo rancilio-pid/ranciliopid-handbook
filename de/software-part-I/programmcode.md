@@ -40,12 +40,6 @@ Hierbei kann unten rechts im Fenster eine Meldung zeigen, dass weitere Softwarep
 Zum Beispiel muss Python extern installiert werden. Durch den Klick auf `Install Python` (1) gelangt ihr in die Dokumentation von PlatformIO. Befolgt dort die weiteren Installationsschritte. Klickt dann in VS Code in der Meldung `Try again`.
 Am Ende zeigt euch folgende Meldung, dass PlatformIO erfolgreich installiert wurde:
 
-![](../../img/software-part-I/softwareinstall/swinstall3.png)
-
-Ihr könnt aber zum aktuellen Stand ohne `git` oder GitHub Desktop nicht unseren Code kompilieren. Falls ihr dies doch tut erhaltet ihr zum Beispiel eine folgende Fehlermeldung:
-
-![](../../img/software-part-I/softwareinstall/swinstall4.png)
-
 Ihr könnt an dieser Stelle VS Code erst einmal schließen.
 
 
