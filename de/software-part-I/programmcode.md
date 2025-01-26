@@ -70,8 +70,6 @@ WICHTIG! Nach der Installation muss der Rechner neugestartet werden!
 
 ## Auswahl der Software-Version für den ESP32
 Nach dem Neustart des Rechners könnt ihr prüfen, ob ihr die Software kompilieren könnt.
-Öffnet das Verzeichnis in VS Code, welches ihr in GitHub kopiert habt. `File` -> `Open Folder`.
-In dem oberen Fall wäre dies `/Documents/Github/clevercoffee`.
 
 In VS Code drückt ihr in MacOS `Shift` + `CMD` + `P` oder nutzt die Taskleiste von VS Code: `View` -> `Command Palette`.
 Hier gebt ihr ein (1): `git: clone`
