@@ -30,19 +30,19 @@ You'll need the following things:
 
 Those are the parts that you will definitely need, and which might (usually) not randomly lay around in a workshop.
 Values in brackets indicate the minimum amount.
-The controller to use (ESP8266 or ESP32) depends on which base board you ordered.
+The pcb kit isn´t needed, but makes the installation a lot easier. One other option is a standard breakput board for you esp dev kit.
 
 | Description | ID | Amount PID Only | Amount Full Expansion | Link |
 | --- | --- | --- | --- | --- |
 | Temperature Sensor | TSIC 306 TO92 | 2 (1) | 2 (1) | [Reichelt-Link](https://www.reichelt.de/tsic-digital-semiconductor-temperature-sensors-tsic-306-to92-p82327.html), [Alternative Shop](https://shop.bb-sensors.com/Messtechnik-je-Branche/Gebaeudetechnik/Digitaler-TSic-306-Temperatursensor-TO92.html), [Alternative Sensor](https://www.reichelt.de/de/de/tsic-digitale-halbleiter-temperatursensoren-tsic-206-to92-p82326.html) |
 | Switching Power Supply | APV-8-5 | 1 | 1 | [Reichelt-Link](https://www.reichelt.de/led-trafo-7-w-5-v-dc-1400-ma-mw-apv-8-5-p170873.html) or [Amazon-Link](https://www.amazon.de/gp/product/B06Y29GSHH/) |
 | SSR Relais – Heating | RA 2425-D06 | 1 | 1 | [Reichelt-Link](https://www.reichelt.de/solid-state-relais-ust-2-32vdc-ulast-24-280v-ra-2425-d06-p22691.html) |
-| Mikrocontroller | NodeMCU V2 ESP8266 OR ESP32 (depending on base board) | 1 | 1 | ESP8266: [Amazon-Link](https://www.amazon.de/AZDelivery-NodeMCU-ESP8266-ESP-12E-Development/dp/B06Y1LZLLY) or [Ebay-Link](https://www.ebay.de/itm/255283208549) or [unsoldered (Amazon)](https://www.amazon.de/-/en/AZDelivery-NodeMCU-Amica-Unsoldered-Parent/dp/B07GYW4T5F) OR ESP32 V4: [ESP32 Dev Kit C V4](https://www.amazon.de/-/en/AZDelivery-Development-Compatible-Including-Successor/dp/B07Z83MF5W) |
+| Mikrocontroller | ESP32 Dev Kit V4| 1 | 1 | ESP32 V4: [ESP32 Dev Kit C V4](https://www.amazon.de/-/en/AZDelivery-Development-Compatible-Including-Successor/dp/B07Z83MF5W) |
 | Display (optional, but recommended) | 128 x 64 Pixel OLED SSD1306 | 1 | 1 | [Amazon-Link](https://www.amazon.de/AZDelivery-Display-Arduino-Raspberry-gratis/dp/B01L9GC470) |
 | our base board | PCB | 1 | 1 | see below |
 
 
-### Cables
+### Cable
 
 #### Heat-Resistant Cables
 
@@ -99,12 +99,12 @@ Those accessories are definitely recommended. You might already have one or the 
 
 ## Notes For Bill Of Materials
 
-### Base Board for ESP32
+### Base Board kit for ESP32
 This project uses a [custom designed Printed Circuit Board (PCB)](https://github.com/rancilio-pid/clevercoffee-hardware) for connecting all components of the PID. It mounts the ESP32 and some small passive electronics as well as screw terminals for connecting all required cables.
 
 There is a now the revision 1.6 of the PCB available. You will find more information here: [ESP32 Platinen](./pcb/ESP32.md) 
 
-**[On our Discord](https://discord.com/invite/Kq5RFznuU4) you could get a pcb set from LoQue via DM**.
+You can order the pcb kit in our web shop: [CleverCoffee-Shop](https://shop.clevercoffee.de)
 
 ![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_6_set_content.png)
 
@@ -135,20 +135,6 @@ Mind the correct polarity when soldering the E-cap!
   | R5 | 47kΩ (Steam switch) |[Link](https://www.reichelt.de/de/en/metal-film-resistor-47-kohm-axial-0-4-w-1--vis-c4702fc100-p237115.html) |
   | R6 | As needed | Resistor based on LED used. For NeoPixel, e.g., no resistor is required but solder jumper JP1 is required. |
 </details>
-
-### Base Board For ESP8266
-
-**[On our Discord](https://discord.com/invite/Kq5RFznuU4) you could get a pcb set from LoQue via DM**.
-
-![Included items](../img/bestellliste/pcb_esp8266_rev1_1_set_content.jpeg)
-
-
-Base board includes:
- * The PCB
- * Screw terminals
- * Headers
- * Adhesive dots
-
 
 ### Infos About The Thermal Conductive Glue
 
