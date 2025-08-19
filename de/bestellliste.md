@@ -26,14 +26,14 @@ Du benötigst folgende Dinge:
 ### Basics
 
 Die Basics werden auf jeden Fall benötigt und liegen (in der Regel) nicht irgendwo in der Werkstatt rum. In Klammern steht die Mindestanzahl.
-Der zu verwendende Controller (ESP8266 oder ESP32) richtet sich nach der von euch bestellen Platine.
+Der Platinenbausatz ist kein muss, erleichtert den Einbau aber erheblich. Alternativ könnt ihr auch ein gewöhnliches Breakoutboard passend zum ESP nehmen.
 
 Beschreibung | ID | Anzahl PID Only | Anzahl Vollausbau | Link
 -|-|-|-|-
 Temperatur Sensor|TSIC 306 TO92|2 (1)|2 (1)|[Reichelt-Link](https://www.reichelt.de/tsic-digitale-halbleiter-temperatursensoren-tsic-306-to92-p82327.html?r=1), [Alternativer Shop](https://b2c.bb-sensors.com/Temperatur/Temperatursensoren/Digitaler-Temperatursensor-TSic-306-TO92.html), [Alternativer Sensor](https://www.reichelt.de/de/de/tsic-digitale-halbleiter-temperatursensoren-tsic-206-to92-p82326.html?trstct=pos_1&nbc=1&&r=1)
 Schaltnetzteil|APV-8-5|1|1|[Reichelt-Link](https://www.reichelt.de/led-trafo-7-w-5-v-dc-1400-ma-mw-apv-8-5-p170873.html?&trstct=pos_0&nbc=1) oder [Amazon-Link](https://www.amazon.de/gp/product/B06Y29GSHH/)
 SSR Relais – Heizung|RA 2425-D06|1|1|[Reichelt-Link](https://www.reichelt.de/solid-state-relais-ust-2-32vdc-ulast-24-280v-ra-2425-d06-p22691.html?&trstct=pos_0)
-Mikrocontroller|NodeMCU V2 ESP8266 ODER ESP32 (je nach Platine)|1|1|ESP8266: [Amazon-Link](https://www.amazon.de/AZDelivery-NodeMCU-ESP8266-ESP-12E-Development/dp/B06Y1LZLLY/ref=sr_1_1_sspa?ie=UTF8&qid=1538918768&sr=8-1-spons&keywords=nodemcu+esp8266&psc=1) oder [Ebay-Link](https://www.ebay.de/itm/255283208549) oder [unverlötet (Amazon)](https://www.amazon.de/-/en/AZDelivery-NodeMCU-Amica-Unsoldered-Parent/dp/B07GYW4T5F/ref=sr_1_3?dchild=1&keywords=nodemcu+v2&qid=1617445906&sr=8-3) ODER ESP 32 V4:[ESP32 Dev Kit C V4](https://www.amazon.de/-/en/AZDelivery-Development-Compatible-Including-Successor/dp/B07Z83MF5W/ref=sr_1_3?keywords=azdelivery%2Besp32%2Bdevkitc%2Bv4&qid=1676019808&sprefix=esp32%2Bazdelivery%2Caps%2C82&sr=8-3&th=1)
+Mikrocontroller|ESP32 Dev kit V4 |1|1|ESP 32 Dev Kit V4:[ESP32 Dev Kit C V4](https://www.amazon.de/-/en/AZDelivery-Development-Compatible-Including-Successor/dp/B07Z83MF5W/ref=sr_1_3?keywords=azdelivery%2Besp32%2Bdevkitc%2Bv4&qid=1676019808&sprefix=esp32%2Bazdelivery%2Caps%2C82&sr=8-3&th=1)
 Display (optional aber empfehlenswert)|128 x 64 Pixel OLED SSD1306 |1|1|[Amazon-Link](https://www.amazon.de/AZDelivery-Display-Arduino-Raspberry-gratis/dp/B01L9GC470/ref=sr_1_3?ie=UTF8&qid=1544291613&sr=8-3&keywords=oled+128x64)
 unsere erstellte Platine|PCB|1|1|siehe unten
 
@@ -92,12 +92,11 @@ Lötkolben/Lötstation ZD-931|L|||[Reichelt-Link](https://www.reichelt.de/loetst
 
 ## Anmerkungen zur Bestelliste
 
-### ESP32 Platine
+### ESP32 Platinen Bausatz
 Das Projekt verwendet eine [eigens entwickelte Platine](https://github.com/rancilio-pid/clevercoffee-hardware) um alle Komponenten des PIDs zusammenzuführen. Sie verbindet den aufgesteckten ESP32 Mikrocontroller und passive elektronische Bauteile mit Schraubklemmblöcken, an die alle wichtigen Kabel für das PID angeschlossen werden.
 
 Es steht ab sofort die Revision 1.6 der ESP32 Platine zur Verfügung. Weitere Infos zu den Platinen findet ihr hier: [ESP32 Platinen](./platinen/ESP32.md)  
-
-**[Auf unserem Discord](https://discord.com/invite/Kq5RFznuU4) könnt ihr per PN bei LoQue ein PCB Set anfragen.**
+Den Platinen Bausatz könnt ihr direkt in unsere Shop bestellen: [CleverCoffee-Shop](https://shop.clevercoffee.de)
 
 ![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_6_set_content.png)
 
@@ -125,18 +124,6 @@ Beim Löten des Elkos auf die Polarität achten!
   Widerstand 220 Ω | [Reichelt](https://www.reichelt.de/widerstand-metallschicht-220-ohm-0204-0-4-w-1--yag-fte52-220r-p236948.html?&trstct=pol_0&nbc=1) Neopixel braucht keinen Widerstand,  Lötjumper JP1 schließen | 1 | 1 | 1
 
 </details>
-
-### ESP8266 Platine
-
-**[Auf unserem Discord](https://discord.com/invite/Kq5RFznuU4) könnt ihr per PN bei LoQue ein PCB Set anfragen.**
-
-![PCB ESP8266 Lieferumfang](../img/bestellliste/pcb_esp8266_rev1_1_set_content.jpeg)
-
-Inklusive sind:
- * Das PCB
- * Die Schraubklemmenblöcke
- * Die Stiftleisten
- * Klebepads
 
 ### Infos zum Wärmeleitkleber
 Wärmeleitkleber/-paste ist umstritten (siehe [Link](https://www.igorslab.de/mythos-waermeleitpaste-edelpaste-zum-apothekenpreis-gegen-guenstiges-massenprodukt-wir-rechnen-gnadenlos-nach/) und Block unten zur Herleitung). Nichtsdestotrotz befestigen einige Anwender den TSIC mit dem Kleber direkt am Kessel. Zusammenfassend kann man sagen: Tragt möglichst wenig davon auf. Alternativ zum Kleben befestigt ihr den Sensor besser mit der nun leeren Halterung des Thermostats (und einer zusätzlichen Schraube und Mutter). Damit sollte sich ein akzeptables Maß aus Temperaturdifferenz und sicherer Befestigung erreichen lassen.
