@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ESP32
+title: ESP32 THT
 parent: PCB
 grand_parent: EN - Manual
 has_children: false
@@ -15,9 +15,9 @@ Contents
 {:toc}
 
 
-# ESP32 PCB
+# ESP32 THT PCB
 
-<p>Several different revisions of our PCB are in use by now.<br>
+<p>Several different revisions of our THT PCB are in use by now.<br>
 Here you can find information about the following revisions: 1.2, 1.3, 1.5. and 1.6<br>
 For each revision, the respective section contains information about known bugs, pin layout, features, and more.</p>
 

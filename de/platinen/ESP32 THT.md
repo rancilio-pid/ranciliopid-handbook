@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ESP32
+title: ESP32 THT
 parent: Platinen
 grand_parent: DE - Handbuch
 has_children: false
@@ -14,9 +14,9 @@ Inhaltsverzeichnis
 * TOC
 {:toc}
 
-# ESP32 Platine
+# ESP32 THT Platine
 
-<p>Von unserer Platine für den ESP32 gibt es inzwischen mehrere Revisionen.<br>
+<p>Von unserer THT Platine für den ESP32 gibt es inzwischen mehrere Revisionen.<br>
 Ihr findet hier Informationen zu folgenden Revisionen: 1.2, 1.3, 1.5 und 1.6<br>
 Zu den einzelnen Revisionen findet ihr in diesem Abschnitt Informationen zu Bugs, Pinbelegungen, Funktionen und mehr.</p>
 
