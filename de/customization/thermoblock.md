@@ -17,7 +17,7 @@ Inhaltsverzeichnis
 
 ## Einleitung
 
-Die PID lässt sich auch zur Steuerung von Thermoblock Maschinen einsetzen. Je nach Aufbau der Maschine muss die Steuerung angepasst werden. Details zu bereits erfolgten Umbauten und den in der PID umgesetzten Features werden im Folgenden beschrieben. 
+Clevercoffee lässt sich auch zur Steuerung von Thermoblock Maschinen einsetzen. Je nach Aufbau der Maschine muss die Steuerung angepasst werden. Details zu bereits erfolgten Umbauten und den umgesetzten Features werden im Folgenden beschrieben. 
 
 ## Hinweis
 
