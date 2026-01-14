@@ -70,9 +70,9 @@ In dem folgenden Schaltplan sieht man die Verschaltung für die Ausbaustufe PID 
 Über die optimale Positionierung des Temperatursensors gibt es unterschiedliche Ansichten.
 Die Anbringung nahe der Schmelzsicherung (ohne Kleber oder Paste, s. Bild) hat mit folgenden Einstellungen gut funktioniert:
 
-![PID Einstellungen](../../QM/QM_PID_Settings.png)
+![PID Einstellungen](../../img/QM/QM_PID_Settings.png)
 
-![Position Temperatursensor](../../QM/QM_Pos_Temperatursensor.png)
+![Position Temperatursensor](../../img/QM/QM_Pos_Temperatursensor.png)
 
 Die **Zieltemperatur** ist individuell anzupassen und entspricht natürlich nicht dem, was im Sieb ankommt. Am besten fängt man mit einem Wert um 99°C an und „tastet“ sich nach oben/unten vor („taste“ im Sinn von schmecken). Alles andere (Messungen im Sieb etc.) vergeudet nur Zeit und Ressourcen (kann aber je nach persönlichen Vorlieben ein Zeitvertreib sein).
 
@@ -87,6 +87,7 @@ Zum Beispiel (alles innen):
 * Netzteil rechts
 * PCB neben das Netzteil oder an die Rückwand
 * links das SSR-Modul (230V Kabel kürzer)
+
 ACHTUNG 230V!! Unbedingt die Schraub-Kontakte mit einer Schutzabdeckung versehen, z.B. kann man [diese von findie](https://www.thingiverse.com/thing:6277388) selbst drucken.
 
 Jede Anordnung hat Vor- und Nachteile, so dass man am besten zunächst alle Teile einmal lose positioniert und erst verkabelt, wenn man mit seinem Setup zufrieden ist.
