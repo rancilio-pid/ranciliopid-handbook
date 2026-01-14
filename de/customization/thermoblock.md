@@ -68,11 +68,12 @@ In dem folgenden Schaltplan sieht man die Verschaltung für die Ausbaustufe PID 
 
 #### Temperatursensor
 Über die optimale Positionierung des Temperatursensors gibt es unterschiedliche Ansichten.
+
+![Position Temperatursensor](../../img/QM/QM_Pos_Temperatursensor.png)
+
 Die Anbringung nahe der Schmelzsicherung (ohne Kleber oder Paste, s. Bild) hat mit folgenden Einstellungen gut funktioniert:
 
 ![PID Einstellungen](../../img/QM/QM_PID_Settings.png)
-
-![Position Temperatursensor](../../img/QM/QM_Pos_Temperatursensor.png)
 
 Die **Zieltemperatur** ist individuell anzupassen und entspricht natürlich nicht dem, was im Sieb ankommt. Am besten fängt man mit einem Wert um 99°C an und „tastet“ sich nach oben/unten vor („taste“ im Sinn von schmecken). Alles andere (Messungen im Sieb etc.) vergeudet nur Zeit und Ressourcen (kann aber je nach persönlichen Vorlieben ein Zeitvertreib sein).
 
