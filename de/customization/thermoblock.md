@@ -39,10 +39,10 @@ Die Temperatursteuerung wird vom PID-Modul übernommen, die Ansteuerung der Heiz
 ![Bild Thermostate markiert](../../img/QM/QM_Thermostate.png)
 
 #### Dampfmodus
-Um zu schäumen, muss manuell die Temperatursteuerung auf Dampfmodus umgestellt werden. Das kann entweder über das Web-Portal, oder über einen MQTT-Befehl (z.B. Taster über Homeassistant) erfolgen. Oder man baut einen Taster in das Gerät ein, der direkt an „STEAM und 3,3V auf dem PCB angeklemmt wird. Anschließend kann wie im Originalzustand über den Dampf-Schalter Dampf bezogen werden.
-Denkbar wäre z.B. ein kleiner Edelstahl Klingeltaster, für den man allerdings (vorsichtig) ein Loch in das Gehäuse bohren muss. Einstellungen in der Hardware-Config: „Momentary“ und „normally open“.
+Um zu schäumen, muss manuell die Temperatursteuerung auf Dampfmodus umgestellt werden. Das kann entweder über das Web-Portal, oder über einen MQTT-Befehl (z.B. Taster über Homeassistant) erfolgen. Oder man baut einen Taster in das Gerät ein, der direkt an „STEAM und 3,3V auf dem PCB angeklemmt wird.Denkbar wäre z.B. ein kleiner Edelstahl Klingeltaster, für den man allerdings (vorsichtig) ein Loch in das Gehäuse bohren muss. Einstellungen in der Hardware-Config: „Momentary“ und „normally open“.
+Anschließend kann wie im Originalzustand über den Dampf-Schalter Dampf bezogen werden.
 
-**Wichtig:** Bei dieser Umbauvariante bleibt - wie auf dem Schaltplan zu sehen - bei den Thermoblock-Maschinen der Dampf-Thermostat angeklemmt, was dazu führt, dass bei aktivieren des (originalen) Dampf-Schalters der Maschine unabhängig vom aktuellen Modus der PID-Steuerung die Heizung bis 120°C (Zieltemperatur des Original-Thermostats) aktiv bleibt (sieht man am durchgehend leutenden orangenen Kontroll-Lämpchen). Somit bleibt die ursprüngliche Dampffunktion in jedem Fall erhalten und man könnte sie einfach weiter nutzen.
+**Wichtig:** Bei dieser Umbauvariante bleibt - wie auf dem Schaltplan zu sehen - bei den Thermoblock-Maschinen der Dampf-Thermostat angeklemmt, was dazu führt, dass beim Aktivieren des (originalen) Dampf-Schalters der Maschine unabhängig vom aktuellen Modus der PID-Steuerung die Heizung bis 120°C (Zieltemperatur des Original-Thermostats) heizt (sieht man am durchgehend leutenden orangenen Kontroll-Lämpchen). Somit bleibt die ursprüngliche Dampffunktion in jedem Fall erhalten und man könnte sie einfach weiter nutzen.
 Der PID-Dampfmodus hat den Vorteil, dass man mit ein paar Grad mehr auch mehr Dampf erzeugt und die Temperatur nicht erst langsam ansteigt, während die Pumpe schon aktiv ist, sondern man diese erst bei Erreichen der Zieltemperatur aktiviert.
 
 ### 1.3 Schaltpläne
