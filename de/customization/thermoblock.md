@@ -48,7 +48,7 @@ Der PID-Dampfmodus hat den Vorteil, dass man mit ein paar Grad mehr auch mehr Da
 ### 1.3 Schaltpläne
 
 #### Originalzustand
-Der folgende Schaltplan (Quelle (https://www.koffiepraat.nl/forum/download/file.php?id=3718&sid=347497ff32b0a1b68d92d8acab0887d5&mode=view)) zeigt die Verschaltung der Quick Mill 3000. Der Schaltplan ist auch für die Modelle 0820 und 0835 repräsentativ. Bei dem Modell 0835 kommt zusätzlich noch die Steuerung der integrierten Mühle dazu, die aber unabhängig von dem hier dargestellten Schaltplan ist und darauf keinen Einfluss hat. 
+Der folgende Schaltplan [Quelle](https://www.koffiepraat.nl/forum/download/file.php?id=3718&sid=347497ff32b0a1b68d92d8acab0887d5&mode=view) zeigt die Verschaltung der Quick Mill 3000. Der Schaltplan ist auch für die Modelle 0820 und 0835 repräsentativ. Bei dem Modell 0835 kommt zusätzlich noch die Steuerung der integrierten Mühle dazu, die aber unabhängig von dem hier dargestellten Schaltplan ist und darauf keinen Einfluss hat. 
 
 ![Schaltplan Quick Mill](../../schaltplan/QM_Electrica_Scheme_Quickmill_3000.gif)
 
