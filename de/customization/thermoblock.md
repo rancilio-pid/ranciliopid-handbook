@@ -84,13 +84,13 @@ Für die Stromversorgung wird ein 5V Netzteil benötigt (siehe Bauplan). Die 230
 Das Display kann man mit einem kleinen Gehäuse oben auf der Ablage platzieren (dünnes Flachband-Kabel passt zwischen Abdeckung und Gehäuse), oder man schneidet ein Loch in seine Maschine und baut einen hübschen Rahmen ein (je nach Mut und eigenen Fertigkeiten).
 
 #### Wo kommt der Rest hin?
+Jede Anordnung hat Vor- und Nachteile, so dass man am besten zunächst alle Teile einmal lose positioniert und erst verkabelt, wenn man mit seinem Setup zufrieden ist.
+Am besten verwendet man für das SSR Modul ein wärmeleitendes Klebepad. Hilfreich sind auch selbstklebende Kabelclips, um die Leitungen am Gehäuse zu befestigen.
+
 Zum Beispiel (alles innen):
 * Netzteil rechts
 * PCB neben das Netzteil oder an die Rückwand
 * links das SSR-Modul (230V Kabel kürzer)
 
 ACHTUNG 230V!! Unbedingt die Schraub-Kontakte mit einer Schutzabdeckung versehen, z.B. kann man [diese von findie](https://www.thingiverse.com/thing:6277388) selbst drucken.
-
-Jede Anordnung hat Vor- und Nachteile, so dass man am besten zunächst alle Teile einmal lose positioniert und erst verkabelt, wenn man mit seinem Setup zufrieden ist.
-Am besten verwendet man für das SSR Modul ein wärmeleitendes Klebepad. Hilfreich sind auch selbstklebende Kabelclips, um die Leitungen am Gehäuse zu befestigen.
 
