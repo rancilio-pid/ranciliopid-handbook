@@ -95,23 +95,18 @@ Lötkolben/Lötstation ZD-931|L|||[Reichelt-Link](https://www.reichelt.de/loetst
 ### ESP32 Platinen Bausatz
 Das Projekt verwendet eine [eigens entwickelte Platine](https://github.com/rancilio-pid/clevercoffee-hardware) um alle Komponenten des PIDs zusammenzuführen. Sie verbindet den aufgesteckten ESP32 Mikrocontroller und passive elektronische Bauteile mit Schraubklemmblöcken, an die alle wichtigen Kabel für das PID angeschlossen werden.
 
-Es steht ab sofort die Revision 1.6 der ESP32 Platine zur Verfügung. Weitere Infos zu den Platinen findet ihr hier: [ESP32 Platinen](./platinen/ESP32.md)  
+Es steht ab sofort die Revision 1.1 der Esp32 SMD Minimal Platine zur Verfügung. Weitere Infos zu den Platinen findet ihr hier: [ESP32 Platinen](./platinen/ESP32.md)  
 Den Platinen Bausatz könnt ihr direkt in unsere Shop bestellen: [CleverCoffee-Shop](https://shop.clevercoffee.de)
 
 ![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_6_set_content.png)
 
-Lieferumfang PCB Set Rev 1.6:
- * 1x PCB
+Lieferumfang PCB SMD Minimal Set Rev 1.1:
+ * 1x PCB teilbestückt 
  * 9x Schraubklemmenblöcke (2x 2-Pin, 3x 3-Pin, 2x 4-Pin, 1x 5-Pin, 1x 6-Pin)
  * 2x 19-Pin-Buchsenleisten
  * 1x 2x8-Pin-Buchsenleisten
- * 4x 3-Pin-Stiftleisten
- * 2x Kondensatoren (Elko 220 µF kurzes Bein Minus, Kerko 100 nF)
- * 7x Widerstände (1x 220Ω rot, 2x 4,7kΩ grün, 4x 47kΩ blau)
- * 4x Jumper
  * 4x Klebepads  
 
-Beim Löten des Elkos auf die Polarität achten!
 <details markdown="block">
   <summary>Bauteile für ältere Revisionen</summary>
 
