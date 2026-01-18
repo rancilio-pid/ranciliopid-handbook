@@ -102,24 +102,18 @@ Those accessories are definitely recommended. You might already have one or the 
 ### Base Board kit for ESP32
 This project uses a [custom designed Printed Circuit Board (PCB)](https://github.com/rancilio-pid/clevercoffee-hardware) for connecting all components of the PID. It mounts the ESP32 and some small passive electronics as well as screw terminals for connecting all required cables.
 
-There is a now the revision 1.6 of the PCB available. You will find more information here: [ESP32 Platinen](./pcb/ESP32.md) 
+There is a now the revision 1.1 of the PCB SMD Minimal available. You will find more information here: [ESP32 Platinen](./pcb/ESP32.md) 
 
 You can order the pcb kit in our web shop: [CleverCoffee-Shop](https://shop.clevercoffee.de)
 
 ![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_6_set_content.png)
 
 Base board set includes:
- * 1x PCB
+ * 1x PCB partial assembled 
  * 9x Screw terminals (2x 2-Pin, 3x 3-Pin, 2x 4-Pin, 1x 5-Pin, 1x 6-Pin)
  * 2x 19-Pin-Headers female
  * 1x 2x8-Pin-Header female
- * 4x 3-Pin-Headers male
- * 2x capacitors (Elko 220 µF short leg minus, Kerko 100 nF)
- * 7x resistors (1x 220Ω red, 2x 4,7kΩ green, 4x 47kΩ blue)
- * 4x jumpers
  * 4x adhesive PCB holders
-
-Mind the correct polarity when soldering the E-cap!
 
 <details markdown="block">
   <summary>Parts for older pcb revisions</summary>
