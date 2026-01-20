@@ -14,9 +14,9 @@ Inhaltsverzeichnis
 * TOC
 {:toc}
 
-# ESP32 THT Platine
+# ESP32 Minimal THT Platine
 
-<p>Von unserer THT Platine für den ESP32 gibt es inzwischen mehrere Revisionen.<br>
+<p>Von unserer Minimal THT Platine für den ESP32 gibt es inzwischen mehrere Revisionen.<br>
 Ihr findet hier Informationen zu folgenden Revisionen: 1.2, 1.3, 1.5 und 1.6<br>
 Zu den einzelnen Revisionen findet ihr in diesem Abschnitt Informationen zu Bugs, Pinbelegungen, Funktionen und mehr.</p>
 
@@ -31,7 +31,7 @@ In unserem Hardware Repository findet ihr das dazu passenden KiCAD Projekt und G
 ### Bugs
 Aktuell sind keine Bugs bekannt.
 
-### Anschlüsse der ESP32 Platine Rev 1.6
+### Anschlüsse der ESP32 Minimal THT Platine Rev 1.6
 
 Header | PIN Software | Beschriftung PCB | Belegung
 -|-|-|-
@@ -108,7 +108,7 @@ In unserem Hardware Repository findet ihr das dazu passenden KiCAD Projekt und G
 ### Bugs
 Aktuell sind keine Bugs bekannt.
 
-### Anschlüsse der ESP32 Platine Rev 1.5
+### Anschlüsse der ESP32 Minimal THT Platine Rev 1.5
 
 Header | PIN Software | Beschriftung PCB | Belegung
 -|-|-|-
@@ -176,7 +176,7 @@ Fehler Optokoppler für Brüherkennung:
   * 3.3.0 und älter -> `PINMODEVOLTAGESENSOR` auf `INPUT_PULLUP` und VOLTAGESENSOR auf `LOW`
 * Fehlende GPIO: IO03, IO04, IO05
 
-### Anschlüsse der ESP32 Platine Rev 1.3
+### Anschlüsse der ESP32 Minimal THT Platine Rev 1.3
 
 Header | PIN Software | PIN PCB | Belegung
 -|-|-|-
@@ -246,7 +246,7 @@ Fehler Optokoppler für Brüherkennung:
 
 * Fehlende GPIO: IO03, IO04, IO05
 
-### Anschlüsse der ESP32 Platine Rev 1.2
+### Anschlüsse der ESP32 Minimal THT Platine Rev 1.2
 
 Header | PIN Software | PIN PCB | Belegung
 -|-|-|-
