@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ESP32 THT
+title: ESP32 Minimal THT
 parent: Platinen
 grand_parent: DE - Handbuch
 has_children: false
