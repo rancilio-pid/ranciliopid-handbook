@@ -14,7 +14,7 @@ Inhaltsverzeichnis
 * TOC
 {:toc}
 
-# ESP32 SMD Platine
+# ESP32 Minimal SMD Platine
 
 <p>Wir sind von reinen THT-Platinen auf kombinierte SMD/THT-Platinen umgestiegen.<br>
 Widerstände und Kondensatoren werden jetzt als SMD-Komponenten eingesetzt und ermöglichen eine flexible Teilbestückung.<br>
@@ -33,7 +33,7 @@ In unserem Hardware Repository findet ihr das dazu passenden KiCAD Projekt und G
 ### Bugs
 Aktuell sind keine Bugs bekannt.
 
-### Anschlüsse der ESP32 SMD Platine Rev 1.1
+### Anschlüsse der ESP32 Minimal SMD Platine Rev 1.1
 
 Header | PIN Software | Beschriftung PCB | Belegung
 -|-|-|-
