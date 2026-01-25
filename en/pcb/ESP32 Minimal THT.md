@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ESP32 THT
+title: ESP32 Minimal THT
 parent: PCB
 grand_parent: EN - Manual
 has_children: false
@@ -15,7 +15,7 @@ Contents
 {:toc}
 
 
-# ESP32 THT PCB
+# ESP32 Minimal THT PCB
 
 <p>Several different revisions of our THT PCB are in use by now.<br>
 Here you can find information about the following revisions: 1.2, 1.3, 1.5. and 1.6<br>
@@ -33,7 +33,7 @@ KiCAD and Gerber files are available in our hardware repository:
 Currently, there are no known bugs.
 
 
-### Connections on the ESP32 PCB Rev 1.6
+### Connections on the ESP32 Minimal THT PCB Rev 1.6
 
 Header | Pin Software | Pin PCB | Connection
 -|-|-|-
@@ -109,7 +109,7 @@ KiCAD and Gerber files are available in our hardware repository:
 Currently, there are no known bugs.
 
 
-### Connections on the ESP32 PCB Rev 1.5
+### Connections on the ESP32 Minimal THT PCB Rev 1.5
 
 Header | Pin Software | Pin PCB | Connection
 -|-|-|-
@@ -177,7 +177,7 @@ Faulty optocoupler for brew detection:
   * 3.3.0 and older -> `PINMODEVOLTAGESENSOR` to `INPUT_PULLUP` and `VOLTAGESENSOR` to `LOW`
 * Missing GPIO: IO03, IO04, IO05
 
-### Connections on the ESP32 PCB Rev 1.3
+### Connections on the ESP32 Minimal THT PCB Rev 1.3
 
 Header | Pin Software | Pin PCB | Connection
 -|-|-|-
@@ -246,7 +246,7 @@ Faulty optocoupler for brew detection:
   * 3.3.0 and older -> `PINMODEVOLTAGESENSOR` to `INPUT_PULLUP` and `VOLTAGESENSOR` to `LOW`
 * Missing GPIO: IO03, IO04, IO05
 
-### Connectors of the ESP32 PCB Rev 1.2
+### Connectors of the ESP32 Minimal THT PCB Rev 1.2
 
 Header | PIN Software | PIN PCB | Connection
 -|-|-|-

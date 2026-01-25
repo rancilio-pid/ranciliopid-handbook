@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ESP32 SMD
+title: ESP32 Minimal SMD
 parent: PCB
 grand_parent: EN - Manual
 has_children: false
@@ -15,7 +15,7 @@ Contents
 {:toc}
 
 
-# ESP32 THT PCB
+# ESP32 Minimal SMD PCB
 
 <p>We have transitioned from purely THT boards to combined SMD/THT boards.<br>
 Resistors and capacitors are now implemented as SMD components, enabling flexible partial assembly.<br>
@@ -35,7 +35,7 @@ KiCAD and Gerber files are available in our hardware repository:
 Currently, there are no known bugs.
 
 
-### Connections on the ESP32 PCB Rev 1.6
+### Connections on the ESP32 Minimal SMD PCB Rev 1.1
 
 Header | Pin Software | Pin PCB | Connection
 -|-|-|-
@@ -96,7 +96,7 @@ The resistors define the state of the switch input when the switch is not actuat
 The default configuration is that all jumpers are soldered to pull-down.
 When using an optocoupler for brew detection, in most cases solder jumper JP3 must be configured as pull-up.
 
-### Changes to THT Rev 1.6
+### Changes to Minimal THT Rev 1.6
 
 - Resistors and capacitors implemented as SMD components
 - Pull resistors for brew, hot water, steam, and power implemented via solder jumpers 

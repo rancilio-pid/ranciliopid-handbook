@@ -98,7 +98,7 @@ Das Projekt verwendet eine [eigens entwickelte Platine](https://github.com/ranci
 Es steht ab sofort die Revision 1.1 der Esp32 SMD Minimal Platine zur Verfügung. Weitere Infos zu den Platinen findet ihr hier: [ESP32 Platinen](./platinen/ESP32.md)  
 Den Platinen Bausatz könnt ihr direkt in unsere Shop bestellen: [CleverCoffee-Shop](https://shop.clevercoffee.de)
 
-![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_6_set_content.png)
+![PCB ESP32 Lieferumfang](../img/pcb/esp32/pcb_esp32_smd_rev1_1_set_content.jpg)
 
 Lieferumfang PCB SMD Minimal Set Rev 1.1:
  * 1x PCB teilbestückt 

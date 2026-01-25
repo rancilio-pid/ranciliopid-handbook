@@ -106,7 +106,7 @@ There is a now the revision 1.1 of the PCB SMD Minimal available. You will find 
 
 You can order the pcb kit in our web shop: [CleverCoffee-Shop](https://shop.clevercoffee.de)
 
-![PCB ESP32 Lieferumfang](../img/bestellliste/pcb_esp32_rev1_6_set_content.png)
+![PCB ESP32 Lieferumfang](../img/pcb/esp32/pcb_esp32_smd_rev1_1_set_content.jpg)
 
 Base board set includes:
  * 1x PCB partial assembled 
