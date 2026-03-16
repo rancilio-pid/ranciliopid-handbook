@@ -29,7 +29,7 @@ Was brauchen wir für den Umbau
 Als LEDs eignen sich für die Rancilio am besten LEDs in der Farbe Orange/Amber mit einer nicht all zu großen Helligkeit. Bisher als recht passend erwiesen haben sich diffuse LEDs mit einer Helligkeit im Bereich von 1800 mcd.   
 Die Widerstände müssen passend zu der LED und der gewünschten Spannung ausgewählt werden (3.3V oder 5V).
 Am einfachsen nimmt man hierfür einen LED-Widerstandsrechner wie z.B. folgenden:  
-[https://www.leds-and-more.de/catalog/resistor.php]()  
+[Widerstandsrechner für LEDs](https://www.leds-and-more.de/catalog/resistor.php)  
 Am Beispiel einer orangen LED mit einer Durchlassspannung von 1.8 V und einer Stromaufnahme von 20 mA bei einer Betriebsspannung von 3.3V ergibt dieser dann 75 Ohm. Bei den bisher verwendeten LEDs war das Licht durch den Schalter noch recht intensiv deshalb habe ich einfach den Widerstand verdoppelt. Wer sich nicht ganz sicher ist, besorgt sich am besten vorher die LEDs und testet mit nem handelsüblichen Widerstandssortiment oder Potis die Helligkeiten aus. Im Beispiel brauchen zu den LEDs pro Schalter 2 MELF Widerstände mit jeweils 75 Ohm. Das sieht dann wie folgt aus:
 
 ![LED Komponenten](../../img/hardware/led-mod/IMG_2856.png)
