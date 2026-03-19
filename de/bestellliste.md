@@ -76,7 +76,8 @@ Flachsteckhülsen mit Abzweig – 1,5 … 2,5 mm², transp., vollisoli|WE F60663
 Flachstecker mit Schrumpfschlauch – 1,5 … 2,5 mm², blau|WE F616638HS|10|20|[Reichelt-Link](https://www.reichelt.de/flachstecker-mit-schrumpfschlauch-1-5-2-5-mm-blau-we-f616638hs-p189408.html?&trstct=pos_0&nbc=1)
 Ring-Kerbschuhe, für M3, rot|RK-R-3|10|10|[Reichelt-Link](https://www.reichelt.de/ring-kerbschuhe-fuer-m3-rot-rk-r-3-p15259.html?&nbc=1)
 Ring-Kerbschuhe, für M5, rot|RK-R-5|10|10|[Reichelt-Link](https://www.reichelt.de/ring-kerbschuhe-fuer-m5-rot-rk-r-5-p142770.html?&nbc=1)
-Relais für **Vollausbau** (siehe unten)|DEBO RELAY 4WAY|0|1|[Reichelt-Link](https://www.reichelt.de/entwicklerboards-4-wege-solid-relais-5v-240v-2a-debo-relay-4way-p280064.html?)
+Relais für **Vollausbau** 2-Kanel|Omron SSR 2 Kanal|0|1|[roboter-bausatz.de-Link](https://www.roboter-bausatz.de/p/2-kanal-solid-state-relais-ssr-modul-5v-230vac-high-level-trigger)
+alternatives Relais für **Vollausbau** 4-Kanel|DEBO RELAY 4WAY|0|1|[Reichelt-Link](https://www.reichelt.de/entwicklerboards-4-wege-solid-relais-5v-240v-2a-debo-relay-4way-p280064.html?)
 Schrumpfschlauch|DELOCK 86271|1|1|[Link](https://www.reichelt.de/schrumpfschlauch-sortiment-schwarz-100-teilig-delock-86271-p152924.html?&trstct=pol_0&nbc=1)
 Schraube M4x16||1|1|
 Mutter M4||2|2|
