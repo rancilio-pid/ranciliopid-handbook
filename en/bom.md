@@ -83,7 +83,8 @@ Those accessories are definitely recommended. You might already have one or the 
 | Piggy Back disconnects with shrinking tube - 1,5-2,5 mm² | WE F616638HS | 10 | 20 | [Reichelt-Link](https://www.reichelt.de/de/en/female-disconnects-with-shrinking-tube-we-f616638hs-p189408.html) |
 | Ring connector for M3, red | RK-R-3 | 10 | 10 | [Reichelt-Link](https://www.reichelt.de/de/en/ring-connector-for-m3-red-rk-r-3-p15259.html) |
 | Ring connector for M5, red | RK-R-5 | 10 | 10 | [Reichelt-Link](https://www.reichelt.de/de/en/ring-connector-for-m5-red-rk-r-5-p142770.html) |
-| Relay for **Full Expansion** (see below) | DEBO RELAY 4WAY | 0 | 1 | [Reichelt-Link](https://www.reichelt.de/de/en/developer-boards-4-way-solid-state-relay-5v-240v-2a-debo-relay-4way-p280064.html) |
+| Relay for **Full Expansion** 2 channel | Omron SSR 2 channel | 0 | 1 | [roboter-bausatz.de-Link](https://www.roboter-bausatz.de/p/2-kanal-solid-state-relais-ssr-modul-5v-230vac-high-level-trigger) |
+| alt Relay for **Full Expansion** 4 channel | DEBO RELAY 4WAY | 0 | 1 | [Reichelt-Link](https://www.reichelt.de/de/en/developer-boards-4-way-solid-state-relay-5v-240v-2a-debo-relay-4way-p280064.html) |
 | Heat-shrink tubing assortment, black, 100 pieces | DELOCK 86271 | 1 | 1 | [Link](https://www.reichelt.de/de/en/heat-shrink-tubing-assortment-black-100-pieces-delock-86271-p152924.html) |
 | Screw M4x16 |  | 1 | 1 |
 | Nut M4 |  | 2 | 2 |
