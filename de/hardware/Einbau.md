@@ -29,6 +29,8 @@ Zeitaufwand:
 * PID Only ca. 3 h
 * Vollaubau weitere 2-3 h
 
+Sieht auch [Tips und Tricks zum Einbau](./hardware.md#tipps-und-tricks)
+
 ## Zerlegen
 
 Als erstes muss die Maschine zerlegt werden. Hier findet ihr einen [Link zur Demontage](https://clevercoffee.de/rancilio-silvia-demontage/).
@@ -54,7 +56,7 @@ Das alte Thermostat beiseite legen und aufheben; bereich von der Wärmeleitpaste
 Bügel mit Schraube, Beilagscheiben und Muttern vorbereiten. Bügel wieder einbauen dabei Schraube 3 und 2 festziehen, 1 noch etwas locker lassen.
 
 Die neue Schraube mit Hilfe der zwei Muttern so einstellen, dass die Schraube auf dem Temperatursensor aufliegt. Muttern festziehen.
-Temperatursensor auf der Unterseite mit etwas Wärmeleitpaste versehen, unter der neuen Schraube platzieren und Schraube 1 anziehen. Der Bügel sollte sich dabei leicht verformen. So wird sichergestellt, dass der Sensor fest sitzt, aber nicht zu sehr gequetscht wird.  
+Temperatursensor auf der Unterseite mit etwas Wärmeleitpaste versehen (siehe [Infos zum Wärmeleitkleber](../bestellliste.md#infos-zum-wärmeleitkleber)), unter der neuen Schraube platzieren und Schraube 1 anziehen. Der Bügel sollte sich dabei leicht verformen. So wird sichergestellt, dass der Sensor fest sitzt, aber nicht zu sehr gequetscht wird.
 
 
 ### Stromversorgung
@@ -77,7 +79,7 @@ Montagepunkt für das SSR festlegen. Es kann bei der Rancilio Silvia E z.B. übe
 An Kabel 2 (blau) des Schrittes oben, eine Ringöse pressen (Kabel vor dem Anschließen entsprechend kürzen) und an einen beliebigen Pol des SSR-Ausgangs anschließen.
 Ein weiteres Kabel 1,5 mm2 mit einer Ringöse versehen und am zweiten Pol des SSR-Ausgangs befestigen. Kabel zum Stecker mit dem grauen Kabel verlegen, welches ursprünglich am Thermostat war und entsprechend kürzen. Einen Flachstecker aufpressen und anschließend mit einem Schrumpfschlauch versehen.
 
-Zwei Kabel (rot und schwarz) an der Eingangsseite des SSR anschließen. Ich habe dafür 0,5 mm2 Kabel verwendet und ebenfals Ringösen aufgepresst. Es können aber auch die 0,14 mm2 Kabel mit Aderendhülsen o.ä. verwendet werden.
+Zwei Kabel (rot und schwarz) an der Eingangsseite des SSR anschließen (siehe [SSR anschließen](./hardware.md#ssr-anschließen)). Ich habe dafür 0,5 mm2 Kabel verwendet und ebenfals Ringösen aufgepresst. Es können aber auch die 0,14 mm2 Kabel mit Aderendhülsen o.ä. verwendet werden.
 Freie Kabelenden beschriften und richtung 3-Wegeventil legen.
 
 ### Einbau des Controllers

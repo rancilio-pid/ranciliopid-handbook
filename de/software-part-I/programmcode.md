@@ -40,12 +40,6 @@ Hierbei kann unten rechts im Fenster eine Meldung zeigen, dass weitere Softwarep
 Zum Beispiel muss Python extern installiert werden. Durch den Klick auf `Install Python` (1) gelangt ihr in die Dokumentation von PlatformIO. Befolgt dort die weiteren Installationsschritte. Klickt dann in VS Code in der Meldung `Try again`.
 Am Ende zeigt euch folgende Meldung, dass PlatformIO erfolgreich installiert wurde:
 
-![](../../img/software-part-I/softwareinstall/swinstall3.png)
-
-Ihr könnt aber zum aktuellen Stand ohne `git` oder GitHub Desktop nicht unseren Code kompilieren. Falls ihr dies doch tut erhaltet ihr zum Beispiel eine folgende Fehlermeldung:
-
-![](../../img/software-part-I/softwareinstall/swinstall4.png)
-
 Ihr könnt an dieser Stelle VS Code erst einmal schließen.
 
 
@@ -76,8 +70,6 @@ WICHTIG! Nach der Installation muss der Rechner neugestartet werden!
 
 ## Auswahl der Software-Version für den ESP32
 Nach dem Neustart des Rechners könnt ihr prüfen, ob ihr die Software kompilieren könnt.
-Öffnet das Verzeichnis in VS Code, welches ihr in GitHub kopiert habt. `File` -> `Open Folder`.
-In dem oberen Fall wäre dies `/Documents/Github/clevercoffee`.
 
 In VS Code drückt ihr in MacOS `Shift` + `CMD` + `P` oder nutzt die Taskleiste von VS Code: `View` -> `Command Palette`.
 Hier gebt ihr ein (1): `git: clone`
@@ -103,9 +95,13 @@ Drückt Return oder klickt per Maus den Befehl an und es erscheint eine Auswahll
 
 ![](../../img/software-part-I/softwareinstall/swinstall10.png)
 
-Für den ESP32 sind nur die Versionen ab 4.X.X relevant, in dieser Version wird nicht mehr der ESP8266 unterstützt.
-Die Version `origin/master` ist die aktuelle Version der Entwicklung für den ESP32.
+### Version 4.X.X - ESP32-only
+Für den ESP32 sind nur die Versionen ab 4.X.X relevant bzw. der aktuelle `master`. In dieser Version wird nicht mehr der ESP8266 unterstützt.
 
+> Aktuell gibt es noch keinen 4.X.X branch, also muss der aktuelle master branch verwendet werden
+<!-- TODO, maybe one could use a callout here,  -->
+
+### Version 3.X.X - ESP8266/ESP32
 Die Version `origin/ESP8266-master` ist die alte Entwicklungsversion für den ESP8266. Hier gibt es nur noch Bugfixes. Die aktuelle Version für den ESP8266 ist jeweils die Version mit dem Zusatz `-esp8266` zum Beispiel: `v3.1.2-esp8266`
 
 Wählt die aktuellste Version für den ESP32 aus. Es dauert ein paar Sekunden und dann sollte der Code heruntergeladen sein.
@@ -117,11 +113,6 @@ Geht in VS Code in den Verzeichnisbaum des Codes, öffnet den Ordner `/src` und 
 
 ![](../../img/software-part-I/softwareinstall/swinstall12.png)
 
-Für den ESP32 sind nur die Versionen ab 4.X.X relevant, in dieser Version wird nicht mehr der ESP8266 unterstützt. 
-Die "origin/master" ist die aktuelle Version der Entwicklung für den ESP32. 
-
-Die Master "origin/ESP8266-master" ist die alte Entwicklungsversion für den ESP8266. Hier gibt es nur noch Bugfixes. Die aktuelle Version vom ESP8266 ist jeweils die Version mit dem Zusatz "-esp8266" z.B: "v3.1.2-esp8266"
-Wählt die aktuellste Version für den ESP32 aus. Es dauert paar Sekunden und dann sollte der Code heruntergeladen sein.
 
 ##  Kompilieren
 Nun kann der Code kompiliert werden. Hierzu sind folgende Schritte notwendig:
@@ -133,6 +124,7 @@ WICHTIG: Haltet die Taste "Boot" auf dem ESP gedrückt (ohne Pins kurzzuschließ
 ![](../../img/software-part-I/softwareinstall/swinstall13.png)
 
 Bei jedem Teilschritt das `SUCCESS` in der Konsole abwarten:
+
 * (1) Daher wählt `esp32_usb` aus
 * (2) `Erase flash` (Boottaste am ESP32 drücken) klicken, warten bis `SUCCESS`
 * (3) `Build Filesystem Image` klicken, warten bis `SUCCESS`
@@ -155,4 +147,4 @@ Bei jedem Teilschritt das `SUCCESS` in der Konsole abwarten:
 *wm:[1] Connect Wifi, ATTEMPT # 2 of 3
 ```
 
-Glückwunsch, der ESP32 (oder ESP8266) ist nun mit der Software bespielt, weiter geht es mit der Einrichtung des WLANs!
+Glückwunsch, der ESP32 (oder ESP8266) ist nun mit der Software bespielt, weiter geht es mit der [Einrichtung des WLANs!](./ErsteinrichtungWLAN.md)
